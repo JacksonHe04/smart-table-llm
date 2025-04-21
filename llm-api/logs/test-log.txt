@@ -7,8 +7,17 @@ Total Time: 23.04 seconds
 
 Timestamp: 2025-04-21T12:56:30.009Z
 Dataset: test
+Prompt: complex
 Total Samples: 100
 Correct Count: 59
 Accuracy: 59.00%
 Total Time: 116.58 seconds
+
+Timestamp: 2025-04-21T13:00:01.677Z
+Dataset: test
+Prompt: simple
+Total Samples: 100
+Correct Count: 65
+Accuracy: 65.00%
+Total Time: 105.01 seconds
 
