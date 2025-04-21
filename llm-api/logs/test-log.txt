@@ -1,0 +1,14 @@
+Timestamp: 2025-04-21T12:54:14.207Z
+Dataset: test
+Total Samples: 20
+Correct Count: 12
+Accuracy: 60.00%
+Total Time: 23.04 seconds
+
+Timestamp: 2025-04-21T12:56:30.009Z
+Dataset: test
+Total Samples: 100
+Correct Count: 59
+Accuracy: 59.00%
+Total Time: 116.58 seconds
+

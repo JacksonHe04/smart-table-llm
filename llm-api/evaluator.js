@@ -1,10 +1,14 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
 export class Evaluator {
   constructor(openai, prompt) {
     this.openai = openai;
     this.prompt = prompt;
   }
 
-  async evaluateSamples(selectedData, testData, args, startIndex) {
+  async evaluateSamples(selectedData, testData, args, startIndex, datasetType) {
     const startTime = Date.now();
     let correctCount = 0;
     const totalSamples = selectedData.length;
@@ -20,11 +24,25 @@ export class Evaluator {
     }
 
     this.printFinalStats(startTime, correctCount, totalSamples);
+    this.logResults(startTime, correctCount, totalSamples, datasetType);
     return {
       totalSamples,
       correctCount,
       accuracy: ((correctCount / totalSamples) * 100).toFixed(2)
     };
+  }
+
+  logResults(startTime, correctCount, totalSamples, datasetType) {
+    const endTime = Date.now();
+    const totalTimeSeconds = ((endTime - startTime) / 1000).toFixed(2);
+    const accuracy = ((correctCount / totalSamples) * 100).toFixed(2);
+    const timestamp = new Date().toISOString();
+    const logMessage = `Timestamp: ${timestamp}\nDataset: ${datasetType}\nTotal Samples: ${totalSamples}\nCorrect Count: ${correctCount}\nAccuracy: ${accuracy}%\nTotal Time: ${totalTimeSeconds} seconds\n\n`;
+
+    const __filename = fileURLToPath(import.meta.url);
+    const __dirname = path.dirname(__filename);
+    const logFilePath = path.join(__dirname, 'logs', `${datasetType}-log.txt`);
+    fs.appendFileSync(logFilePath, logMessage, 'utf8');
   }
 
   printTestInfo(selectedData, testData, args, startIndex, totalSamples) {
@@ -92,7 +110,7 @@ export class Evaluator {
     console.log('\n测试统计信息如下');
     console.log(`总样本数: ${totalSamples}`);
     console.log(`正确数量: ${correctCount}`);
-    console.log(`准确率(ACC): ${accuracy}%`);
+    console.log(`ACC: ${accuracy}%`);
     console.log(`总耗时: ${totalTimeSeconds}秒`);
   }
 }

@@ -11,7 +11,7 @@ async function main() {
   const { selectedData, startIndex } = selectData(testData, args);
 
   const evaluator = new Evaluator(openai, prompt);
-  await evaluator.evaluateSamples(selectedData, testData, args, startIndex);
+  await evaluator.evaluateSamples(selectedData, testData, args, startIndex, 'test');
 }
 
 main();

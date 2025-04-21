@@ -23,7 +23,7 @@ async function main() {
   const { selectedData, startIndex } = selectData(testData, args);
 
   const evaluator = new LoggingEvaluator(openai, prompt);
-  await evaluator.evaluateSamples(selectedData, testData, args, startIndex);
+  await evaluator.evaluateSamples(selectedData, testData, args, startIndex, 'train');
 }
 
 main();
