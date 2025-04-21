@@ -1,12 +1,9 @@
 import 'dotenv/config';
-import OpenAI from 'openai';
-import fs from 'fs';
 import prompt from './prompt.js';
 import { Evaluator } from './evaluator.js';
 import { openai } from './utils/openai-client.js';
 import { readJSONL, logWrongAnswer } from './utils/jsonl-utils.js';
 import { selectData } from './utils/data-selector.js';
-
 
 class LoggingEvaluator extends Evaluator {
   async evaluateSingle(item, index, totalSamples, testData, args, startIndex) {
