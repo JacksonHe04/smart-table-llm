@@ -30,7 +30,7 @@ export class Evaluator {
   printTestInfo(selectedData, testData, args, startIndex, totalSamples) {
     console.log(`\n测试范围信息：`);
     console.log(`- 数据集总样本数：${testData.length}`);
-    if (args.length === 0) {
+    if (args.length === 0 || args.length === 1) {
       const indices = Array.from(selectedData.keys()).map(i => {
         const index = testData.indexOf(selectedData[i]) + 1;
         return `${index}`;
