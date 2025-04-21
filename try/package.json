@@ -1,0 +1,13 @@
+{
+  "name": "nlp-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "batch.js",
+  "type": "module",
+  "scripts": {
+    "start": "node batch.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  }
+}

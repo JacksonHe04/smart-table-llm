@@ -1,0 +1,237 @@
+{
+  "statement": "who was the opponent in the first game of the season?",
+  "table_text": [
+    ["date", "opponent", "venue", "result", "attendance", "scorers"],
+    ["15 august 1987", "derby county", "away", "0\u20131", "17,204", "\u2014"],
+    ["18 august 1987", "coventry city", "home", "0\u20131", "09,380", "\u2014"],
+    [
+      "22 august 1987",
+      "west ham united",
+      "home",
+      "2\u20132",
+      "08,073",
+      "harford (2)"
+    ],
+    ["29 august 1987", "chelsea", "away", "0\u20133", "16,075", "\u2014"],
+    ["31 august 1987", "arsenal", "home", "1\u20131", "08,745", "wilson (pen)"],
+    [
+      "5 september 1987",
+      "oxford united",
+      "away",
+      "5\u20132",
+      "06,804",
+      "breacker, harford, hill, nwajiobi, b. stein"
+    ],
+    [
+      "12 september 1987",
+      "everton",
+      "home",
+      "2\u20131",
+      "08,124",
+      "hill, b. stein"
+    ],
+    [
+      "19 september 1987",
+      "charlton athletic",
+      "away",
+      "0\u20131",
+      "05,002",
+      "\u2014"
+    ],
+    [
+      "26 september 1987",
+      "queens park rangers",
+      "away",
+      "0\u20132",
+      "11,175",
+      "\u2014"
+    ],
+    [
+      "3 october 1987",
+      "manchester united",
+      "home",
+      "1\u20131",
+      "09,137",
+      "harford"
+    ],
+    [
+      "10 october 1987",
+      "portsmouth",
+      "away",
+      "1\u20133",
+      "12,391",
+      "harford (pen)"
+    ],
+    [
+      "17 october 1987",
+      "wimbledon",
+      "home",
+      "2\u20130",
+      "07,018",
+      "b. stein, wilson"
+    ],
+    ["24 october 1987", "liverpool", "home", "0\u20131", "11,997", "\u2014"],
+    [
+      "7 november 1987",
+      "newcastle united",
+      "home",
+      "4\u20130",
+      "07,638",
+      "nwajiobi, b. stein, m. stein (2)"
+    ],
+    [
+      "14 november 1987",
+      "sheffield wednesday",
+      "away",
+      "2\u20130",
+      "16,960",
+      "allinson, m. stein"
+    ],
+    [
+      "21 november 1987",
+      "tottenham hotspur",
+      "home",
+      "2\u20130",
+      "10,091",
+      "allinson (2)"
+    ],
+    [
+      "5 december 1987",
+      "norwich city",
+      "home",
+      "1\u20132",
+      "07,002",
+      "b. stein"
+    ],
+    ["12 december 1987", "watford", "away", "1\u20130", "12,152", "foster"],
+    [
+      "18 december 1987",
+      "southampton",
+      "home",
+      "2\u20132",
+      "06,618",
+      "harford, mcdonough"
+    ],
+    ["26 december 1987", "everton", "away", "0\u20132", "32,128", "\u2014"],
+    [
+      "28 december 1987",
+      "charlton athletic",
+      "home",
+      "1\u20130",
+      "07,243",
+      "wilson"
+    ],
+    [
+      "1 january 1988",
+      "chelsea",
+      "home",
+      "3\u20130",
+      "08,018",
+      "harford, b. stein, m. stein"
+    ],
+    [
+      "2 january 1988",
+      "west ham united",
+      "away",
+      "1\u20131",
+      "16,716",
+      "m. stein"
+    ],
+    [
+      "16 january 1988",
+      "derby county",
+      "home",
+      "1\u20130",
+      "07,175",
+      "mcdonough"
+    ],
+    [
+      "6 february 1988",
+      "oxford united",
+      "home",
+      "7\u20134",
+      "08,063",
+      "harford (2), mcdonough, b.stein, m.stein (3)"
+    ],
+    ["13 february 1988", "arsenal", "away", "1\u20132", "22,612", "m.stein"],
+    ["5 march 1988", "wimbledon", "away", "0\u20132", "04,854", "\u2014"],
+    ["15 march 1988", "coventry city", "away", "0\u20134", "13,711", "\u2014"],
+    [
+      "29 march 1988",
+      "portsmouth",
+      "home",
+      "4\u20131",
+      "06,740",
+      "b.stein, m.stein, wilson, own goal"
+    ],
+    [
+      "2 april 1988",
+      "newcastle united",
+      "away",
+      "0\u20134",
+      "20,752",
+      "\u2014"
+    ],
+    [
+      "5 april 1988",
+      "sheffield wednesday",
+      "home",
+      "2\u20132",
+      "07,337",
+      "mcdonough, b. stein"
+    ],
+    [
+      "12 april 1988",
+      "manchester united",
+      "away",
+      "0\u20133",
+      "28,830",
+      "\u2014"
+    ],
+    [
+      "19 april 1988",
+      "queens park rangers",
+      "home",
+      "2\u20131",
+      "06,735",
+      "foster, wilson (pen)"
+    ],
+    [
+      "30 april 1988",
+      "norwich city",
+      "away",
+      "2\u20132",
+      "13,171",
+      "m. stein, wilson (pen)"
+    ],
+    [
+      "2 may 1988",
+      "watford",
+      "home",
+      "2\u20131",
+      "10,409",
+      "oldfield, wilson (pen)"
+    ],
+    ["4 may 1988", "tottenham hotspur", "away", "1\u20132", "15,437", "grimes"],
+    ["7 may 1988", "southampton", "away", "1\u20131", "12,722", "wilson"],
+    ["9 may 1988", "liverpool", "away", "1\u20131", "30,374", "oldfield"],
+    [
+      "13 may 1988",
+      "nottingham forest",
+      "home",
+      "1\u20131",
+      "09,108",
+      "donaghy"
+    ],
+    [
+      "15 may 1988",
+      "nottingham forest",
+      "away",
+      "1\u20131",
+      "13,106",
+      "oldfield"
+    ]
+  ],
+  "answer": ["Derby County"],
+  "ids": "nt-4"
+}
