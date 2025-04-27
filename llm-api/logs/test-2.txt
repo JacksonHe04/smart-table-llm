@@ -1,0 +1,916 @@
+(base) jackson@M2 llm-api % node test.js --prompt=simple-prompt --dataset=test_lower.jsonl 100
+
+测试范围信息：
+- 数据集总样本数：4344
+- 本次随机测试样本位置：28, 122, 131, 154, 177, 185, 208, 233, 250, 251, 273, 290, 293, 294, 375, 378, 430, 479, 495, 514, 553, 568, 616, 698, 860, 864, 870, 1009, 1039, 1208, 1314, 1318, 1419, 1476, 1494, 1527, 1645, 1686, 1711, 1714, 1716, 1749, 1780, 1795, 1838, 1885, 1901, 1904, 1908, 1913, 1950, 1979, 1992, 2033, 2077, 2186, 2208, 2324, 2470, 2558, 2567, 2569, 2601, 2672, 2684, 2686, 2775, 2805, 2823, 2831, 2842, 2969, 3000, 3004, 3152, 3238, 3285, 3315, 3371, 3378, 3447, 3501, 3540, 3595, 3603, 3631, 3663, 3691, 3699, 3749, 3863, 3948, 3952, 3964, 3993, 4053, 4070, 4139, 4142, 4208
+- 本次测试样本数：100
+
+
+==================================================
+
+测试进度：1/100 (1.0%)
+数据集位置：第 3378 个
+问题: what year was radhika pandit's first film released?
+预期答案: 2008
+模型答案: 2008
+是否正确: true
+
+==================================================
+
+测试进度：2/100 (2.0%)
+数据集位置：第 3595 个
+问题: who scored in more games, gray or lawrence?
+预期答案: Lawrence
+模型答案: lawrence
+是否正确: true
+
+==================================================
+
+测试进度：3/100 (3.0%)
+数据集位置：第 2569 个
+问题: how many italians placed total?
+预期答案: 9
+模型答案: 7
+是否正确: false
+
+==================================================
+
+测试进度：4/100 (4.0%)
+数据集位置：第 1795 个
+问题: how many "i spy" episodes had aired before december 15, 1965.
+预期答案: 12
+模型答案: 13
+是否正确: false
+
+==================================================
+
+测试进度：5/100 (5.0%)
+数据集位置：第 1979 个
+问题: when was the last time daniel tovar play in a short film?
+预期答案: 2010
+模型答案: The table doesn't mention "daniel tovar", so no answer can be provided based on the given table.
+是否正确: false
+
+==================================================
+
+测试进度：6/100 (6.0%)
+数据集位置：第 3004 个
+问题: what are the names of the tracks that were singles only?
+预期答案: "Sittin' in the Balcony"
+模型答案: "sittin' in the balcony", "language of love", "thou shalt not steal", "callin' dr. casey", "road hog", "bad news" (b/w "guitar player(her and him)"), "blue train (of the heartbreak line)", "th' wife", "that ain't all", "you're the guilty one", "odd folks of okracoke", "brown girl"
+是否正确: false
+
+==================================================
+
+测试进度：7/100 (7.0%)
+数据集位置：第 154 个
+问题: calculate the average percentage of each selection.
+预期答案: 48.4%
+模型答案: n.anastasiades: 37.97%
+g.lillikas: 18.22%
+s.malas: 20.96%
+others: 2.22%
+是否正确: false
+
+==================================================
+
+测试进度：8/100 (8.0%)
+数据集位置：第 568 个
+问题: the distributor at the top of the list
+预期答案: Arch Linux
+模型答案: arch linux
+是否正确: true
+
+==================================================
+
+测试进度：9/100 (9.0%)
+数据集位置：第 131 个
+问题: how many total subjects are listed?
+预期答案: 25
+模型答案: 25
+是否正确: true
+
+==================================================
+
+测试进度：10/100 (10.0%)
+数据集位置：第 1908 个
+问题: what was the name of the last episode of the season?
+预期答案: Home Again
+模型答案: home again
+是否正确: true
+
+==================================================
+
+测试进度：11/100 (11.0%)
+数据集位置：第 1714 个
+问题: in which year did carl fogarty win the most victories?
+预期答案: 1995
+模型答案: 1995
+是否正确: true
+
+==================================================
+
+测试进度：12/100 (12.0%)
+数据集位置：第 1009 个
+问题: did the bulldogs perform better or worse in the 1905 season than the 1906 season?
+预期答案: worse
+模型答案: worse
+是否正确: true
+
+==================================================
+
+测试进度：13/100 (13.0%)
+数据集位置：第 4208 个
+问题: what nation had the most time
+预期答案: Greece
+模型答案: Greece
+是否正确: true
+
+==================================================
+
+测试进度：14/100 (14.0%)
+数据集位置：第 3238 个
+问题: did the team have more wins in 2005 or 2008?
+预期答案: 2008
+模型答案: 2008
+是否正确: true
+
+==================================================
+
+测试进度：15/100 (15.0%)
+数据集位置：第 514 个
+问题: how many consecutive years did illinois place in the top 5 between 1912 and 1920?
+预期答案: 8
+模型答案: 8
+是否正确: true
+
+==================================================
+
+测试进度：16/100 (16.0%)
+数据集位置：第 2208 个
+问题: football outsiders listed the 1998 cardinals as the 3rd worst team to make it into the playoffs, behind the 2010 seahawks and what team?
+预期答案: 2004 Rams
+模型答案: 1982 Saints
+是否正确: false
+
+==================================================
+
+测试进度：17/100 (17.0%)
+数据集位置：第 1645 个
+问题: what was the difference in years between the greatest store never told and the greatest story never told 3?
+预期答案: 2
+模型答案: 2 years
+是否正确: false
+
+==================================================
+
+测试进度：18/100 (18.0%)
+数据集位置：第 870 个
+问题: how many races did zakspeed win?
+预期答案: 4
+模型答案: 4
+是否正确: true
+
+==================================================
+
+测试进度：19/100 (19.0%)
+数据集位置：第 3699 个
+问题: what song has the least length?
+预期答案: "Happy Working Song"
+模型答案: "happy working song"
+是否正确: true
+
+==================================================
+
+测试进度：20/100 (20.0%)
+数据集位置：第 2805 个
+问题: which country has the smallest number of vessels serving in the coast guard?
+预期答案: Bulgaria
+模型答案: bulgaria
+是否正确: true
+
+==================================================
+
+测试进度：21/100 (21.0%)
+数据集位置：第 4053 个
+问题: what is the previous name of joey cheek?
+预期答案: Shani Davis
+模型答案: There is no information in the table about the previous name of joey cheek.
+是否正确: false
+
+==================================================
+
+测试进度：22/100 (22.0%)
+数据集位置：第 293 个
+问题: in which show did deborah secco play the character eva?
+预期答案: Homem Objeto
+模型答案: homem objeto
+是否正确: true
+
+==================================================
+
+测试进度：23/100 (23.0%)
+数据集位置：第 28 个
+问题: who was the top scorer in the last season?
+预期答案: Simon Makienok Christoffersen
+模型答案: simon makienok christoffersen (10)
+是否正确: false
+
+==================================================
+
+测试进度：24/100 (24.0%)
+数据集位置：第 1904 个
+问题: which nation had the fastest record?
+预期答案: Canada
+模型答案: Canada
+是否正确: true
+
+==================================================
+
+测试进度：25/100 (25.0%)
+数据集位置：第 273 个
+问题: which swimmer has the fastest time?
+预期答案: Ian Thorpe
+模型答案: ian thorpe (1:44.18)
+是否正确: false
+
+==================================================
+
+测试进度：26/100 (26.0%)
+数据集位置：第 1686 个
+问题: how long did it take scat daddy to run 1 1/8 miles?
+预期答案: 1:49.00
+模型答案: 1:49.00
+是否正确: true
+
+==================================================
+
+测试进度：27/100 (27.0%)
+数据集位置：第 430 个
+问题: how many winners total are there?
+预期答案: 12
+模型答案: 12
+是否正确: true
+
+==================================================
+
+测试进度：28/100 (28.0%)
+数据集位置：第 1780 个
+问题: who was drafted in the 1981 nhl entry draft directly after mike sturgeon?
+预期答案: Ari Lahteenmaki
+模型答案: ari lahteenmaki
+是否正确: true
+
+==================================================
+
+测试进度：29/100 (29.0%)
+数据集位置：第 3000 个
+问题: how many countries had more than ten medals?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：30/100 (30.0%)
+数据集位置：第 2672 个
+问题: are there at least 13 names on the chart?
+预期答案: no
+模型答案: No
+是否正确: true
+
+==================================================
+
+测试进度：31/100 (31.0%)
+数据集位置：第 3993 个
+问题: what is the name of the only ship to become active in 1996?
+预期答案: Laramie
+模型答案: laramie
+是否正确: true
+
+==================================================
+
+测试进度：32/100 (32.0%)
+数据集位置：第 2033 个
+问题: how many players competed in the 1939 masters tournament?
+预期答案: 11
+模型答案: 12
+是否正确: false
+
+==================================================
+
+测试进度：33/100 (33.0%)
+数据集位置：第 1950 个
+问题: what year had least number for skoda felicia?
+预期答案: 2001
+模型答案: 2005
+是否正确: false
+
+==================================================
+
+测试进度：34/100 (34.0%)
+数据集位置：第 2831 个
+问题: which offenders had an action taken against them that lasted more than 9 games?
+预期答案: Jody Shelley
+模型答案: james wisniewski,raffi torres
+是否正确: false
+
+==================================================
+
+测试进度：35/100 (35.0%)
+数据集位置：第 2601 个
+问题: which party had the most candidates in the ohio house?
+预期答案: Republican
+模型答案: republican
+是否正确: true
+
+==================================================
+
+测试进度：36/100 (36.0%)
+数据集位置：第 375 个
+问题: thiruvay mozhi has the most pasurams at what number total?
+预期答案: 1102
+模型答案: 1102
+是否正确: true
+
+==================================================
+
+测试进度：37/100 (37.0%)
+数据集位置：第 1314 个
+问题: how many publication had more than one author?
+预期答案: 5
+模型答案: 4
+是否正确: false
+
+==================================================
+
+测试进度：38/100 (38.0%)
+数据集位置：第 3540 个
+问题: who is listed before lyle larson?
+预期答案: Joe Straus
+模型答案: joe straus
+是否正确: true
+
+==================================================
+
+测试进度：39/100 (39.0%)
+数据集位置：第 4139 个
+问题: name of the festivals that had at least 2 dates.
+预期答案: Santa Barbara International Film Festival
+模型答案: santa barbara international film festival, seattle international film festival, fantasia festival, sitges film festival, gwacheon international sf festival, icon tlv, indonesia fantastic film festival
+是否正确: false
+
+==================================================
+
+测试进度：40/100 (40.0%)
+数据集位置：第 1716 个
+问题: who was the only team to win in 2009?
+预期答案: Philadelphia Eagles
+模型答案: philadelphia eagles
+是否正确: true
+
+==================================================
+
+测试进度：41/100 (41.0%)
+数据集位置：第 3948 个
+问题: what country had the most medals in the kayak women's race?
+预期答案: Hungary
+模型答案: Hungary
+是否正确: true
+
+==================================================
+
+测试进度：42/100 (42.0%)
+数据集位置：第 251 个
+问题: which district balance has the least 2008 population?
+预期答案: Jamestown Harbour
+模型答案: jamestown harbour
+是否正确: true
+
+==================================================
+
+测试进度：43/100 (43.0%)
+数据集位置：第 3603 个
+问题: which driver only scored 1 point?
+预期答案: Ryan Hunter-Reay
+模型答案: ryan hunter-reay
+是否正确: true
+
+==================================================
+
+测试进度：44/100 (44.0%)
+数据集位置：第 185 个
+问题: who is the only goalscorer to score between 18 and 20 goals?
+预期答案: Eddie Johnson
+模型答案: eddie johnson
+是否正确: true
+
+==================================================
+
+测试进度：45/100 (45.0%)
+数据集位置：第 864 个
+问题: what was the fate of the last ship on this chart?
+预期答案: Sold 29 August 1938
+模型答案: sold 29 august 1938
+是否正确: true
+
+==================================================
+
+测试进度：46/100 (46.0%)
+数据集位置：第 616 个
+问题: who was drafted after petri skriko?
+预期答案: Andre Cote
+模型答案: andre cote
+是否正确: true
+
+==================================================
+
+测试进度：47/100 (47.0%)
+数据集位置：第 290 个
+问题: in how many international games did marcos pizzelli score at least one goal?
+预期答案: 4
+模型答案: 3
+是否正确: false
+
+==================================================
+
+测试进度：48/100 (48.0%)
+数据集位置：第 3501 个
+问题: francis forde and kevin broderick both came from which county?
+预期答案: Galway
+模型答案: galway
+是否正确: true
+
+==================================================
+
+测试进度：49/100 (49.0%)
+数据集位置：第 2558 个
+问题: who is the last player on the list with a place finish of t10?
+预期答案: Bob Tway
+模型答案: bob tway
+是否正确: true
+
+==================================================
+
+测试进度：50/100 (50.0%)
+数据集位置：第 495 个
+问题: which was an earlier episode, "dig me out" or "basket case"?
+预期答案: "Dig Me Out"
+模型答案: dig me out
+是否正确: false
+
+==================================================
+
+测试进度：51/100 (51.0%)
+数据集位置：第 294 个
+问题: what season had more than 20 in giant slalom but not super g?
+预期答案: 2014
+模型答案: 2013
+是否正确: false
+
+==================================================
+
+测试进度：52/100 (52.0%)
+数据集位置：第 2823 个
+问题: which player is listed previous to john holt?
+预期答案: Chandu Borde
+模型答案: chandu borde
+是否正确: true
+
+==================================================
+
+测试进度：53/100 (53.0%)
+数据集位置：第 1527 个
+问题: how many times has vogue been an associated publication with the dress of the year?
+预期答案: 6
+模型答案: 4
+是否正确: false
+
+==================================================
+
+测试进度：54/100 (54.0%)
+数据集位置：第 4142 个
+问题: who was the last ambassador under george w. bush?
+预期答案: Mary Martin Ourisman
+模型答案: mary martin ourisman
+是否正确: true
+
+==================================================
+
+测试进度：55/100 (55.0%)
+数据集位置：第 860 个
+问题: how many contestants are 1.80 meters tall or more?
+预期答案: 9
+模型答案: 9
+是否正确: true
+
+==================================================
+
+测试进度：56/100 (56.0%)
+数据集位置：第 3315 个
+问题: how many games were at 1:05?
+预期答案: 7
+模型答案: 10
+是否正确: false
+
+==================================================
+
+测试进度：57/100 (57.0%)
+数据集位置：第 2470 个
+问题: what is the time difference between his best time from his worst finish excluding dnf results?
+预期答案: 8:43
+模型答案: 6 minutes 58 seconds
+是否正确: false
+
+==================================================
+
+测试进度：58/100 (58.0%)
+数据集位置：第 2969 个
+问题: what comes before match day 6
+预期答案: 5
+模型答案: match day 5
+是否正确: false
+
+==================================================
+
+测试进度：59/100 (59.0%)
+数据集位置：第 3285 个
+问题: which stadium has the most capacity?
+预期答案: Provident Stadium
+模型答案: provident stadium
+是否正确: true
+
+==================================================
+
+测试进度：60/100 (60.0%)
+数据集位置：第 4070 个
+问题: who won the most mvp awards?
+预期答案: Mauro Biello
+模型答案: mauro biello
+是否正确: true
+
+==================================================
+
+测试进度：61/100 (61.0%)
+数据集位置：第 250 个
+问题: name a player that had more than 5 league goals but no other goals.
+预期答案: Jamie Cureton
+模型答案: jamie cureton
+是否正确: true
+
+==================================================
+
+测试进度：62/100 (62.0%)
+数据集位置：第 1901 个
+问题: who was the speaker after teresa edwards ?
+预期答案: Kenji Ogiwara
+模型答案: hobie billingsley
+是否正确: false
+
+==================================================
+
+测试进度：63/100 (63.0%)
+数据集位置：第 1208 个
+问题: give the total of trains that run daily
+预期答案: 17
+模型答案: 20
+是否正确: false
+
+==================================================
+
+测试进度：64/100 (64.0%)
+数据集位置：第 2186 个
+问题: how many times has gold been won total?
+预期答案: 6
+模型答案: 6
+是否正确: true
+
+==================================================
+
+测试进度：65/100 (65.0%)
+数据集位置：第 2775 个
+问题: which surface was used the most according to this chart?
+预期答案: Clay
+模型答案: clay
+是否正确: true
+
+==================================================
+
+测试进度：66/100 (66.0%)
+数据集位置：第 1992 个
+问题: who owns the network with the most number of affiliates?
+预期答案: Televisa
+模型答案: televisa
+是否正确: true
+
+==================================================
+
+测试进度：67/100 (67.0%)
+数据集位置：第 208 个
+问题: what language has been spoken more during the olympic oath, english or french?
+预期答案: English
+模型答案: english
+是否正确: true
+
+==================================================
+
+测试进度：68/100 (68.0%)
+数据集位置：第 177 个
+问题: how many teams played in a championship game?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：69/100 (69.0%)
+数据集位置：第 3152 个
+问题: was the train borsig drg series 05 002 faster than br 18 201?
+预期答案: yes
+模型答案: Yes
+是否正确: true
+
+==================================================
+
+测试进度：70/100 (70.0%)
+数据集位置：第 1419 个
+问题: who was the only member of the team to get kidnapped before their event?
+预期答案: Mark Slavin
+模型答案: mark slavin
+是否正确: true
+
+==================================================
+
+测试进度：71/100 (71.0%)
+数据集位置：第 2684 个
+问题: how many goalscorers were brazilian?
+预期答案: 2
+模型答案: 0
+是否正确: false
+
+==================================================
+
+测试进度：72/100 (72.0%)
+数据集位置：第 698 个
+问题: how many total episodes aired in season 13?
+预期答案: 40
+模型答案: 40
+是否正确: true
+
+==================================================
+
+测试进度：73/100 (73.0%)
+数据集位置：第 2077 个
+问题: how many more votes did patrick mcloughlin receive than stephen clamp?
+预期答案: 7370
+模型答案: 7570
+是否正确: false
+
+==================================================
+
+测试进度：74/100 (74.0%)
+数据集位置：第 122 个
+问题: which country placed first the most?
+预期答案: France
+模型答案: france
+是否正确: true
+
+==================================================
+
+测试进度：75/100 (75.0%)
+数据集位置：第 1749 个
+问题: what is the average number of victories earned by carl fogarty?
+预期答案: 9.5
+模型答案: 9.4
+是否正确: false
+
+==================================================
+
+测试进度：76/100 (76.0%)
+数据集位置：第 3749 个
+问题: what is the first decimal32 on the lsit?
+预期答案: 1
+模型答案: 1
+是否正确: true
+
+==================================================
+
+测试进度：77/100 (77.0%)
+数据集位置：第 1838 个
+问题: how many wins did the vikings have each time they played in metropolitan stadium?
+预期答案: 3
+模型答案: 6
+是否正确: false
+
+==================================================
+
+测试进度：78/100 (78.0%)
+数据集位置：第 2567 个
+问题: are there any years in which he did not use a dallara chassis?
+预期答案: No
+模型答案: No
+是否正确: true
+
+==================================================
+
+测试进度：79/100 (79.0%)
+数据集位置：第 1494 个
+问题: how many stages are there in total?
+预期答案: 24
+模型答案: 24
+是否正确: true
+
+==================================================
+
+测试进度：80/100 (80.0%)
+数据集位置：第 2324 个
+问题: which us state is home to the greatest number of national parks?
+预期答案: California
+模型答案: California
+是否正确: true
+
+==================================================
+
+测试进度：81/100 (81.0%)
+数据集位置：第 479 个
+问题: the last year to have less than 3 million total passengers.
+预期答案: 2010
+模型答案: 2009
+是否正确: false
+
+==================================================
+
+测试进度：82/100 (82.0%)
+数据集位置：第 2842 个
+问题: what was the difference in engine size between luigi arcangeli and louis chiron?
+预期答案: .2
+模型答案: 0.2 l
+是否正确: false
+
+==================================================
+
+测试进度：83/100 (83.0%)
+数据集位置：第 1039 个
+问题: what country does the fastest swimmer represent?
+预期答案: Ukraine
+模型答案: Ukraine
+是否正确: true
+
+==================================================
+
+测试进度：84/100 (84.0%)
+数据集位置：第 1476 个
+问题: which season had the most episodes in it?
+预期答案: Season 2
+模型答案: 2
+是否正确: false
+
+==================================================
+
+测试进度：85/100 (85.0%)
+数据集位置：第 3447 个
+问题: what was the only season that he had a perfect conference record?
+预期答案: 1914-15
+模型答案: 1914–15
+是否正确: false
+
+==================================================
+
+测试进度：86/100 (86.0%)
+数据集位置：第 233 个
+问题: who was this team's first opponent during this season?
+预期答案: Reading
+模型答案: reading
+是否正确: true
+
+==================================================
+
+测试进度：87/100 (87.0%)
+数据集位置：第 3952 个
+问题: other than october 6, name a game that was aired on abc.
+预期答案: September 29
+模型答案: september 29, 7:00 pm, at #20 nebraska, #23, memorial stadium • lincoln, ne, abc, l 27–30, 85,962
+是否正确: false
+
+==================================================
+
+测试进度：88/100 (88.0%)
+数据集位置：第 1711 个
+问题: how long between manunda hawks win in 2006 and their next win?
+预期答案: 5 years
+模型答案: 5 years
+是否正确: true
+
+==================================================
+
+测试进度：89/100 (89.0%)
+数据集位置：第 1318 个
+问题: both olin browne and jason gore are from what country?
+预期答案: United States
+模型答案: United States
+是否正确: true
+
+==================================================
+
+测试进度：90/100 (90.0%)
+数据集位置：第 1913 个
+问题: how many total clerks have worked for this person?
+预期答案: 7
+模型答案: 7
+是否正确: true
+
+==================================================
+
+测试进度：91/100 (91.0%)
+数据集位置：第 3371 个
+问题: how many races occurred in 2010 and 2012?
+预期答案: 38
+模型答案: 12
+是否正确: false
+
+==================================================
+
+测试进度：92/100 (92.0%)
+数据集位置：第 3691 个
+问题: how many versions of windows server 2012 have a 4 tb memory limit?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：93/100 (93.0%)
+数据集位置：第 3631 个
+问题: were there more trains from the uk or germany?
+预期答案: UK
+模型答案: There were more trains from the UK.
+是否正确: false
+
+==================================================
+
+测试进度：94/100 (94.0%)
+数据集位置：第 1885 个
+问题: which athlete has the shortest record time?
+预期答案: Donald Quarrie
+模型答案: tommie smith
+是否正确: false
+
+==================================================
+
+测试进度：95/100 (95.0%)
+数据集位置：第 553 个
+问题: who was the coach before rene heitmann?
+预期答案: Christian Andersen
+模型答案: john 'tune' kristiansen
+是否正确: false
+
+==================================================
+
+测试进度：96/100 (96.0%)
+数据集位置：第 3663 个
+问题: what is the first name listed?
+预期答案: Acadia
+模型答案: acadia
+是否正确: true
+
+==================================================
+
+测试进度：97/100 (97.0%)
+数据集位置：第 2686 个
+问题: what is the number of games that took place in the valley?
+预期答案: 1
+模型答案: 1
+是否正确: true
+
+==================================================
+
+测试进度：98/100 (98.0%)
+数据集位置：第 3863 个
+问题: how many times did he lose in his career?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：99/100 (99.0%)
+数据集位置：第 3964 个
+问题: was the winning score in october of 2002 above or below 20?
+预期答案: below
+模型答案: below 20
+是否正确: false
+
+==================================================
+
+测试进度：100/100 (100.0%)
+数据集位置：第 378 个
+问题: does a pg7 screw have a larger pitch than a pg16 screw?
+预期答案: no
+模型答案: No
+是否正确: true
+
+测试统计信息如下
+总样本数: 100
+正确数量: 62
+ACC: 62.00%
+总耗时: 65.25秒

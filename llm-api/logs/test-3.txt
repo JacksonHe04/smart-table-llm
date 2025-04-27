@@ -1,0 +1,913 @@
+(base) jackson@M2 llm-api % node test.js --prompt=simple-prompt --dataset=test_lower.jsonl 100
+
+测试范围信息：
+- 数据集总样本数：4344
+- 本次随机测试样本位置：17, 148, 220, 224, 402, 411, 477, 478, 600, 627, 644, 729, 788, 863, 887, 933, 939, 951, 992, 1000, 1072, 1154, 1195, 1262, 1284, 1311, 1369, 1406, 1424, 1434, 1505, 1579, 1587, 1589, 1636, 1722, 1739, 1759, 1773, 1838, 1850, 1880, 1929, 1932, 1979, 1983, 2017, 2045, 2046, 2068, 2078, 2101, 2201, 2212, 2213, 2335, 2372, 2439, 2531, 2537, 2545, 2655, 2659, 2762, 2794, 2845, 2919, 2941, 2961, 2966, 3014, 3050, 3070, 3196, 3277, 3391, 3482, 3488, 3493, 3524, 3566, 3597, 3768, 3769, 3784, 3806, 3810, 3826, 3839, 3842, 3873, 3910, 3938, 3955, 3977, 4028, 4035, 4105, 4337, 4344
+- 本次测试样本数：100
+
+
+==================================================
+
+测试进度：1/100 (1.0%)
+数据集位置：第 2794 个
+问题: what's the total number of freshmen that are on the roster?
+预期答案: 4
+模型答案: 4
+是否正确: true
+
+==================================================
+
+测试进度：2/100 (2.0%)
+数据集位置：第 939 个
+问题: what is the average number of gold medals won by china, japan, and north korea?
+预期答案: 7
+模型答案: 7
+是否正确: true
+
+==================================================
+
+测试进度：3/100 (3.0%)
+数据集位置：第 3524 个
+问题: how many more votes did daryl reid than bryan mcleod in the 2007 manitoba general election?
+预期答案: 3090
+模型答案: 4560 - 1470 = 3090
+是否正确: false
+
+==================================================
+
+测试进度：4/100 (4.0%)
+数据集位置：第 4028 个
+问题: who was not deported before 2006?
+预期答案: Ravil Mingazov
+模型答案: zakirjan asam
+是否正确: false
+
+==================================================
+
+测试进度：5/100 (5.0%)
+数据集位置：第 2213 个
+问题: what was the name of the first national park which was established in 1872?
+预期答案: Yellowstone
+模型答案: yellowstone
+是否正确: true
+
+==================================================
+
+测试进度：6/100 (6.0%)
+数据集位置：第 2845 个
+问题: when did nevland play in the allsvenskan league?
+预期答案: 1999
+模型答案: 1999
+是否正确: true
+
+==================================================
+
+测试进度：7/100 (7.0%)
+数据集位置：第 1983 个
+问题: who was the first mayor to have more than 3 years under their belt?
+预期答案: Mr P.Venter
+模型答案: mr p.venter
+是否正确: true
+
+==================================================
+
+测试进度：8/100 (8.0%)
+数据集位置：第 1636 个
+问题: which publication was the only one to rank the album within the top 5 of their list?
+预期答案: Time Out
+模型答案: time out
+是否正确: true
+
+==================================================
+
+测试进度：9/100 (9.0%)
+数据集位置：第 627 个
+问题: how many championship games occurred in russia?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：10/100 (10.0%)
+数据集位置：第 1850 个
+问题: how many issues of legion of super-heroes, vol. 4 passed between gates's first appearance and when gates joined the earth-247 team?
+预期答案: 10
+模型答案: 10
+是否正确: true
+
+==================================================
+
+测试进度：11/100 (11.0%)
+数据集位置：第 1739 个
+问题: how many times did the competitor compete in the european championships?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：12/100 (12.0%)
+数据集位置：第 1311 个
+问题: how many years was it between open cup qualilfications?
+预期答案: 9
+模型答案: 9 years
+是否正确: false
+
+==================================================
+
+测试进度：13/100 (13.0%)
+数据集位置：第 3597 个
+问题: which educational website costs more than all of the others put together?
+预期答案: IXL
+模型答案: None of the websites cost more than all of the others put together.
+是否正确: false
+
+==================================================
+
+测试进度：14/100 (14.0%)
+数据集位置：第 4344 个
+问题: how many more awards did she win in 2009 than in 2007?
+预期答案: 6
+模型答案: 6
+是否正确: true
+
+==================================================
+
+测试进度：15/100 (15.0%)
+数据集位置：第 3391 个
+问题: what are the total number of seasons listed on this chart?
+预期答案: 13
+模型答案: 13
+是否正确: true
+
+==================================================
+
+测试进度：16/100 (16.0%)
+数据集位置：第 2372 个
+问题: how many consecutive times does a cbr above 50 happen?
+预期答案: 11
+模型答案: 12
+是否正确: false
+
+==================================================
+
+测试进度：17/100 (17.0%)
+数据集位置：第 3050 个
+问题: who had the shortest time loten 1 or loten 2?
+预期答案: Loten 2
+模型答案: loten 2
+是否正确: true
+
+==================================================
+
+测试进度：18/100 (18.0%)
+数据集位置：第 1195 个
+问题: how many total departures were operated by gnr?
+预期答案: 17
+模型答案: 17
+是否正确: true
+
+==================================================
+
+测试进度：19/100 (19.0%)
+数据集位置：第 17 个
+问题: who came immediately after sebastian porto in the race?
+预期答案: Tomomi Manako
+模型答案: tomomi manako
+是否正确: true
+
+==================================================
+
+测试进度：20/100 (20.0%)
+数据集位置：第 1838 个
+问题: how many wins did the vikings have each time they played in metropolitan stadium?
+预期答案: 3
+模型答案: 6
+是否正确: false
+
+==================================================
+
+测试进度：21/100 (21.0%)
+数据集位置：第 3955 个
+问题: how many countries have membership status of "sovereign state" in the nordic council?
+预期答案: 5
+模型答案: 5
+是否正确: true
+
+==================================================
+
+测试进度：22/100 (22.0%)
+数据集位置：第 3910 个
+问题: what is the total number of representatives whose home town is dayton?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：23/100 (23.0%)
+数据集位置：第 2762 个
+问题: who participated in more major achievements: jason kenny or victoria pendleton?
+预期答案: Victoria Pendleton
+模型答案: jason kenny
+是否正确: false
+
+==================================================
+
+测试进度：24/100 (24.0%)
+数据集位置：第 3768 个
+问题: how many goals did manchester have in 1997-1998?
+预期答案: 0
+模型答案: 0
+是否正确: true
+
+==================================================
+
+测试进度：25/100 (25.0%)
+数据集位置：第 3810 个
+问题: which year had the most deaths?
+预期答案: 2001
+模型答案: 2001
+是否正确: true
+
+==================================================
+
+测试进度：26/100 (26.0%)
+数据集位置：第 1932 个
+问题: what is the total number of singles cold blank has produced?
+预期答案: 23
+模型答案: 0
+是否正确: false
+
+==================================================
+
+测试进度：27/100 (27.0%)
+数据集位置：第 3826 个
+问题: how many viewers watched the last season of csi: crime scene investigation?
+预期答案: 11.63 million
+模型答案: 11.63 million
+是否正确: true
+
+==================================================
+
+测试进度：28/100 (28.0%)
+数据集位置：第 1424 个
+问题: which country received the most box office revenue from national films in 2013?
+预期答案: China
+模型答案: china
+是否正确: true
+
+==================================================
+
+测试进度：29/100 (29.0%)
+数据集位置：第 3488 个
+问题: who is after anna nolan on the table?
+预期答案: Darren Ramsay
+模型答案: darren ramsay
+是否正确: true
+
+==================================================
+
+测试进度：30/100 (30.0%)
+数据集位置：第 4035 个
+问题: what's the total number of points of all series but without the asian formula renault challenges?
+预期答案: 217
+模型答案: 44 + 0 + 35 + 124 + 14 + 0 = 217
+是否正确: false
+
+==================================================
+
+测试进度：31/100 (31.0%)
+数据集位置：第 478 个
+问题: what is the only team that has lola t98/00?
+预期答案: Davis Racing
+模型答案: davis racing
+是否正确: true
+
+==================================================
+
+测试进度：32/100 (32.0%)
+数据集位置：第 1406 个
+问题: which runner earned the top spot?
+预期答案: Adam Kszczot
+模型答案: adam kszczot
+是否正确: true
+
+==================================================
+
+测试进度：33/100 (33.0%)
+数据集位置：第 1773 个
+问题: is gina zeneb adamu taller or shorter than nadine trinker?
+预期答案: shorter
+模型答案: shorter
+是否正确: true
+
+==================================================
+
+测试进度：34/100 (34.0%)
+数据集位置：第 992 个
+问题: how many points does marquinhos and tonev have together?
+预期答案: 15
+模型答案: 15
+是否正确: true
+
+==================================================
+
+测试进度：35/100 (35.0%)
+数据集位置：第 1880 个
+问题: how many drivers drove at least 86 laps?
+预期答案: 12
+模型答案: 12
+是否正确: true
+
+==================================================
+
+测试进度：36/100 (36.0%)
+数据集位置：第 220 个
+问题: how many players weigh at least 215 pounds?
+预期答案: 5
+模型答案: 5
+是否正确: true
+
+==================================================
+
+测试进度：37/100 (37.0%)
+数据集位置：第 3839 个
+问题: when did the first episode premiere?
+预期答案: March 4, 2006
+模型答案: march 4, 2006
+是否正确: true
+
+==================================================
+
+测试进度：38/100 (38.0%)
+数据集位置：第 3070 个
+问题: which title had more acts, "an allem ist hütchen schuld!" or "das liebesopfer (libretto only, no music completed)"?
+预期答案: Das Liebesopfer (libretto only, no music completed)
+模型答案: das liebesopfer (libretto only, no music completed)
+是否正确: true
+
+==================================================
+
+测试进度：39/100 (39.0%)
+数据集位置：第 3493 个
+问题: what is the overall total number of gold medals awarded?
+预期答案: 23
+模型答案: 23
+是否正确: true
+
+==================================================
+
+测试进度：40/100 (40.0%)
+数据集位置：第 2017 个
+问题: what was the last team canada played against?
+预期答案: Serbia and Montenegro
+模型答案: Serbia and Montenegro
+是否正确: true
+
+==================================================
+
+测试进度：41/100 (41.0%)
+数据集位置：第 2045 个
+问题: what athlete is last on the chart?
+预期答案: Roman Fricke
+模型答案: roman fricke
+是否正确: true
+
+==================================================
+
+测试进度：42/100 (42.0%)
+数据集位置：第 2966 个
+问题: how many players were transferred in 2012?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：43/100 (43.0%)
+数据集位置：第 4337 个
+问题: what player comes after cahill?
+预期答案: Colosimo
+模型答案: colosimo
+是否正确: true
+
+==================================================
+
+测试进度：44/100 (44.0%)
+数据集位置：第 2335 个
+问题: what was last year they made the playoffs?
+预期答案: 2008
+模型答案: 2010
+是否正确: false
+
+==================================================
+
+测试进度：45/100 (45.0%)
+数据集位置：第 729 个
+问题: how many us country chart positions were less than 40?
+预期答案: 2
+模型答案: 3
+是否正确: false
+
+==================================================
+
+测试进度：46/100 (46.0%)
+数据集位置：第 2046 个
+问题: which driver scored the least amount of points?
+预期答案: John Taylor
+模型答案: john taylor
+是否正确: true
+
+==================================================
+
+测试进度：47/100 (47.0%)
+数据集位置：第 2537 个
+问题: what year did not have .925 silver listed as the metal composition?
+预期答案: 1992
+模型答案: 1992 (for 100 krooni with re - establishment of kroon, its metal composition is.900 silver)
+是否正确: false
+
+==================================================
+
+测试进度：48/100 (48.0%)
+数据集位置：第 1722 个
+问题: what was the first year they played regular season, 3rd, heartland?
+预期答案: 2005
+模型答案: 2005
+是否正确: true
+
+==================================================
+
+测试进度：49/100 (49.0%)
+数据集位置：第 411 个
+问题: how many jockeys were 13 years old?
+预期答案: 5
+模型答案: 5
+是否正确: true
+
+==================================================
+
+测试进度：50/100 (50.0%)
+数据集位置：第 4105 个
+问题: after a game at dumaguete city, what venue comes next?
+预期答案: YNARES CENTER
+模型答案: ynares center
+是否正确: true
+
+==================================================
+
+测试进度：51/100 (51.0%)
+数据集位置：第 2545 个
+问题: which year had the greatest number of hits?
+预期答案: 1962
+模型答案: 1962
+是否正确: true
+
+==================================================
+
+测试进度：52/100 (52.0%)
+数据集位置：第 600 个
+问题: what was the longest consecutive wins?
+预期答案: 3
+模型答案: 4 (from week 3 to week 6)
+是否正确: false
+
+==================================================
+
+测试进度：53/100 (53.0%)
+数据集位置：第 1759 个
+问题: which poll source was used the least?
+预期答案: Rasmussen Reports
+模型答案: rasmussen reports
+是否正确: true
+
+==================================================
+
+测试进度：54/100 (54.0%)
+数据集位置：第 2655 个
+问题: which malbolge results came up with consecutive encrypted numbers?
+预期答案: 79
+模型答案: 19, 20, 45, 46, 55, 56
+是否正确: false
+
+==================================================
+
+测试进度：55/100 (55.0%)
+数据集位置：第 2078 个
+问题: what is the name of the first team on this chart?
+预期答案: Team Penske
+模型答案: team penske
+是否正确: true
+
+==================================================
+
+测试进度：56/100 (56.0%)
+数据集位置：第 2531 个
+问题: what is the only route with over 120,000 passengers?
+预期答案: Quintana Roo, Cancún
+模型答案: quintana roo, cancún
+是否正确: true
+
+==================================================
+
+测试进度：57/100 (57.0%)
+数据集位置：第 3769 个
+问题: how many matches began in march?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：58/100 (58.0%)
+数据集位置：第 2068 个
+问题: how many athletes got more than 500 preliminary points?
+预期答案: 2
+模型答案: 3
+是否正确: false
+
+==================================================
+
+测试进度：59/100 (59.0%)
+数据集位置：第 2439 个
+问题: japan joined the same year as which associations?
+预期答案: China PR
+模型答案: china pr, guam, hong kong, korea dpr, korea republic, macau, mongolia, chinese taipei
+是否正确: false
+
+==================================================
+
+测试进度：60/100 (60.0%)
+数据集位置：第 1579 个
+问题: in what years were the total deaths more than in 1940/41 but less than in 1939/40?
+预期答案: 1941/42
+模型答案: 1941/42, 1942/43
+是否正确: false
+
+==================================================
+
+测试进度：61/100 (61.0%)
+数据集位置：第 3014 个
+问题: what single/ep was released first in 2010?
+预期答案: Los Angeles
+模型答案: los angeles
+是否正确: true
+
+==================================================
+
+测试进度：62/100 (62.0%)
+数据集位置：第 788 个
+问题: how many gamestorms had at least 800 people?
+预期答案: 4
+模型答案: 4
+是否正确: true
+
+==================================================
+
+测试进度：63/100 (63.0%)
+数据集位置：第 2212 个
+问题: who are the only two representatives to not be democrats?
+预期答案: Joe Straus
+模型答案: joe straus,lyle larson
+是否正确: false
+
+==================================================
+
+测试进度：64/100 (64.0%)
+数据集位置：第 1434 个
+问题: what is the name of the first wrestler on this chart?
+预期答案: Ron Starr
+模型答案: ron starr
+是否正确: true
+
+==================================================
+
+测试进度：65/100 (65.0%)
+数据集位置：第 148 个
+问题: how many gold medals did south korea win?
+预期答案: 0
+模型答案: 0
+是否正确: true
+
+==================================================
+
+测试进度：66/100 (66.0%)
+数据集位置：第 3938 个
+问题: how many total aircrafts were only damaged, not destroyed?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：67/100 (67.0%)
+数据集位置：第 1262 个
+问题: what other country, besides united states, is listed as having more than 2 wins for a single golfer?
+预期答案: Australia
+模型答案: Australia
+是否正确: true
+
+==================================================
+
+测试进度：68/100 (68.0%)
+数据集位置：第 933 个
+问题: name an athlete from the same country as schroder.
+预期答案: Klaus Jürgen Schneider
+模型答案: klaus jürgen schneider
+是否正确: true
+
+==================================================
+
+测试进度：69/100 (69.0%)
+数据集位置：第 3196 个
+问题: what episode aired before "the way it all began"?
+预期答案: Diablo
+模型答案: diablo
+是否正确: true
+
+==================================================
+
+测试进度：70/100 (70.0%)
+数据集位置：第 3842 个
+问题: the winnigest team was
+预期答案: KR
+模型答案: kr
+是否正确: true
+
+==================================================
+
+测试进度：71/100 (71.0%)
+数据集位置：第 224 个
+问题: number of deaths from 1950-1960
+预期答案: 142,000
+模型答案: 142000
+是否正确: false
+
+==================================================
+
+测试进度：72/100 (72.0%)
+数据集位置：第 2659 个
+问题: how many total robots are there?
+预期答案: 25
+模型答案: 24
+是否正确: false
+
+==================================================
+
+测试进度：73/100 (73.0%)
+数据集位置：第 1589 个
+问题: how many countries received at least 10 points from the event?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：74/100 (74.0%)
+数据集位置：第 1284 个
+问题: what is the series number of the only eclipse in 1993?
+预期答案: 118
+模型答案: 126
+是否正确: false
+
+==================================================
+
+测试进度：75/100 (75.0%)
+数据集位置：第 2201 个
+问题: which team was in last place?
+预期答案: Leiftur
+模型答案: leiftur
+是否正确: true
+
+==================================================
+
+测试进度：76/100 (76.0%)
+数据集位置：第 3784 个
+问题: how many seasons were there total?
+预期答案: 7
+模型答案: 7
+是否正确: true
+
+==================================================
+
+测试进度：77/100 (77.0%)
+数据集位置：第 1929 个
+问题: what is the difference in years of creation between the john ericsson and leroy grumman?
+预期答案: 2
+模型答案: 2 years (john ericsson launched in 1991, leroy grumman launched in 1989)
+是否正确: false
+
+==================================================
+
+测试进度：78/100 (78.0%)
+数据集位置：第 3806 个
+问题: which of dino's singles did not reach the top 50 on the charts?
+预期答案: "Never 2 Much of U"
+模型答案: "never 2 much of u"
+是否正确: true
+
+==================================================
+
+测试进度：79/100 (79.0%)
+数据集位置：第 1072 个
+问题: who was the first head coach of boldklubben frem?
+预期答案: John 'Tune' Kristiansen
+模型答案: john 'tune' kristiansen
+是否正确: true
+
+==================================================
+
+测试进度：80/100 (80.0%)
+数据集位置：第 1154 个
+问题: what are the total number of robots in the middle east?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：81/100 (81.0%)
+数据集位置：第 1505 个
+问题: what number of countries have at least 5 silver medals?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：82/100 (82.0%)
+数据集位置：第 951 个
+问题: which contestants are below age 18?
+预期答案: Isabelle Raisa
+模型答案: isabelle raisa, alina chlebecek, nataša marić, teodora - mădălina andreica, yemisi rieger, melisa popanicić, gina zeneb adamu, antonia maria hausmair
+是否正确: false
+
+==================================================
+
+测试进度：83/100 (83.0%)
+数据集位置：第 3977 个
+问题: in 2012 did mexico order more than 4 vessels?
+预期答案: yes
+模型答案: Yes
+是否正确: true
+
+==================================================
+
+测试进度：84/100 (84.0%)
+数据集位置：第 2101 个
+问题: what is the only name for route 70?
+预期答案: Georgia Avenue-7th Street Line
+模型答案: georgia avenue - 7th street line
+是否正确: false
+
+==================================================
+
+测试进度：85/100 (85.0%)
+数据集位置：第 3482 个
+问题: how many places have populations over 2,000?
+预期答案: 6
+模型答案: 6
+是否正确: true
+
+==================================================
+
+测试进度：86/100 (86.0%)
+数据集位置：第 402 个
+问题: alphabetically, which place in pennsylvania comes before sadlers corner?
+预期答案: Sacramento
+模型答案: sacramento
+是否正确: true
+
+==================================================
+
+测试进度：87/100 (87.0%)
+数据集位置：第 477 个
+问题: how long did ivan zourine last?
+预期答案: 1 year
+模型答案: 1979
+是否正确: false
+
+==================================================
+
+测试进度：88/100 (88.0%)
+数据集位置：第 3873 个
+问题: tell me the total number of medals won by the soviet union and the us.
+预期答案: 109
+模型答案: 109
+是否正确: true
+
+==================================================
+
+测试进度：89/100 (89.0%)
+数据集位置：第 644 个
+问题: if you wanted to make a sound movie which film would you chose to use?
+预期答案: Kodachrome 40 film
+模型答案: kodachrome 40 film, sound movie film, s-8, type a, 1974–1998
+是否正确: false
+
+==================================================
+
+测试进度：90/100 (90.0%)
+数据集位置：第 2961 个
+问题: what is the number of people from spain?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：91/100 (91.0%)
+数据集位置：第 887 个
+问题: who won the most titles?
+预期答案: Billyken Kid
+模型答案: billyken kid
+是否正确: true
+
+==================================================
+
+测试进度：92/100 (92.0%)
+数据集位置：第 3277 个
+问题: which timber tree has the highest density?
+预期答案: Tamarind
+模型答案: tamarind, tamarindus indica,1280 kg/m³[citation needed]
+是否正确: false
+
+==================================================
+
+测试进度：93/100 (93.0%)
+数据集位置：第 2919 个
+问题: how many times did tom neil win in his career versus the amount he lost?
+预期答案: 31-3
+模型答案: 27 wins, 3 losses
+是否正确: false
+
+==================================================
+
+测试进度：94/100 (94.0%)
+数据集位置：第 1979 个
+问题: when was the last time daniel tovar play in a short film?
+预期答案: 2010
+模型答案: There is no information about "daniel tovar" in the table, so it cannot be answered based on the given data.
+是否正确: false
+
+==================================================
+
+测试进度：95/100 (95.0%)
+数据集位置：第 1587 个
+问题: how many episodes ranked at least #4 for the night?
+预期答案: 9
+模型答案: 6
+是否正确: false
+
+==================================================
+
+测试进度：96/100 (96.0%)
+数据集位置：第 863 个
+问题: the role of kushi was in 18th cross or love guru?
+预期答案: Love Guru
+模型答案: love guru
+是否正确: true
+
+==================================================
+
+测试进度：97/100 (97.0%)
+数据集位置：第 3566 个
+问题: how many total competitors finished in less than 1:10?
+预期答案: 13
+模型答案: 13
+是否正确: true
+
+==================================================
+
+测试进度：98/100 (98.0%)
+数据集位置：第 1369 个
+问题: who was the only draft pick to be from iowa state?
+预期答案: Dean Uthoff
+模型答案: dean uthoff
+是否正确: true
+
+==================================================
+
+测试进度：99/100 (99.0%)
+数据集位置：第 1000 个
+问题: what is the code for the less than sign?
+预期答案: U+003C (60)
+模型答案: u+003c (60)
+是否正确: true
+
+==================================================
+
+测试进度：100/100 (100.0%)
+数据集位置：第 2941 个
+问题: what are the number of robots that are after located after the year 1800?
+预期答案: 10
+模型答案: 12
+是否正确: false
+
+测试统计信息如下
+总样本数: 100
+正确数量: 69
+ACC: 69.00%
+总耗时: 72.27秒

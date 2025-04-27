@@ -1,26 +1,28 @@
 const prompt = {
-    rules: [
-      "只输出最终答案，不要有任何解释",
-      "答案必须与问题要求的格式完全一致",
-      "如果是国家名称，使用完整国家名称而不是简写",
-      "如果问及数量，必须精确计数",
-      "如果有多个可能答案，只输出最符合问题要求的那一个",
-      "答案必须基于表格中的数据，不要使用外部知识",
-      "如果涉及计算，必须准确计算，不要进行估算",
-      "保持答案的大小写与问题要求一致",
-      "对于日期和时间，保持原始格式",
-      "如果表格中有空值或缺失值，在计算时要排除这些值",
-      "对于引号的内容，必须保持原始格式，包括引号本身",
-      "在计数时要仔细检查所有符合条件的情况",
-      "对于排序和比较，要考虑所有相关列的数据",
-      "如果答案涉及具体的文本内容，必须完全匹配原文，包括大小写和标点符号"
-    ],
-    get system() {
-      return "你是一个精确的表格问答助手。请严格按照以下规则回答：\n" +
-        this.rules.map((rule, index) => `${index + 1}. ${rule}`).join('\n');
-    },
-    generateUserPrompt: (tableText, statement) =>
-      `请仔细分析下面的表格，并准确回答问题。注意：只需要输出答案，不要解释过程。\n\n表格内容：${tableText}\n\n问题：${statement}\n\n请直接给出答案：`,
-  };
-  
-  export default prompt;  
+  rules: [
+    "Only output the final answer, without any explanation",
+    "The answer must be in exactly the same format as required by the question",
+    "If it is a country name, use the full country name instead of the abbreviation",
+    "If the quantity is asked, the count must be accurate",
+    "If there are multiple possible answers, only output the one that best meets the requirements of the question",
+    "The answer must be based on the data in the table and do not use external knowledge",
+    "If calculations are involved, they must be accurately calculated without estimation",
+    "Keep the case of the answer consistent with what is required by the question",
+    "For dates and times, keep the original format",
+    "If there are null or missing values in the table, exclude these values during calculations",
+    "For the content within quotation marks, the original format must be maintained, including the quotation marks themselves",
+    "Carefully check all cases that meet the criteria when counting",
+    "For sorting and comparison, consider the data in all relevant columns",
+    "If the answer involves specific text content, it must exactly match the original text, including case and punctuation marks",
+  ],
+  get system() {
+    return (
+      "You are an accurate table Q&A assistant.\n" +
+      this.rules.map((rule, index) => `${index + 1}. ${rule}`).join("\n")
+    );
+  },
+  generateUserPrompt: (tableText, statement) =>
+    `Please carefully analyze the following table and answer the questions accurately. Note: Only output the answers, do not explain the process.\n\nTable Content: ${tableText}\n\nQuestion：${statement}\n\nPlease give the answer directly.`,
+};
+
+export default prompt;
