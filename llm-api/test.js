@@ -14,8 +14,8 @@ async function main() {
     args.shift(); // 移除 prompt 参数
   }
 
-  // 获取数据集文件名，默认使用 test_100.jsonl
-  let datasetFile = 'test_100.jsonl';
+  // 获取数据集文件名，默认使用 test_lower.jsonl
+  let datasetFile = 'test_lower.jsonl';
   if (args[0] && args[0].startsWith('--dataset=')) {
     datasetFile = args[0].split('=')[1];
     args.shift(); // 移除 dataset 参数
