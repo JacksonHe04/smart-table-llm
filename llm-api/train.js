@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import prompt from './prompts/prompt.js';
+import prompt from './prompts/one-shot.js';
 import { Evaluator } from './evaluator.js';
 import { openai } from './utils/openai-client.js';
 import { readJSONL, logWrongAnswer } from './utils/jsonl-utils.js';
