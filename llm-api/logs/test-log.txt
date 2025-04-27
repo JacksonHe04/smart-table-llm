@@ -464,3 +464,10 @@ Correct Count: 74
 Accuracy: 74.00%
 Total Time: 113.40 seconds
 
+Timestamp: 2025-04-27T17:13:28.348Z
+Dataset: test
+Total Samples: 4344
+Correct Count: 3097
+Accuracy: 71.29%
+Total Time: 4420.90 seconds
+
