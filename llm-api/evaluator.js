@@ -81,8 +81,8 @@ export class Evaluator {
         { role: 'system', content: systemPrompt },
         { role: 'user', content: userPrompt },
       ],
+      // model: 'doubao-1-5-pro-32k-250115',
       // model: 'doubao-1-5-pro-256k-250115',
-      // model: 'deepseek-r1-250120',
       model: 'doubao-1-5-vision-pro-32k-250115',
       stream: true,
     });
