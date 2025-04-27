@@ -471,3 +471,45 @@ Correct Count: 3097
 Accuracy: 71.29%
 Total Time: 4420.90 seconds
 
+Timestamp: 2025-04-27T17:44:23.771Z
+Dataset: test
+Total Samples: 100
+Correct Count: 70
+Accuracy: 70.00%
+Total Time: 88.43 seconds
+
+Timestamp: 2025-04-27T17:46:52.053Z
+Dataset: test
+Total Samples: 100
+Correct Count: 77
+Accuracy: 77.00%
+Total Time: 94.93 seconds
+
+Timestamp: 2025-04-27T17:48:04.840Z
+Dataset: test
+Total Samples: 100
+Correct Count: 76
+Accuracy: 76.00%
+Total Time: 89.40 seconds
+
+Timestamp: 2025-04-27T17:48:19.515Z
+Dataset: test
+Total Samples: 100
+Correct Count: 68
+Accuracy: 68.00%
+Total Time: 94.51 seconds
+
+Timestamp: 2025-04-27T17:48:22.215Z
+Dataset: test
+Total Samples: 100
+Correct Count: 74
+Accuracy: 74.00%
+Total Time: 86.34 seconds
+
+Timestamp: 2025-04-27T17:48:32.221Z
+Dataset: test
+Total Samples: 100
+Correct Count: 64
+Accuracy: 64.00%
+Total Time: 86.83 seconds
+

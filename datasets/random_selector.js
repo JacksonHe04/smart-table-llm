@@ -41,8 +41,8 @@ async function randomSample(sourcePath, targetPath, sampleSize) {
 }
 
 // 定义文件路径
-const sourcePath = path.join(__dirname, 'train_lower.jsonl');
-const targetPath = path.join(__dirname, 'train_100.jsonl');
+const sourcePath = path.join(__dirname, 'valid_lower.jsonl');
+const targetPath = path.join(__dirname, 'valid_100.jsonl');
 
 // 执行随机抽样
 randomSample(sourcePath, targetPath, 100).catch(console.error);
