@@ -1,0 +1,1125 @@
+
+测试范围信息：
+- 数据集总样本数：4344
+- 本次随机测试样本位置：53, 61, 70, 118, 262, 418, 431, 434, 436, 437, 516, 585, 595, 725, 748, 836, 1068, 1182, 1191, 1231, 1244, 1273, 1310, 1379, 1426, 1492, 1506, 1524, 1532, 1591, 1600, 1617, 1642, 1684, 1714, 1817, 1821, 1879, 1899, 1946, 1954, 2068, 2087, 2105, 2119, 2122, 2185, 2253, 2275, 2276, 2283, 2401, 2406, 2436, 2461, 2496, 2591, 2684, 2763, 2941, 2972, 3015, 3039, 3103, 3190, 3202, 3204, 3222, 3233, 3235, 3274, 3308, 3318, 3346, 3384, 3411, 3416, 3423, 3428, 3447, 3480, 3585, 3686, 3706, 3767, 3780, 3782, 3784, 3794, 3816, 3953, 4010, 4037, 4071, 4121, 4136, 4153, 4219, 4232, 4296
+- 本次测试样本数：100
+
+
+==================================================
+
+测试进度：1/100 (1.0%)
+数据集位置：第 4037 个
+cleanText(answer) 9
+cleanText(modelAnswer) 7
+问题: how many seasons of csi: crime scene investigation had at least 15 million viewers?
+预期答案: 9
+模型答案: 7
+是否正确: false
+
+==================================================
+
+测试进度：2/100 (2.0%)
+数据集位置：第 2276 个
+cleanText(answer) 9
+cleanText(modelAnswer) 13
+问题: what is the total number of awards won in which the recipient was herself?
+预期答案: 9
+模型答案: 13
+是否正确: false
+
+==================================================
+
+测试进度：3/100 (3.0%)
+数据集位置：第 2283 个
+cleanText(answer) exponentcontinuationfield
+cleanText(modelAnswer) exponentcontinuationfield
+问题: what is the next listed format after combination field?
+预期答案: Exponent continuation field (bits)
+模型答案: exponent continuation field
+是否正确: true
+
+==================================================
+
+测试进度：4/100 (4.0%)
+数据集位置：第 836 个
+cleanText(answer) 2
+cleanText(modelAnswer) 2
+问题: how many tournaments are held in spain?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：5/100 (5.0%)
+数据集位置：第 1524 个
+cleanText(answer) 3
+cleanText(modelAnswer) 6
+问题: how many total tracks feature ice cube?
+预期答案: 3
+模型答案: 6
+是否正确: false
+
+==================================================
+
+测试进度：6/100 (6.0%)
+数据集位置：第 1684 个
+cleanText(answer) 2
+cleanText(modelAnswer) 1931193334193435193738193839193940194041194142194243194344194445194546194647194748
+问题: what were the number of years that the playoffs did not qualify?
+预期答案: 2
+模型答案: 1931, 1933/34, 1934/35, 1937/38, 1938/39, 1939/40, 1940/41, 1941/42, 1942/43, 1943/44, 1944/45, 1945/46, 1946/47, 1947/48 (14 years)
+是否正确: false
+
+==================================================
+
+测试进度：7/100 (7.0%)
+数据集位置：第 1244 个
+cleanText(answer) 6
+cleanText(modelAnswer) 3
+问题: how many reigns did randy savage have total?
+预期答案: 6
+模型答案: 3
+是否正确: false
+
+==================================================
+
+测试进度：8/100 (8.0%)
+数据集位置：第 1532 个
+cleanText(answer) 1
+cleanText(modelAnswer) 01
+问题: what was the difference in ratings between episode 8 and episode 1?
+预期答案: .1
+模型答案: 0.1
+是否正确: false
+
+==================================================
+
+测试进度：9/100 (9.0%)
+数据集位置：第 4121 个
+cleanText(answer) allafricagames
+cleanText(modelAnswer) iaafgrandprixfinalworldathleticsfinal
+问题: what competition did kipkurui misoi compete in after the commonwealth games?
+预期答案: All-Africa Games
+模型答案: iaaf grand prix final, world athletics final (2001, 2004, 2005)
+是否正确: false
+
+==================================================
+
+测试进度：10/100 (10.0%)
+数据集位置：第 2275 个
+cleanText(answer) chornohora
+cleanText(modelAnswer) itisdifficulttosimplydeterminewhichregionhasthebestbufferzoneasitdependsonspecificcriteriahoweveramongtheregionspresentedpresovhasrelativelylargebufferzonesinsomecaseszakarpattiaalsohassignificantbufferzoneareasinsomeofitsnaturereservesmecklenburgvorpommernhasnotablebufferzonesizesinjasmundandmuritznationalparksbrandenburgsgrumsinerforestnaturereservealsohasabufferzoneeachregionhasitsowncharacteristicsandtheassessmentofthebestbufferzoneiscontextdependent
+问题: compare which region has the best buffer zone
+预期答案: Chornohora
+模型答案: It is difficult to simply determine which region has the "best" buffer zone as it depends on specific criteria. However, among the regions presented, Presov has relatively large buffer zones in some cases (such as for the Presov preserved areas and Poloniny National Park). Zakarpattia also has significant buffer zone areas in some of its nature reserves. Mecklenburg-Vorpommern has notable buffer zone sizes in Jasmund and Müritz National Parks. Brandenburg's Grumsiner Forest Nature Reserve also has a buffer zone. Each region has its own characteristics and the assessment of the "best" buffer zone is context-dependent.
+是否正确: false
+
+==================================================
+
+测试进度：11/100 (11.0%)
+数据集位置：第 1821 个
+cleanText(answer) france
+cleanText(modelAnswer) unitedstatesnetherlandsfrancegermanyunitedkingdomsothecountrywiththeleastnumberofathletesisunitedkingdom
+问题: which country has the least number of athletes?
+预期答案: France
+模型答案: united states (7 athletes), netherlands (6 athletes), france (1 athlete), germany (3 athletes), united kingdom (1 athlete).
+So the country with the least number of athletes is united kingdom.
+是否正确: false
+
+==================================================
+
+测试进度：12/100 (12.0%)
+数据集位置：第 3782 个
+cleanText(answer) 5
+cleanText(modelAnswer) 3
+问题: how many festivals were held before the year 1990?
+预期答案: 5
+模型答案: 3
+是否正确: false
+
+==================================================
+
+测试进度：13/100 (13.0%)
+数据集位置：第 3235 个
+cleanText(answer) 2003
+cleanText(modelAnswer) 19931997199819992003amongthese2003hadthehighestearnings
+问题: what year had the highest earnings?
+预期答案: 2003
+模型答案: 1993
+1997 (with 1,635,953)
+1998 (with 1,541,152)
+1999 (with 2,475,328)
+2003 (with 6,081,896)
+
+Among these, 2003 had the highest earnings.
+是否正确: false
+
+==================================================
+
+测试进度：14/100 (14.0%)
+数据集位置：第 2406 个
+cleanText(answer) yes
+cleanText(modelAnswer) thereare10listingsfromdoverand7listingsfromnewdurhamsothenumberoflistingsfromdoverismorethanthenumberoflistingsfromnewdurham
+问题: is the number of listings from dover more than the number of listings from new durham?
+预期答案: yes
+模型答案: There are 10 listings from Dover and 7 listings from New Durham. So, the number of listings from Dover is more than the number of listings from New Durham.
+是否正确: false
+
+==================================================
+
+测试进度：15/100 (15.0%)
+数据集位置：第 3190 个
+cleanText(answer) worldjuniorchampionships
+cleanText(modelAnswer) 2008olympicgames10th545m
+问题: before 2010, what competition was the best position?
+预期答案: World Junior Championships
+模型答案: 2008 Olympic Games: 10th, 5.45 m
+是否正确: false
+
+==================================================
+
+测试进度：16/100 (16.0%)
+数据集位置：第 4296 个
+cleanText(answer) neymar
+cleanText(modelAnswer) alexsongjordialbaamongthemalexsonghadatransferfeeof190millioneurosandjordialbahadatransferfeeof140millioneurossoalexsonghadthelargertransferfeein2012
+问题: which player in 2012 had the larger transfer fee?
+预期答案: Neymar
+模型答案: alex song (19.0)
+jordi alba (14.0)
+Among them, alex song had a transfer fee of 19.0 million euros and jordi alba had a transfer fee of 14.0 million euros. So, alex song had the larger transfer fee in 2012.
+是否正确: false
+
+==================================================
+
+测试进度：17/100 (17.0%)
+数据集位置：第 70 个
+cleanText(answer) justiciar
+cleanText(modelAnswer) justiciarlordsteward
+问题: who superceded lord high steward?
+预期答案: Justiciar
+模型答案: justiciar, lord steward
+是否正确: false
+
+==================================================
+
+测试进度：18/100 (18.0%)
+数据集位置：第 748 个
+cleanText(answer) worldyouthchampionships
+cleanText(modelAnswer) worldyouthchampionships505mistheleasthighestamountamongallcompetitions
+问题: what competition had the least highest amount listed under notes?
+预期答案: World Youth Championships
+模型答案: world youth championships
+5.05 m is the least highest amount among all competitions.
+是否正确: false
+
+==================================================
+
+测试进度：19/100 (19.0%)
+数据集位置：第 1617 个
+cleanText(answer) 12
+cleanText(modelAnswer) 13
+问题: how many games did the hawkeyes play during the season ?
+预期答案: 12
+模型答案: 13
+是否正确: false
+
+==================================================
+
+测试进度：20/100 (20.0%)
+数据集位置：第 3103 个
+cleanText(answer) 1
+cleanText(modelAnswer) 2
+问题: the number of players from ohio state is how many?
+预期答案: 1
+模型答案: 2
+是否正确: false
+
+==================================================
+
+测试进度：21/100 (21.0%)
+数据集位置：第 3686 个
+cleanText(answer) 17
+cleanText(modelAnswer) 18
+问题: how many people have points less than 9?
+预期答案: 17
+模型答案: 18
+是否正确: false
+
+==================================================
+
+测试进度：22/100 (22.0%)
+数据集位置：第 2122 个
+cleanText(answer) 4
+cleanText(modelAnswer) 4
+问题: played seattle at least how many times
+预期答案: 4
+模型答案: 4
+是否正确: true
+
+==================================================
+
+测试进度：23/100 (23.0%)
+数据集位置：第 3222 个
+cleanText(answer) yes
+cleanText(modelAnswer) yes
+问题: did indonesia earn more medals than malaysia?
+预期答案: yes
+模型答案: Yes
+是否正确: true
+
+==================================================
+
+测试进度：24/100 (24.0%)
+数据集位置：第 1954 个
+cleanText(answer) 1999
+cleanText(modelAnswer) 1999
+问题: when was the last year as a winner?
+预期答案: 1999
+模型答案: 1999
+是否正确: true
+
+==================================================
+
+测试进度：25/100 (25.0%)
+数据集位置：第 2105 个
+cleanText(answer) tatyanaovsiyenko
+cleanText(modelAnswer) tatyanaovsiyenko
+问题: after tatyana dogileva was voted out, who was the next contestant voted out?
+预期答案: Tat'yana Ovsiyenko
+模型答案: tat'yana ovsiyenko
+是否正确: true
+
+==================================================
+
+测试进度：26/100 (26.0%)
+数据集位置：第 3411 个
+cleanText(answer) 2
+cleanText(modelAnswer) 5
+问题: how many games were played where the audience turnout was greater than 20,000?
+预期答案: 2
+模型答案: 5
+是否正确: false
+
+==================================================
+
+测试进度：27/100 (27.0%)
+数据集位置：第 53 个
+cleanText(answer) yankton
+cleanText(modelAnswer) yankton
+问题: what city has a radio station called the wolf?
+预期答案: Yankton
+模型答案: yankton
+是否正确: true
+
+==================================================
+
+测试进度：28/100 (28.0%)
+数据集位置：第 1273 个
+cleanText(answer) 10
+cleanText(modelAnswer) 11
+问题: how many consecutive years was the team in division 1?
+预期答案: 10
+模型答案: 11
+是否正确: false
+
+==================================================
+
+测试进度：29/100 (29.0%)
+数据集位置：第 418 个
+cleanText(answer) tignesfrance
+cleanText(modelAnswer) tignesfrance
+问题: what is the location of the latest race?
+预期答案: Tignes, France
+模型答案: tignes, france
+是否正确: true
+
+==================================================
+
+测试进度：30/100 (30.0%)
+数据集位置：第 4136 个
+cleanText(answer) 84
+cleanText(modelAnswer) 72
+问题: what is the total number of teams listed?
+预期答案: 84
+模型答案: 72
+是否正确: false
+
+==================================================
+
+测试进度：31/100 (31.0%)
+数据集位置：第 1879 个
+cleanText(answer) japan
+cleanText(modelAnswer) japanhasthemostappearancesindifferentvenuesandcompetitionsandhasthehighestnumberofwinsanddrawssoitcanbeconsideredthatjapanisatthetopinacertainsensehoweverifitisbasedonthenumberofgoalsscoredandconcededineachmatchitisdifficulttosimplydetermineasingletopopponenteachopponenthasdifferentperformancedataindifferentmatches
+问题: what opponent is at the top of the chart?
+预期答案: Japan
+模型答案: Japan has the most appearances in different venues and competitions and has the highest number of wins and draws, so it can be considered that Japan is at the "top" in a certain sense. However, if it is based on the number of goals scored and conceded in each match, it is difficult to simply determine a single "top" opponent. Each opponent has different performance data in different matches.
+是否正确: false
+
+==================================================
+
+测试进度：32/100 (32.0%)
+数据集位置：第 262 个
+cleanText(answer) 060
+cleanText(modelAnswer) 060
+问题: which number is before 061?
+预期答案: 060
+模型答案: 060
+是否正确: true
+
+==================================================
+
+测试进度：33/100 (33.0%)
+数据集位置：第 3428 个
+cleanText(answer) 2380
+cleanText(modelAnswer) 1646
+问题: total points scored by american riders
+预期答案: 2380
+模型答案: 1646
+是否正确: false
+
+==================================================
+
+测试进度：34/100 (34.0%)
+数据集位置：第 3202 个
+cleanText(answer) 5
+cleanText(modelAnswer) 1
+问题: what is the total number of wins between 2012 and 2014?
+预期答案: 5
+模型答案: 1
+是否正确: false
+
+==================================================
+
+测试进度：35/100 (35.0%)
+数据集位置：第 2436 个
+cleanText(answer) 22april1961
+cleanText(modelAnswer) 29april1961
+问题: what was the date of the last away game?
+预期答案: 22 April 1961
+模型答案: 29 April 1961
+是否正确: false
+
+==================================================
+
+测试进度：36/100 (36.0%)
+数据集位置：第 3039 个
+cleanText(answer) 1
+cleanText(modelAnswer) 2
+问题: how many players from orlando city scored above 8 goals?
+预期答案: 1
+模型答案: 2
+是否正确: false
+
+==================================================
+
+测试进度：37/100 (37.0%)
+数据集位置：第 3794 个
+cleanText(answer) errea
+cleanText(modelAnswer) errea
+问题: who was the kit manufacturer the most number of years?
+预期答案: Errea
+模型答案: errea
+是否正确: true
+
+==================================================
+
+测试进度：38/100 (38.0%)
+数据集位置：第 1642 个
+cleanText(answer) 3
+cleanText(modelAnswer) 2
+问题: what is the total number of yachts on the list whose names start with an a?
+预期答案: 3
+模型答案: 2
+是否正确: false
+
+==================================================
+
+测试进度：39/100 (39.0%)
+数据集位置：第 3480 个
+cleanText(answer) denverbroncos
+cleanText(modelAnswer) buffalobills
+问题: which team was the winning team in the season before the 1999-00 season?
+预期答案: Denver Broncos
+模型答案: buffalo bills (3)
+是否正确: false
+
+==================================================
+
+测试进度：40/100 (40.0%)
+数据集位置：第 2401 个
+cleanText(answer) 15
+cleanText(modelAnswer) 15
+问题: what was the total number of points by franco pellizotti?
+预期答案: 15
+模型答案: 15
+是否正确: true
+
+==================================================
+
+测试进度：41/100 (41.0%)
+数据集位置：第 1600 个
+cleanText(answer) spartaknizhnynovgorod
+cleanText(modelAnswer) cskamoscowhad3appearancesandlokomotivmoscowhad2appearancessocskamoscowhadthemostappearancesamongrussianteams
+问题: which russian team had the most appearances?
+预期答案: Spartak Nizhny Novgorod
+模型答案: CSKA Moscow had 3 appearances and Lokomotiv Moscow had 2 appearances. So, CSKA Moscow had the most appearances among Russian teams.
+是否正确: false
+
+==================================================
+
+测试进度：42/100 (42.0%)
+数据集位置：第 2763 个
+cleanText(answer) germanyfrancejapan
+cleanText(modelAnswer) greatbritaincanadaunitedstatesaustraliaukrainespaingermanyfrancejapan
+问题: which nations do not have more than twenty gold medals?
+预期答案: Germany,France,Japan
+模型答案: Great Britain, Canada, United States, Australia, Ukraine, Spain, Germany, France, Japan
+是否正确: false
+
+==================================================
+
+测试进度：43/100 (43.0%)
+数据集位置：第 2185 个
+cleanText(answer) 553
+cleanText(modelAnswer) 636
+问题: what is the elevation difference in meters between cerro las minas and volcan irazu?
+预期答案: 553
+模型答案: 636
+(3819 - 3402 = 417, 3726 - 1872 = 1854, 1854 - 417 = 1437, taking the absolute value gives 1437 ≈ 636)
+是否正确: false
+
+==================================================
+
+测试进度：44/100 (44.0%)
+数据集位置：第 61 个
+cleanText(answer) giantslalom
+cleanText(modelAnswer) giantslalom
+问题: what was the only race in 2011?
+预期答案: Giant Slalom
+模型答案: giant slalom
+是否正确: true
+
+==================================================
+
+测试进度：45/100 (45.0%)
+数据集位置：第 2461 个
+cleanText(answer) 17
+cleanText(modelAnswer) 10
+问题: what is the total number of register listings from dover?
+预期答案: 17
+模型答案: 10
+是否正确: false
+
+==================================================
+
+测试进度：46/100 (46.0%)
+数据集位置：第 3447 个
+cleanText(answer) 191415
+cleanText(modelAnswer) 191415
+问题: what was the only season that he had a perfect conference record?
+预期答案: 1914-15
+模型答案: 1914–15
+是否正确: true
+
+==================================================
+
+测试进度：47/100 (47.0%)
+数据集位置：第 3767 个
+cleanText(answer) may232009
+cleanText(modelAnswer) may232009
+问题: when did albanian superliga play their last game in the 2009-09 kf tirana season?
+预期答案: May 23, 2009
+模型答案: May 23, 2009 (home game against ks vllaznia shkoder)
+是否正确: true
+
+==================================================
+
+测试进度：48/100 (48.0%)
+数据集位置：第 1899 个
+cleanText(answer) 7
+cleanText(modelAnswer) 6
+问题: how many runner-ups are listed?
+预期答案: 7
+模型答案: 6
+是否正确: false
+
+==================================================
+
+测试进度：49/100 (49.0%)
+数据集位置：第 3706 个
+cleanText(answer) 18
+cleanText(modelAnswer) 16
+问题: what is the total number of team?
+预期答案: 18
+模型答案: 16
+是否正确: false
+
+==================================================
+
+测试进度：50/100 (50.0%)
+数据集位置：第 3816 个
+cleanText(answer) calvinroberts
+cleanText(modelAnswer) noinformationavailableinthetableaboutthenextpickafterrichyonakor
+问题: who was the next pick after rich yonakor?
+预期答案: Calvin Roberts
+模型答案: no information available in the table about the next pick after rich yonakor.
+是否正确: false
+
+==================================================
+
+测试进度：51/100 (51.0%)
+数据集位置：第 2941 个
+cleanText(answer) 10
+cleanText(modelAnswer) 19
+问题: what are the number of robots that are after located after the year 1800?
+预期答案: 10
+模型答案: 19
+是否正确: false
+
+==================================================
+
+测试进度：52/100 (52.0%)
+数据集位置：第 4153 个
+cleanText(answer) 4
+cleanText(modelAnswer) 3
+问题: how many administrators did not possess a ph.d?
+预期答案: 4
+模型答案: 3 (air commodore k. m. ahmad, engr.sikandar zaman, major general raza hussain)
+是否正确: false
+
+==================================================
+
+测试进度：53/100 (53.0%)
+数据集位置：第 3346 个
+cleanText(answer) 3
+cleanText(modelAnswer) 1719714secjaipurexp12410nizamuddinraigarhgondwanaexp11203nagpurjaipurweeklyexpress12615grandtrunkexp19713jaipursecexp11204jaipurnagpurexp19302yashwantpurindoreexpsotheansweris8
+问题: how many trains are on tuesday only?
+预期答案: 3
+模型答案: 17.19714,sec-jaipur exp (tu), 12410,nizamuddin-raigarh gondwana exp (s,m,tu,w,t,f), 11203,nagpur-jaipur weekly express (t), 12615,grand trunk(gt) exp (tu), 19713,jaipur-sec exp (tu), 11204,jaipur-nagpur exp (st), 19302,yashwantpur-indore exp (w)
+So the answer is 8.
+是否正确: false
+
+==================================================
+
+测试进度：54/100 (54.0%)
+数据集位置：第 1946 个
+cleanText(answer) diesel
+cleanText(modelAnswer) diesel
+问题: what fuel type performs the most mpg (us gallons) result?
+预期答案: diesel
+模型答案: diesel (volkswagen polo 1.4 tdi bluemotion with 62 mpg)
+是否正确: true
+
+==================================================
+
+测试进度：55/100 (55.0%)
+数据集位置：第 3585 个
+cleanText(answer) coloradostate
+cleanText(modelAnswer) coloradostatethefirstgameinthetableisseptember61980andthewinningteamwascoloradostate
+问题: who was the winner of the first game in this rivalry during the trophy era?
+预期答案: Colorado State
+模型答案: colorado state
+The first game in the table is September 6, 1980, and the winning team was Colorado State.
+是否正确: false
+
+==================================================
+
+测试进度：56/100 (56.0%)
+数据集位置：第 118 个
+cleanText(answer) joelsmith
+cleanText(modelAnswer) joel
+问题: what is the first name on the chart?
+预期答案: Joel Smith
+模型答案: joel
+是否正确: false
+
+==================================================
+
+测试进度：57/100 (57.0%)
+数据集位置：第 4071 个
+cleanText(answer) 2006
+cleanText(modelAnswer) 20032004200520072012
+问题: which season had, at most, 1 app?
+预期答案: 2006
+模型答案: 2003, 2004, 2005, 2007, 2012
+是否正确: false
+
+==================================================
+
+测试进度：58/100 (58.0%)
+数据集位置：第 3416 个
+cleanText(answer) chn
+cleanText(modelAnswer) chn
+问题: what country had the most amount of people in the top 10? (use abbreviation)
+预期答案: CHN
+模型答案: chn
+是否正确: true
+
+==================================================
+
+测试进度：59/100 (59.0%)
+数据集位置：第 431 个
+cleanText(answer) 188
+cleanText(modelAnswer) 193
+问题: what is the total number of square miles in sandy bay and longwood?
+预期答案: 18.8
+模型答案: 19.3
+是否正确: false
+
+==================================================
+
+测试进度：60/100 (60.0%)
+数据集位置：第 2253 个
+cleanText(answer) sunchlorellaclassicgolfnipponseriesjtcupasiapacificpanasonicopen
+cleanText(modelAnswer) sunchlorellaclassicgatewaytotheopenmizunoopen
+问题: which tournaments had a margin victory of at most 1 stroke?
+预期答案: Sun Chlorella Classic,Golf Nippon Series JT Cup,Asia-Pacific Panasonic Open (co-sanctioned by the Asian Tour)
+模型答案: sun chlorella classic (10 aug 2003 with 1 stroke, 29 jul 2012 with 2 strokes), gateway to the open mizuno open (26 jun 2004 with playoff, 30 jun 2013 with 3 strokes)
+是否正确: false
+
+==================================================
+
+测试进度：61/100 (61.0%)
+数据集位置：第 1379 个
+cleanText(answer) 9
+cleanText(modelAnswer) 7
+问题: how many games did the rough riders play before october 16?
+预期答案: 9
+模型答案: 7
+是否正确: false
+
+==================================================
+
+测试进度：62/100 (62.0%)
+数据集位置：第 2496 个
+cleanText(answer) 1
+cleanText(modelAnswer) 1
+问题: how many times did the viking play at three rivers stadium?
+预期答案: 1
+模型答案: 1
+是否正确: true
+
+==================================================
+
+测试进度：63/100 (63.0%)
+数据集位置：第 1591 个
+cleanText(answer) 1957000
+cleanText(modelAnswer) 1957000
+问题: how many viewers total watched episodes 1 & 2?
+预期答案: 1957000
+模型答案: 1957000
+是否正确: true
+
+==================================================
+
+测试进度：64/100 (64.0%)
+数据集位置：第 3308 个
+cleanText(answer) 5
+cleanText(modelAnswer) 4
+问题: how many incumbents are up for rel-election?
+预期答案: 5
+模型答案: 4
+是否正确: false
+
+==================================================
+
+测试进度：65/100 (65.0%)
+数据集位置：第 4219 个
+cleanText(answer) yes
+cleanText(modelAnswer) no
+问题: did milicic score more goals than skoko?
+预期答案: yes
+模型答案: No
+是否正确: false
+
+==================================================
+
+测试进度：66/100 (66.0%)
+数据集位置：第 1426 个
+cleanText(answer) australiaunitedstates
+cleanText(modelAnswer) unitedstatesaustralianorthernirelandsouthafrica
+问题: which countries have more wins than england?
+预期答案: Australia,United States
+模型答案: united states, australia, northern ireland, south africa
+是否正确: false
+
+==================================================
+
+测试进度：67/100 (67.0%)
+数据集位置：第 3015 个
+cleanText(answer) bestactress
+cleanText(modelAnswer) bestactress
+问题: which award is listed the most on this chart?
+预期答案: Best Actress
+模型答案: best actress (appears 7 times)
+是否正确: true
+
+==================================================
+
+测试进度：68/100 (68.0%)
+数据集位置：第 4232 个
+cleanText(answer) 6
+cleanText(modelAnswer) 6
+问题: how many gl-b matches are listed?
+预期答案: 6
+模型答案: 6
+是否正确: true
+
+==================================================
+
+测试进度：69/100 (69.0%)
+数据集位置：第 3204 个
+cleanText(answer) 14
+cleanText(modelAnswer) 18
+问题: how many artists charted in the year 2010?
+预期答案: 14
+模型答案: 18
+是否正确: false
+
+==================================================
+
+测试进度：70/100 (70.0%)
+数据集位置：第 1714 个
+cleanText(answer) 1995
+cleanText(modelAnswer) 1995
+问题: in which year did carl fogarty win the most victories?
+预期答案: 1995
+模型答案: 1995
+是否正确: true
+
+==================================================
+
+测试进度：71/100 (71.0%)
+数据集位置：第 725 个
+cleanText(answer) torutaniguchi
+cleanText(modelAnswer) norelevantinformationprovidedtoanswerthisquestion
+问题: who was brendan jones' runner(s) up on december 2, 2007?
+预期答案: Toru Taniguchi
+模型答案: no relevant information provided to answer this question.
+是否正确: false
+
+==================================================
+
+测试进度：72/100 (72.0%)
+数据集位置：第 4010 个
+cleanText(answer) 3
+cleanText(modelAnswer) 3
+问题: the total number of josef kaufmann racing drivers?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：73/100 (73.0%)
+数据集位置：第 1817 个
+cleanText(answer) canada
+cleanText(modelAnswer) canada
+问题: which of the following countries did melissa morrison not compete at; france, japan, monaco, orcanada?
+预期答案: Canada
+模型答案: canada
+是否正确: true
+
+==================================================
+
+测试进度：74/100 (74.0%)
+数据集位置：第 1492 个
+cleanText(answer) 1
+cleanText(modelAnswer) 1
+问题: how many times is there the role of tina?
+预期答案: 1
+模型答案: 1
+是否正确: true
+
+==================================================
+
+测试进度：75/100 (75.0%)
+数据集位置：第 3784 个
+cleanText(answer) 7
+cleanText(modelAnswer) 7
+问题: how many seasons were there total?
+预期答案: 7
+模型答案: 7
+是否正确: true
+
+==================================================
+
+测试进度：76/100 (76.0%)
+数据集位置：第 2591 个
+cleanText(answer) 4
+cleanText(modelAnswer) 2
+问题: how many chruches were built in levanger in the 1800's?
+预期答案: 4
+模型答案: 2
+是否正确: false
+
+==================================================
+
+测试进度：77/100 (77.0%)
+数据集位置：第 3318 个
+cleanText(answer) 13
+cleanText(modelAnswer) 23
+问题: total number of sponsors?
+预期答案: 13
+模型答案: 23 (including different combinations of kit manufacturer, shirt sponsor, back of shirt sponsor, short sponsor)
+是否正确: false
+
+==================================================
+
+测试进度：78/100 (78.0%)
+数据集位置：第 2972 个
+cleanText(answer) 2
+cleanText(modelAnswer) 2
+问题: how many players were drafted in the third round?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：79/100 (79.0%)
+数据集位置：第 1231 个
+cleanText(answer) 54years
+cleanText(modelAnswer) 54yearsago
+问题: how long ago from august 2014 was the very first game they played?
+预期答案: 54 years
+模型答案: 54 years ago (1960 - 2014 = 54)
+是否正确: false
+
+==================================================
+
+测试进度：80/100 (80.0%)
+数据集位置：第 2087 个
+cleanText(answer) 6
+cleanText(modelAnswer) 6
+问题: in how many games did the belgian team have the same score as their opponent?
+预期答案: 6
+模型答案: 6
+是否正确: true
+
+==================================================
+
+测试进度：81/100 (81.0%)
+数据集位置：第 3423 个
+cleanText(answer) more
+cleanText(modelAnswer) less
+问题: is cassiopeia 1's magnitude more or less than 15?
+预期答案: more
+模型答案: less
+是否正确: false
+
+==================================================
+
+测试进度：82/100 (82.0%)
+数据集位置：第 1506 个
+cleanText(answer) 74
+cleanText(modelAnswer) 73
+问题: how many books did "harper & brothers" publish?
+预期答案: 74
+模型答案: 73
+是否正确: false
+
+==================================================
+
+测试进度：83/100 (83.0%)
+数据集位置：第 434 个
+cleanText(answer) surveyusa
+cleanText(modelAnswer) surveyusawasusedthemostasitappearsinmultipledatapointswithdifferentsamplesizesanddates
+问题: what poll source was used the most?
+预期答案: Survey USA
+模型答案: Survey USA was used the most as it appears in multiple data points with different sample sizes and dates.
+是否正确: false
+
+==================================================
+
+测试进度：84/100 (84.0%)
+数据集位置：第 1310 个
+cleanText(answer) 8
+cleanText(modelAnswer) portugal
+问题: what are the most points by a country with a rank less than 10?
+预期答案: 8
+模型答案: portugal (67)
+是否正确: false
+
+==================================================
+
+测试进度：85/100 (85.0%)
+数据集位置：第 2119 个
+cleanText(answer) 1year
+cleanText(modelAnswer) september1967tojanuary1968
+问题: how long did the show air?
+预期答案: 1 year
+模型答案: September 1967 to January 1968 (approx. 5 months)
+是否正确: false
+
+==================================================
+
+测试进度：86/100 (86.0%)
+数据集位置：第 1068 个
+cleanText(answer) 2strokes
+cleanText(modelAnswer) 2strokes
+问题: what was the margin of victory on november 3, 2002?
+预期答案: 2 strokes
+模型答案: 2 strokes
+是否正确: true
+
+==================================================
+
+测试进度：87/100 (87.0%)
+数据集位置：第 3233 个
+cleanText(answer) 6
+cleanText(modelAnswer) 6
+问题: how many films were made before 2000?
+预期答案: 6
+模型答案: 6
+是否正确: true
+
+==================================================
+
+测试进度：88/100 (88.0%)
+数据集位置：第 585 个
+cleanText(answer) 4
+cleanText(modelAnswer) 4
+问题: how many entries in the 1800s have a water level above 250?
+预期答案: 4
+模型答案: 4
+是否正确: true
+
+==================================================
+
+测试进度：89/100 (89.0%)
+数据集位置：第 3953 个
+cleanText(answer) youlearn
+cleanText(modelAnswer) youlearn
+问题: which single had their position as a 24 for the uk?
+预期答案: You Learn
+模型答案: you learn
+是否正确: true
+
+==================================================
+
+测试进度：90/100 (90.0%)
+数据集位置：第 3384 个
+cleanText(answer) bigeast
+cleanText(modelAnswer) bigeast
+问题: which conference has 2 bids, but a record of 5-2?
+预期答案: Big East
+模型答案: big east
+是否正确: true
+
+==================================================
+
+测试进度：91/100 (91.0%)
+数据集位置：第 595 个
+cleanText(answer) theodoreroosevelthighschool
+cleanText(modelAnswer) santeeeducationcomplex
+问题: what school had no api for 2011?
+预期答案: Theodore Roosevelt High School
+模型答案: santee education complex
+是否正确: false
+
+==================================================
+
+测试进度：92/100 (92.0%)
+数据集位置：第 436 个
+cleanText(answer) 12
+cleanText(modelAnswer) 40
+问题: what is the total number of awards (nominations and wins) for two and a half men?
+预期答案: 12
+模型答案: 40
+是否正确: false
+
+==================================================
+
+测试进度：93/100 (93.0%)
+数据集位置：第 2068 个
+cleanText(answer) 2
+cleanText(modelAnswer) 2
+问题: how many athletes got more than 500 preliminary points?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：94/100 (94.0%)
+数据集位置：第 516 个
+cleanText(answer) december272008
+cleanText(modelAnswer) december272008
+问题: one what date were the most total goals scored in a game?
+预期答案: December 27, 2008
+模型答案: December 27, 2008 (6 goals)
+是否正确: true
+
+==================================================
+
+测试进度：95/100 (95.0%)
+数据集位置：第 3274 个
+cleanText(answer) 5
+cleanText(modelAnswer) 6
+问题: how many shows aired in october 2013?
+预期答案: 5
+模型答案: 6
+是否正确: false
+
+==================================================
+
+测试进度：96/100 (96.0%)
+数据集位置：第 3780 个
+cleanText(answer) june42008
+cleanText(modelAnswer) june42008
+问题: do-si-do aired on may 28, 2008. what was the date of the next episode?
+预期答案: June 4, 2008
+模型答案: june 4, 2008
+是否正确: true
+
+==================================================
+
+测试进度：97/100 (97.0%)
+数据集位置：第 2684 个
+cleanText(answer) 2
+cleanText(modelAnswer) 1
+问题: how many goalscorers were brazilian?
+预期答案: 2
+模型答案: 1 (Marquinhos is from Brazil and he scored goals in the given data.)
+是否正确: false
+
+==================================================
+
+测试进度：98/100 (98.0%)
+数据集位置：第 1191 个
+cleanText(answer) 12
+cleanText(modelAnswer) 13
+问题: how many canadians were selected?
+预期答案: 12
+模型答案: 13
+是否正确: false
+
+==================================================
+
+测试进度：99/100 (99.0%)
+数据集位置：第 437 个
+cleanText(answer) 2
+cleanText(modelAnswer) 3
+问题: how many teams won at least half or more of their games?
+预期答案: 2
+模型答案: 3
+是否正确: false
+
+==================================================
+
+测试进度：100/100 (100.0%)
+数据集位置：第 1182 个
+cleanText(answer) 44
+cleanText(modelAnswer) 22
+问题: how many speakers are listed?
+预期答案: 44
+模型答案: 22
+是否正确: false
+
+测试统计信息如下
+总样本数: 100
+正确数量: 35
+ACC: 35.00%
+总耗时: 155.25秒
