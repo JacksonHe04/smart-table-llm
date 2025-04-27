@@ -80,7 +80,8 @@ export class Evaluator {
         { role: 'system', content: systemPrompt },
         { role: 'user', content: userPrompt },
       ],
-      model: 'doubao-1.5-pro-32k-250115',
+      // model: 'doubao-1.5-pro-32k-250115',
+      model: 'doubao-1-5-pro-256k-250115',
       // model: 'doubao-1-5-thinking-pro-250415',
       stream: true,
     });
