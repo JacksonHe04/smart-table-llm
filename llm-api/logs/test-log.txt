@@ -513,3 +513,129 @@ Correct Count: 64
 Accuracy: 64.00%
 Total Time: 86.83 seconds
 
+Timestamp: 2025-04-27T18:38:08.569Z
+Dataset: test
+Total Samples: 100
+Correct Count: 32
+Accuracy: 32.00%
+Total Time: 112.61 seconds
+
+Timestamp: 2025-04-27T18:41:25.755Z
+Dataset: test
+Total Samples: 100
+Correct Count: 36
+Accuracy: 36.00%
+Total Time: 103.48 seconds
+
+Timestamp: 2025-04-27T18:45:43.607Z
+Dataset: test
+Total Samples: 100
+Correct Count: 43
+Accuracy: 43.00%
+Total Time: 161.90 seconds
+
+Timestamp: 2025-04-27T18:46:19.791Z
+Dataset: test
+Total Samples: 100
+Correct Count: 31
+Accuracy: 31.00%
+Total Time: 149.72 seconds
+
+Timestamp: 2025-04-27T18:52:43.460Z
+Dataset: test
+Total Samples: 100
+Correct Count: 76
+Accuracy: 76.00%
+Total Time: 99.91 seconds
+
+Timestamp: 2025-04-27T19:07:02.409Z
+Dataset: test
+Total Samples: 1
+Correct Count: 1
+Accuracy: 100.00%
+Total Time: 2.04 seconds
+
+Timestamp: 2025-04-27T19:11:43.961Z
+Dataset: test
+Total Samples: 1
+Correct Count: 0
+Accuracy: 0.00%
+Total Time: 1.90 seconds
+
+Timestamp: 2025-04-27T19:11:53.133Z
+Dataset: test
+Total Samples: 1
+Correct Count: 0
+Accuracy: 0.00%
+Total Time: 3.65 seconds
+
+Timestamp: 2025-04-27T19:12:45.331Z
+Dataset: test
+Total Samples: 1
+Correct Count: 1
+Accuracy: 100.00%
+Total Time: 1.32 seconds
+
+Timestamp: 2025-04-27T19:13:24.652Z
+Dataset: test
+Total Samples: 100
+Correct Count: 40
+Accuracy: 40.00%
+Total Time: 193.28 seconds
+
+Timestamp: 2025-04-27T19:13:57.198Z
+Dataset: test
+Total Samples: 1
+Correct Count: 0
+Accuracy: 0.00%
+Total Time: 1.78 seconds
+
+Timestamp: 2025-04-27T19:14:53.513Z
+Dataset: test
+Total Samples: 1
+Correct Count: 0
+Accuracy: 0.00%
+Total Time: 2.35 seconds
+
+Timestamp: 2025-04-27T19:21:04.937Z
+Dataset: test
+Total Samples: 100
+Correct Count: 35
+Accuracy: 35.00%
+Total Time: 149.04 seconds
+
+Timestamp: 2025-04-27T19:31:58.217Z
+Dataset: test
+Total Samples: 100
+Correct Count: 41
+Accuracy: 41.00%
+Total Time: 171.60 seconds
+
+Timestamp: 2025-04-27T19:32:30.470Z
+Dataset: test
+Total Samples: 100
+Correct Count: 35
+Accuracy: 35.00%
+Total Time: 155.25 seconds
+
+Timestamp: 2025-04-27T19:33:16.123Z
+Dataset: test
+Total Samples: 100
+Correct Count: 33
+Accuracy: 33.00%
+Total Time: 186.52 seconds
+
+Timestamp: 2025-04-27T19:33:47.817Z
+Dataset: test
+Total Samples: 100
+Correct Count: 33
+Accuracy: 33.00%
+Total Time: 207.04 seconds
+
+Timestamp: 2025-04-27T19:37:58.440Z
+Dataset: test
+Total Samples: 100
+Correct Count: 42
+Accuracy: 42.00%
+Total Time: 100.25 seconds
+

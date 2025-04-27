@@ -1,0 +1,1235 @@
+
+测试范围信息：
+- 数据集总样本数：4344
+- 本次随机测试样本位置：53, 89, 128, 186, 252, 254, 276, 278, 299, 334, 397, 447, 532, 558, 583, 633, 688, 713, 747, 754, 760, 799, 800, 826, 844, 938, 961, 963, 964, 987, 1011, 1023, 1116, 1125, 1134, 1138, 1154, 1171, 1276, 1390, 1432, 1468, 1480, 1484, 1535, 1542, 1605, 1637, 1654, 1713, 1782, 1785, 1802, 1843, 1852, 1910, 1953, 1954, 2030, 2037, 2143, 2152, 2163, 2195, 2202, 2240, 2271, 2278, 2297, 2520, 2554, 2595, 2809, 3010, 3021, 3059, 3079, 3091, 3221, 3224, 3298, 3346, 3381, 3428, 3437, 3505, 3567, 3584, 3631, 3635, 3688, 3797, 3854, 3889, 3936, 4012, 4102, 4197, 4227, 4246
+- 本次测试样本数：100
+
+
+==================================================
+
+测试进度：1/100 (1.0%)
+数据集位置：第 760 个
+cleanText(answer) headquarters
+cleanText(modelAnswer) headquarters
+问题: most district names are the same as their ...?
+预期答案: Headquarters
+模型答案: headquarters
+是否正确: true
+
+==================================================
+
+测试进度：2/100 (2.0%)
+数据集位置：第 3631 个
+cleanText(answer) uk
+cleanText(modelAnswer) thereare7trainsfromtheukand4trainsfromgermanysotherearemoretrainsfromtheuk
+问题: were there more trains from the uk or germany?
+预期答案: UK
+模型答案: There are 7 trains from the UK and 4 trains from Germany. So, there are more trains from the UK.
+是否正确: false
+
+==================================================
+
+测试进度：3/100 (3.0%)
+数据集位置：第 3567 个
+cleanText(answer) cattigers
+cleanText(modelAnswer) thereisnoinformationintheprovidedtabletodeterminethepreviouscommunitydivisionimparjacupwinnerbeforemelvilleislandin2006
+问题: who was the previous community division imparja cup winner before melville island in 2006?
+预期答案: Cat Tigers
+模型答案: There is no information in the provided table to determine the previous community division imparja cup winner before melville island in 2006.
+是否正确: false
+
+==================================================
+
+测试进度：4/100 (4.0%)
+数据集位置：第 826 个
+cleanText(answer) hog
+cleanText(modelAnswer) hogwaslongerthanwhereyallfrom
+问题: which was longer "hog" or "where y'all from"?
+预期答案: Hog
+模型答案: "hog" (4:24) was longer than "where y'all from" (1:11).
+是否正确: false
+
+==================================================
+
+测试进度：5/100 (5.0%)
+数据集位置：第 1654 个
+cleanText(answer) thefarreachingeffectsofbroadband
+cleanText(modelAnswer) thefarreachingeffectsofbroadbandwith415pages
+问题: what is the longest book authored by david cleevely?
+预期答案: The Far Reaching Effects of Broadband
+模型答案: the far reaching effects of broadband
+with 415 pages.
+是否正确: false
+
+==================================================
+
+测试进度：6/100 (6.0%)
+数据集位置：第 2809 个
+cleanText(answer) 2009
+cleanText(modelAnswer) 7479mismorethan7140msoin2009
+问题: did she throw more meters in 2009 or 2008?
+预期答案: 2009
+模型答案: 74.79 m (2009) is more than 71.40 m (2008), so in 2009.
+是否正确: false
+
+==================================================
+
+测试进度：7/100 (7.0%)
+数据集位置：第 252 个
+cleanText(answer) southkorea
+cleanText(modelAnswer) germanyitalyrussiaaustraliaindiabrazilworldintermsofspecificcountriesrankedafterfranceintermsofboxofficein2012theorderisgermanyitalyrussiaaustraliaindiaandbrazilhoweverifconsideringtheworldtotalwhichincludesallcountriesitalsocomesafterfranceinthecontextoftheoverallfilmindustryboxofficelist
+问题: who ranks after france in the list of largest markets in the film industry by box office?
+预期答案: South Korea
+模型答案: germany
+italy
+russia
+australia
+india
+brazil
+world (but it's not a specific country)
+
+In terms of specific countries ranked after france in terms of box office in 2012, the order is germany, italy, russia, australia, india, and brazil. However, if considering the "world" total which includes all countries, it also comes after france in the context of the overall film industry box office list.
+是否正确: false
+
+==================================================
+
+测试进度：8/100 (8.0%)
+数据集位置：第 53 个
+cleanText(answer) yankton
+cleanText(modelAnswer) yankton
+问题: what city has a radio station called the wolf?
+预期答案: Yankton
+模型答案: yankton
+是否正确: true
+
+==================================================
+
+测试进度：9/100 (9.0%)
+数据集位置：第 278 个
+cleanText(answer) 1993
+cleanText(modelAnswer) thereisnoinformationintheprovidedtableabouthugoperezorhisinternationalgoalsthetableonlyshowsinformationaboutcertainsoccermatchesandresultsinvolvingdifferentteams
+问题: in what year did hugo perez score the most international goals?
+预期答案: 1993
+模型答案: There is no information in the provided table about Hugo Perez or his international goals. The table only shows information about certain soccer matches and results involving different teams.
+是否正确: false
+
+==================================================
+
+测试进度：10/100 (10.0%)
+数据集位置：第 1782 个
+cleanText(answer) dzejlanalanabalticmelisapopanicic
+cleanText(modelAnswer) dzejlanalanabalticmelisapopanicic
+问题: which models were each eliminated in episode 10?
+预期答案: Dzejlana "Lana" Baltić,Melisa Popanicić
+模型答案: dzejlana "lana" baltić, melisa popanicić
+是否正确: true
+
+==================================================
+
+测试进度：11/100 (11.0%)
+数据集位置：第 2152 个
+cleanText(answer) f
+cleanText(modelAnswer) e
+问题: which root, f or e, has c as it's perfect fifth?
+预期答案: F
+模型答案: e
+是否正确: false
+
+==================================================
+
+测试进度：12/100 (12.0%)
+数据集位置：第 2163 个
+cleanText(answer) marioscapini
+cleanText(modelAnswer) marioscapini
+问题: who achieved his personal best?
+预期答案: Mario Scapini
+模型答案: mario scapini
+是否正确: true
+
+==================================================
+
+测试进度：13/100 (13.0%)
+数据集位置：第 2037 个
+cleanText(answer) 68
+cleanText(modelAnswer) thereisnocombinednumbersforsupergbefore2011asthereisnorelevantdataprovidedinthetable
+问题: before 2011 whats the combined numbers for super g?
+预期答案: 68
+模型答案: There is no "combined numbers for super g" before 2011 as there is no relevant data provided in the table.
+是否正确: false
+
+==================================================
+
+测试进度：14/100 (14.0%)
+数据集位置：第 4012 个
+cleanText(answer) 11
+cleanText(modelAnswer) 18
+问题: what is the total number of drivers listed under the entrant column?
+预期答案: 11
+模型答案: 18
+是否正确: false
+
+==================================================
+
+测试进度：15/100 (15.0%)
+数据集位置：第 254 个
+cleanText(answer) 105
+cleanText(modelAnswer) 14days
+问题: how many days apart is the number 1 runner-up to the number 1 winner?
+预期答案: 105
+模型答案: 14 days
+是否正确: false
+
+==================================================
+
+测试进度：16/100 (16.0%)
+数据集位置：第 2297 个
+cleanText(answer) 1
+cleanText(modelAnswer) 1
+问题: how many of the tallest freestanding structures exist in russia?
+预期答案: 1
+模型答案: 1
+是否正确: true
+
+==================================================
+
+测试进度：17/100 (17.0%)
+数据集位置：第 1910 个
+cleanText(answer) 7
+cleanText(modelAnswer) hindibengaliurdu
+问题: how many had more than 50 million speakers?
+预期答案: 7
+模型答案: hindi, bengali, urdu
+是否正确: false
+
+==================================================
+
+测试进度：18/100 (18.0%)
+数据集位置：第 987 个
+cleanText(answer) 8
+cleanText(modelAnswer) 6
+问题: how many games had more than 60,000 in attendance in the 1998 regular season?
+预期答案: 8
+模型答案: 6
+是否正确: false
+
+==================================================
+
+测试进度：19/100 (19.0%)
+数据集位置：第 1432 个
+cleanText(answer) 10
+cleanText(modelAnswer) 10
+问题: how many players have at least 1 fa cup apps?
+预期答案: 10
+模型答案: 10
+是否正确: true
+
+==================================================
+
+测试进度：20/100 (20.0%)
+数据集位置：第 3381 个
+cleanText(answer) tonydrago
+cleanText(modelAnswer) nosuchplayerfound
+问题: which player scored only one point in a tournament?
+预期答案: Tony Drago
+模型答案: No such player found.
+是否正确: false
+
+==================================================
+
+测试进度：21/100 (21.0%)
+数据集位置：第 186 个
+cleanText(answer) unitedstates
+cleanText(modelAnswer) unitedstates
+问题: which nationality has the most forward position players?
+预期答案: United States
+模型答案: united states
+是否正确: true
+
+==================================================
+
+测试进度：22/100 (22.0%)
+数据集位置：第 2278 个
+cleanText(answer) aloisi
+cleanText(modelAnswer) thereisnosuchplayerasnoonescoredmorethan2goalsinthefifaconfederationscup
+问题: only player to score more than 2 goals in the fifa confederations cup
+预期答案: Aloisi
+模型答案: There is no such player as no one scored more than 2 goals in the FIFA Confederations Cup.
+是否正确: false
+
+==================================================
+
+测试进度：23/100 (23.0%)
+数据集位置：第 3346 个
+cleanText(answer) 3
+cleanText(modelAnswer) thereare0trainsontuesdayonly
+问题: how many trains are on tuesday only?
+预期答案: 3
+模型答案: There are 0 trains on Tuesday only.
+是否正确: false
+
+==================================================
+
+测试进度：24/100 (24.0%)
+数据集位置：第 3889 个
+cleanText(answer) unitedstates
+cleanText(modelAnswer) unitedstatesanalysisthetableispresentedinaspecificorderswitzerlandisatacertainpositionbylookingatthetablestructureandtheorderoftherowsitcanbeseenthatthenextentityafterswitzerlandistheunitedstates
+问题: who is listed next after switzerland in the table?
+预期答案: United States (USA)
+模型答案: united states
+```
+
+Analysis: The table is presented in a specific order. Switzerland is at a certain position. By looking at the table structure and the order of the rows, it can be seen that the next entity after Switzerland is the United States.
+是否正确: false
+
+==================================================
+
+测试进度：25/100 (25.0%)
+数据集位置：第 1535 个
+cleanText(answer) yes
+cleanText(modelAnswer) no
+问题: does stade gilbert brutus stadium have a capacity of at least 10000?
+预期答案: yes
+模型答案: No
+是否正确: false
+
+==================================================
+
+测试进度：26/100 (26.0%)
+数据集位置：第 334 个
+cleanText(answer) 2026kmh
+cleanText(modelAnswer) 2026kmh121kmh125mph
+问题: how many km/h did the train lner class a4 no. 4468 mallard travel?
+预期答案: 202.6 km/h
+模型答案: 202.6 km/h (126 mph)
+121 km/h (authenticated 112.5 mph)
+125 mph (claimed half-mile mean speed)
+是否正确: false
+
+==================================================
+
+测试进度：27/100 (27.0%)
+数据集位置：第 1713 个
+cleanText(answer) lordhavemercy
+cleanText(modelAnswer) nospecificalbumproducedafter1970ismentionedinthetable
+问题: what was the first album produced after 1970?
+预期答案: "Lord Have Mercy"
+模型答案: No specific album produced after 1970 is mentioned in the table.
+是否正确: false
+
+==================================================
+
+测试进度：28/100 (28.0%)
+数据集位置：第 2595 个
+cleanText(answer) 2
+cleanText(modelAnswer) 2
+问题: how many medals did the usa win in the finals?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：29/100 (29.0%)
+数据集位置：第 633 个
+cleanText(answer) juanmonaco
+cleanText(modelAnswer) noinformationprovidedinthetableaboutthenextopponentafterwinnernumber8socannotanswer
+问题: who is the next opponent after winner number 8?
+预期答案: Juan Monaco
+模型答案: no information provided in the table about the next opponent after winner number 8, so cannot answer.
+是否正确: false
+
+==================================================
+
+测试进度：30/100 (30.0%)
+数据集位置：第 688 个
+cleanText(answer) 3
+cleanText(modelAnswer) 6
+问题: the construction of how many locations was cancelled in 1988?
+预期答案: 3
+模型答案: 6
+是否正确: false
+
+==================================================
+
+测试进度：31/100 (31.0%)
+数据集位置：第 1785 个
+cleanText(answer) lannypoffo
+cleanText(modelAnswer) randysavage
+问题: who was the wrestler to first achieve 3 reigns?
+预期答案: Lanny Poffo
+模型答案: randy savage
+是否正确: false
+
+==================================================
+
+测试进度：32/100 (32.0%)
+数据集位置：第 1011 个
+cleanText(answer) 29august1992
+cleanText(modelAnswer) 19september1992
+问题: what was the first date to be attended by more than 25,000 people?
+预期答案: 29 August 1992
+模型答案: 19 September 1992
+是否正确: false
+
+==================================================
+
+测试进度：33/100 (33.0%)
+数据集位置：第 3224 个
+cleanText(answer) above
+cleanText(modelAnswer) above
+问题: did scot bennett score above or below 3 league goals?
+预期答案: above
+模型答案: above
+是否正确: true
+
+==================================================
+
+测试进度：34/100 (34.0%)
+数据集位置：第 1125 个
+cleanText(answer) 6
+cleanText(modelAnswer) 6
+问题: what is the number of bronze for the united states?
+预期答案: 6
+模型答案: 6
+是否正确: true
+
+==================================================
+
+测试进度：35/100 (35.0%)
+数据集位置：第 800 个
+cleanText(answer) franciscobravomedicalmagnethighschool
+cleanText(modelAnswer) franciscobravomedicalmagnethighschool
+问题: what was the only school to score higher than 800 in 2008?
+预期答案: Francisco Bravo Medical Magnet High School
+模型答案: francisco bravo medical magnet high school
+是否正确: true
+
+==================================================
+
+测试进度：36/100 (36.0%)
+数据集位置：第 1116 个
+cleanText(answer) 40l
+cleanText(modelAnswer) 40land44l
+问题: 740i and 740il both have what volume engine?
+预期答案: 4.0L
+模型答案: 4.0l and 4.4l
+是否正确: false
+
+==================================================
+
+测试进度：37/100 (37.0%)
+数据集位置：第 3021 个
+cleanText(answer) no
+cleanText(modelAnswer) no
+问题: did the maico team earn more points than the cz team?
+预期答案: No
+模型答案: No
+是否正确: true
+
+==================================================
+
+测试进度：38/100 (38.0%)
+数据集位置：第 938 个
+cleanText(answer) 10
+cleanText(modelAnswer) 12
+问题: what are the number of times the 400 m hurdles was listed as the event?
+预期答案: 10
+模型答案: 12
+是否正确: false
+
+==================================================
+
+测试进度：39/100 (39.0%)
+数据集位置：第 1134 个
+cleanText(answer) beijingchina
+cleanText(modelAnswer) beijingchina
+问题: where did the last listed achievement take place?
+预期答案: Beijing, China
+模型答案: beijing, china
+是否正确: true
+
+==================================================
+
+测试进度：40/100 (40.0%)
+数据集位置：第 1852 个
+cleanText(answer) 5
+cleanText(modelAnswer) 4
+问题: what is number of yachts from nsw?
+预期答案: 5
+模型答案: 4
+是否正确: false
+
+==================================================
+
+测试进度：41/100 (41.0%)
+数据集位置：第 3936 个
+cleanText(answer) preschool8thgrade
+cleanText(modelAnswer) preschool8thgrade
+问题: what grades does saint mary's school serve?
+预期答案: preschool - 8th grade
+模型答案: preschool - 8th grade
+是否正确: true
+
+==================================================
+
+测试进度：42/100 (42.0%)
+数据集位置：第 963 个
+cleanText(answer) 6
+cleanText(modelAnswer) alahlyalmokawloonenppieljaishelshortaitesalat
+问题: how many clubs in cairo
+预期答案: 6
+模型答案: al-ahly - al mokawloon - enppi - el-jaish - el-shorta - itesalat
+是否正确: false
+
+==================================================
+
+测试进度：43/100 (43.0%)
+数据集位置：第 961 个
+cleanText(answer) open
+cleanText(modelAnswer) open
+问题: what is the 2008 status of tom tancredo?
+预期答案: Open
+模型答案: open
+是否正确: true
+
+==================================================
+
+测试进度：44/100 (44.0%)
+数据集位置：第 3010 个
+cleanText(answer) thebigbully
+cleanText(modelAnswer) thebigbullyfebruary21995
+问题: what was the name of the last episode this show aired?
+预期答案: "The Big Bully"
+模型答案: "the big bully"
+February 2, 1995
+是否正确: false
+
+==================================================
+
+测试进度：45/100 (45.0%)
+数据集位置：第 2202 个
+cleanText(answer) 1956
+cleanText(modelAnswer) 1956
+问题: when was the kodachrome professional 35mm film first released?
+预期答案: 1956
+模型答案: 1956
+是否正确: true
+
+==================================================
+
+测试进度：46/100 (46.0%)
+数据集位置：第 4246 个
+cleanText(answer) 57
+cleanText(modelAnswer) 57
+问题: what is the difference between the number of medals the first ranked team had and the number of medals the 21st ranked teams had?
+预期答案: 57
+模型答案: 57
+是否正确: true
+
+==================================================
+
+测试进度：47/100 (47.0%)
+数据集位置：第 4197 个
+cleanText(answer) ralphfoster
+cleanText(modelAnswer) ralphfoster
+问题: who was the next head coach after sidney smith?
+预期答案: Ralph Foster
+模型答案: ralph foster
+是否正确: true
+
+==================================================
+
+测试进度：48/100 (48.0%)
+数据集位置：第 3584 个
+cleanText(answer) joestrauslylelarson
+cleanText(modelAnswer) joestrauslylelarson
+问题: which two representatives elected in san antonio were not a part of the democratic party?
+预期答案: Joe Straus,Lyle Larson
+模型答案: joe straus, lyle larson
+是否正确: true
+
+==================================================
+
+测试进度：49/100 (49.0%)
+数据集位置：第 397 个
+cleanText(answer) 75kmh
+cleanText(modelAnswer) 75kmh
+问题: how many kilometers per hour is the vmax of the passenger car model constructed in 1913-1914?
+预期答案: 75 km/h (47 mph)
+模型答案: 75 km/h (47 mph)
+是否正确: true
+
+==================================================
+
+测试进度：50/100 (50.0%)
+数据集位置：第 1637 个
+cleanText(answer) yes
+cleanText(modelAnswer) yes
+问题: did the song "just us" reach the charts before the song "can you feel it"?
+预期答案: Yes
+模型答案: Yes
+是否正确: true
+
+==================================================
+
+测试进度：51/100 (51.0%)
+数据集位置：第 3854 个
+cleanText(answer) 3
+cleanText(modelAnswer) 3
+问题: what is the difference between the amount of points scored between alain prost and nelson piquet?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：52/100 (52.0%)
+数据集位置：第 754 个
+cleanText(answer) democratic
+cleanText(modelAnswer) democratic
+问题: in this race summary, which party has the most incumbents?
+预期答案: Democratic
+模型答案: democratic
+是否正确: true
+
+==================================================
+
+测试进度：53/100 (53.0%)
+数据集位置：第 2520 个
+cleanText(answer) yes
+cleanText(modelAnswer) consecutive
+问题: are the years listed in consecutive order or are they not?
+预期答案: Yes
+模型答案: consecutive (2001 to 2012)
+是否正确: false
+
+==================================================
+
+测试进度：54/100 (54.0%)
+数据集位置：第 3505 个
+cleanText(answer) stanford
+cleanText(modelAnswer) thegameagainststanfordinthe1927rosebowlwasatiewithascoreof77allothergameslistedhadawinningresultfortheteam
+问题: all games listed were won but which one?
+预期答案: Stanford
+模型答案: The game against Stanford in the 1927 Rose Bowl was a tie with a score of 7–7. All other games listed had a winning result for the team.
+是否正确: false
+
+==================================================
+
+测试进度：55/100 (55.0%)
+数据集位置：第 1171 个
+cleanText(answer) ucla
+cleanText(modelAnswer) atillinois16memorialstadiumchampaignill72466877
+问题: which team did the hawkeyes play the week after the iowa state game?
+预期答案: UCLA
+模型答案: at illinois
+#16, memorial stadium • champaign, il,,l 7 - 24, 66,877
+是否正确: false
+
+==================================================
+
+测试进度：56/100 (56.0%)
+数据集位置：第 1138 个
+cleanText(answer) 17
+cleanText(modelAnswer) 0
+问题: in how many games in this season did no one score for this team?
+预期答案: 17
+模型答案: 0
+是否正确: false
+
+==================================================
+
+测试进度：57/100 (57.0%)
+数据集位置：第 128 个
+cleanText(answer) 201011
+cleanText(modelAnswer) 199899rogerfeutmbamamelodisundownsmfcameroon199798raphaelchukwumamelodisundownsfwnigeria199697wilfredmugeyibushbucksfwzimbabwe199596noinformationavailableforamidfielderwinning199495noinformationavailableforamidfielderwinning199394noinformationavailableforamidfielderwinning199293noinformationavailableforamidfielderwinning199192noinformationavailableforamidfielderwinning199091noinformationavailableforamidfielderwinning198990noinformationavailableforamidfielderwinning198889noinformationavailableforamidfielderwinning198788noinformationavailableforamidfielderwinning198687noinformationavailableforamidfielderwinning198586noinformationavailableforamidfielderwinning198485noinformationavailableforamidfielderwinning198384noinformationavailableforamidfielderwinning198283noinformationavailableforamidfielderwinning198182noinformationavailableforamidfielderwinning198081noinformationavailableforamidfielderwinning197980noinformationavailableforamidfielderwinning197879noinformationavailableforamidfielderwinning197778noinformationavailableforamidfielderwinning197677noinformationavailableforamidfielderwinning197576noinformationavailableforamidfielderwinning197475noinformationavailableforamidfielderwinning197374noinformationavailableforamidfielderwinning197273noinformationavailableforamidfielderwinning197172noinformationavailableforamidfielderwinning197071noinformationavailableforamidfielderwinning196970noinformationavailableforamidfielderwinning196869noinformationavailableforamidfielderwinning196768noinformationavailableforamidfielderwinning196667noinformationavailableforamidfielderwinning196566noinformationavailableforamidfielderwinning196465noinformationavailableforamidfielderwinning196364noinformationavailableforamidfielderwinning196263noinformationavailableforamidfielderwinning196162noinformationavailableforamidfielderwinning196061noinformationavailableforamidfielderwinning195960noinformationavailableforamidfielderwinning195859noinformationavailableforamidfielderwinning195758noinformationavailableforamidfielderwinning195657noinformationavailableforamidfielderwinning195556noinformationavailableforamidfielderwinning195455noinformationavailableforamidfielderwinning195354noinformationavailableforamidfielderwinning195253noinformationavailableforamidfielderwinning195152noinformationavailableforamidfielderwinning195051noinformationavailableforamidfielderwinning194950noinformationavailableforamidfielderwinning194849noinformationavailableforamidfielderwinning194748noinformationavailableforamidfielderwinning194647noinformationavailableforamidfielderwinning194546noinformationavailableforamidfielderwinning194445noinformationavailableforamidfielderwinning194344noinformationavailableforamidfielderwinning194243noinformationavailableforamidfielderwinning194142noinformationavailableforamidfielderwinning194041noinformationavailableforamidfielderwinning193940noinformationavailableforamidfielderwinning193839noinformationavailableforamidfielderwinning193738noinformationavailableforamidfielderwinning193637noinformationavailableforamidfielderwinning193536noinformationavailableforamidfielderwinning193435noinformationavailableforamidfielderwinning193334noinformationavailableforamidfielderwinning193233noinformationavailableforamidfielderwinning193132noinformationavailableforamidfielderwinning193031noinformationavailableforamidfielderwinning192930noinformationavailableforamidfielderwinning192829noinformationavailableforamidfielderwinning192728noinformationavailableforamidfielderwinning192627noinformationavailableforamidfielderwinning192526noinformationavailableforamidfielderwinning192425noinformationavailableforamidfielderwinning192324noinformationavailableforamidfielderwinning192223noinformationavailableforamidfielderwinning192122noinformationavailableforamidfielderwinning192021noinformationavailableforamidfielderwinning191920noinformationavailableforamidfielderwinning191819noinformationavailableforamidfielderwinning191718noinformationavailableforamidfielderwinning191617noinformationavailableforamidfielderwinning191516noinformationavailableforamidfielderwinning191415noinformationavailableforamidfielderwinning191314noinformationavailableforamidfielderwinning191213noinformationavailableforamidfielderwinning191112noinformationavailableforamidfielderwinning191011noinformationavailableforamidfielderwinning190910noinformationavailableforamidfielderwinning190809noinformationavailableforamidfielderwinning190708noinformationavailableforamidfielderwinning190607noinformationavailableforamidfielderwinning190506noinformationavailableforamidfielderwinning190405noinformationavailableforamidfielderwinning190304noinformationavailableforamidfielderwinning190203noinformationavailableforamidfielderwinning190102noinformationavailableforamidfielderwinning190001noinformationavailableforamidfielderwinningitseemsthereisnospecificlastyearmentionedinthecontextifyouhaveaspecificyearinmindpleaseprovideitandilltrytoansweraccordingly
+问题: last year a mf won?
+预期答案: 2010-11
+模型答案: 1998 - 99: Roger feutmba, mamelodi sundowns, mf, cameroon
+1997 - 98: Raphael chukwu, mamelodi sundowns, fw, nigeria
+1996 - 97: Wilfred mugeyi, bush bucks, fw, zimbabwe
+1995 - 96: No information available for a midfielder winning.
+1994 - 95: No information available for a midfielder winning.
+1993 - 94: No information available for a midfielder winning.
+1992 - 93: No information available for a midfielder winning.
+1991 - 92: No information available for a midfielder winning.
+1990 - 91: No information available for a midfielder winning.
+1989 - 90: No information available for a midfielder winning.
+1988 - 89: No information available for a midfielder winning.
+1987 - 88: No information available for a midfielder winning.
+1986 - 87: No information available for a midfielder winning.
+1985 - 86: No information available for a midfielder winning.
+1984 - 85: No information available for a midfielder winning.
+1983 - 84: No information available for a midfielder winning.
+1982 - 83: No information available for a midfielder winning.
+1981 - 82: No information available for a midfielder winning.
+1980 - 81: No information available for a midfielder winning.
+1979 - 80: No information available for a midfielder winning.
+1978 - 79: No information available for a midfielder winning.
+1977 - 78: No information available for a midfielder winning.
+1976 - 77: No information available for a midfielder winning.
+1975 - 76: No information available for a midfielder winning.
+1974 - 75: No information available for a midfielder winning.
+1973 - 74: No information available for a midfielder winning.
+1972 - 73: No information available for a midfielder winning.
+1971 - 72: No information available for a midfielder winning.
+1970 - 71: No information available for a midfielder winning.
+1969 - 70: No information available for a midfielder winning.
+1968 - 69: No information available for a midfielder winning.
+1967 - 68: No information available for a midfielder winning.
+1966 - 67: No information available for a midfielder winning.
+1965 - 66: No information available for a midfielder winning.
+1964 - 65: No information available for a midfielder winning.
+1963 - 64: No information available for a midfielder winning.
+1962 - 63: No information available for a midfielder winning.
+1961 - 62: No information available for a midfielder winning.
+1960 - 61: No information available for a midfielder winning.
+1959 - 60: No information available for a midfielder winning.
+1958 - 59: No information available for a midfielder winning.
+1957 - 58: No information available for a midfielder winning.
+1956 - 57: No information available for a midfielder winning.
+1955 - 56: No information available for a midfielder winning.
+1954 - 55: No information available for a midfielder winning.
+1953 - 54: No information available for a midfielder winning.
+1952 - 53: No information available for a midfielder winning.
+1951 - 52: No information available for a midfielder winning.
+1950 - 51: No information available for a midfielder winning.
+1949 - 50: No information available for a midfielder winning.
+1948 - 49: No information available for a midfielder winning.
+1947 - 48: No information available for a midfielder winning.
+1946 - 47: No information available for a midfielder winning.
+1945 - 46: No information available for a midfielder winning.
+1944 - 45: No information available for a midfielder winning.
+1943 - 44: No information available for a midfielder winning.
+1942 - 43: No information available for a midfielder winning.
+1941 - 42: No information available for a midfielder winning.
+1940 - 41: No information available for a midfielder winning.
+1939 - 40: No information available for a midfielder winning.
+1938 - 39: No information available for a midfielder winning.
+1937 - 38: No information available for a midfielder winning.
+1936 - 37: No information available for a midfielder winning.
+1935 - 36: No information available for a midfielder winning.
+1934 - 35: No information available for a midfielder winning.
+1933 - 34: No information available for a midfielder winning.
+1932 - 33: No information available for a midfielder winning.
+1931 - 32: No information available for a midfielder winning.
+1930 - 31: No information available for a midfielder winning.
+1929 - 30: No information available for a midfielder winning.
+1928 - 29: No information available for a midfielder winning.
+1927 - 28: No information available for a midfielder winning.
+1926 - 27: No information available for a midfielder winning.
+1925 - 26: No information available for a midfielder winning.
+1924 - 25: No information available for a midfielder winning.
+1923 - 24: No information available for a midfielder winning.
+1922 - 23: No information available for a midfielder winning.
+1921 - 22: No information available for a midfielder winning.
+1920 - 21: No information available for a midfielder winning.
+1919 - 20: No information available for a midfielder winning.
+1918 - 19: No information available for a midfielder winning.
+1917 - 18: No information available for a midfielder winning.
+1916 - 17: No information available for a midfielder winning.
+1915 - 16: No information available for a midfielder winning.
+1914 - 15: No information available for a midfielder winning.
+1913 - 14: No information available for a midfielder winning.
+1912 - 13: No information available for a midfielder winning.
+1911 - 12: No information available for a midfielder winning.
+1910 - 11: No information available for a midfielder winning.
+1909 - 10: No information available for a midfielder winning.
+1908 - 09: No information available for a midfielder winning.
+1907 - 08: No information available for a midfielder winning.
+1906 - 07: No information available for a midfielder winning.
+1905 - 06: No information available for a midfielder winning.
+1904 - 05: No information available for a midfielder winning.
+1903 - 04: No information available for a midfielder winning.
+1902 - 03: No information available for a midfielder winning.
+1901 - 02: No information available for a midfielder winning.
+1900 - 01: No information available for a midfielder winning.
+
+It seems there is no specific "last year" mentioned in the context. If you have a specific year in mind, please provide it and I'll try to answer accordingly.
+是否正确: false
+
+==================================================
+
+测试进度：58/100 (58.0%)
+数据集位置：第 2195 个
+cleanText(answer) royhartsfield
+cleanText(modelAnswer) royhartsfield
+问题: which managers name is listed the most on this chart?
+预期答案: Roy Hartsfield
+模型答案: roy hartsfield
+是否正确: true
+
+==================================================
+
+测试进度：59/100 (59.0%)
+数据集位置：第 1468 个
+cleanText(answer) 11
+cleanText(modelAnswer) 11
+问题: how many times did they lose?
+预期答案: 11
+模型答案: 11
+是否正确: true
+
+==================================================
+
+测试进度：60/100 (60.0%)
+数据集位置：第 1390 个
+cleanText(answer) 450
+cleanText(modelAnswer) 41535450
+问题: how many pages were published after 1993?
+预期答案: 450
+模型答案: 415 + 35 = 450
+是否正确: false
+
+==================================================
+
+测试进度：61/100 (61.0%)
+数据集位置：第 558 个
+cleanText(answer) khaledyousefalobaidli
+cleanText(modelAnswer) imunabletoanswerthatquestionyoucantryaskingaboutanothertopicandilldomybesttoprovideassistance
+问题: who is after hiroyasu tuchie?
+预期答案: Khaled Yousef Al-Obaidli
+模型答案: I'm unable to answer that question. You can try asking about another topic, and I'll do my best to provide assistance.
+是否正确: false
+
+==================================================
+
+测试进度：62/100 (62.0%)
+数据集位置：第 583 个
+cleanText(answer) iaafgrandprixfinal
+cleanText(modelAnswer) 2001iaafgrandprixfinalmelbourneaustralia
+问题: what was the name of the last competition in australia?
+预期答案: IAAF Grand Prix Final
+模型答案: 2001 iaaf grand prix final, melbourne, australia
+是否正确: false
+
+==================================================
+
+测试进度：63/100 (63.0%)
+数据集位置：第 299 个
+cleanText(answer) cataraquitowncentre
+cleanText(modelAnswer) bathroadngardinerstowncentre
+问题: where does the bus stop after kingston centre on route 11?
+预期答案: Cataraqui Town Centre
+模型答案: bath road\ngardiners town centre
+是否正确: false
+
+==================================================
+
+测试进度：64/100 (64.0%)
+数据集位置：第 964 个
+cleanText(answer) capelookout
+cleanText(modelAnswer) capehatteras
+问题: which location is a cape and is home to a single lighthouse?
+预期答案: Cape Lookout
+模型答案: cape hatteras
+是否正确: false
+
+==================================================
+
+测试进度：65/100 (65.0%)
+数据集位置：第 1954 个
+cleanText(answer) 1999
+cleanText(modelAnswer) 1999
+问题: when was the last year as a winner?
+预期答案: 1999
+模型答案: 1999
+是否正确: true
+
+==================================================
+
+测试进度：66/100 (66.0%)
+数据集位置：第 4102 个
+cleanText(answer) earthman
+cleanText(modelAnswer) earthman
+问题: which pre-crisis superhero first appeared as "absorbency boy," but then became someone else?
+预期答案: Earth-Man
+模型答案: earth-man (kirt niedrigh)
+是否正确: true
+
+==================================================
+
+测试进度：67/100 (67.0%)
+数据集位置：第 89 个
+cleanText(answer) russia
+cleanText(modelAnswer) russia
+问题: kremlin cup and st petersburg open are in what country?
+预期答案: Russia
+模型答案: Russia
+是否正确: true
+
+==================================================
+
+测试进度：68/100 (68.0%)
+数据集位置：第 844 个
+cleanText(answer) 9
+cleanText(modelAnswer) 0
+问题: what is the number of canadians who have won mvp from 1993 to 2011?
+预期答案: 9
+模型答案: 0
+是否正确: false
+
+==================================================
+
+测试进度：69/100 (69.0%)
+数据集位置：第 532 个
+cleanText(answer) 13
+cleanText(modelAnswer) 13
+问题: how many years was castroneves racing in the indianapolis 500?
+预期答案: 13
+模型答案: 13
+是否正确: true
+
+==================================================
+
+测试进度：70/100 (70.0%)
+数据集位置：第 799 个
+cleanText(answer) keralamadrasmaharashtrakarnataka
+cleanText(modelAnswer) keralamadrasmaharashtrakarnataka
+问题: what is each location listed for the benteak timber tree?
+预期答案: Kerala, Madras, Maharashtra, Karnataka
+模型答案: kerala, madras, maharashtra, karnataka
+是否正确: true
+
+==================================================
+
+测试进度：71/100 (71.0%)
+数据集位置：第 3221 个
+cleanText(answer) 5
+cleanText(modelAnswer) 0
+问题: how many consecutive losses did hati have?
+预期答案: 5
+模型答案: 0
+是否正确: false
+
+==================================================
+
+测试进度：72/100 (72.0%)
+数据集位置：第 3428 个
+cleanText(answer) 2380
+cleanText(modelAnswer) 2622
+问题: total points scored by american riders
+预期答案: 2380
+模型答案: 2622
+是否正确: false
+
+==================================================
+
+测试进度：73/100 (73.0%)
+数据集位置：第 1480 个
+cleanText(answer) gracechristianschool
+cleanText(modelAnswer) gracechristianschool
+问题: which school, christ lutheran school or grace christian school, has more students in k-12?
+预期答案: Grace Christian School
+模型答案: grace christian school
+是否正确: true
+
+==================================================
+
+测试进度：74/100 (74.0%)
+数据集位置：第 1605 个
+cleanText(answer) 3
+cleanText(modelAnswer) 3
+问题: how many individual awards did mauricio vincello receive over the years?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：75/100 (75.0%)
+数据集位置：第 1154 个
+cleanText(answer) 3
+cleanText(modelAnswer) 6
+问题: what are the total number of robots in the middle east?
+预期答案: 3
+模型答案: 6
+是否正确: false
+
+==================================================
+
+测试进度：76/100 (76.0%)
+数据集位置：第 1484 个
+cleanText(answer) 2
+cleanText(modelAnswer) 2
+问题: how many marathon wins did salvatore bettiol have before 1990?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：77/100 (77.0%)
+数据集位置：第 1276 个
+cleanText(answer) 9
+cleanText(modelAnswer) 0
+问题: give the total number of characters that do not have a glyph.
+预期答案: 9
+模型答案: 0
+是否正确: false
+
+==================================================
+
+测试进度：78/100 (78.0%)
+数据集位置：第 1023 个
+cleanText(answer) ksvroeselare
+cleanText(modelAnswer) ksvroeselare
+问题: which club competed the most?
+预期答案: KSV Roeselare
+模型答案: ksv roeselare
+是否正确: true
+
+==================================================
+
+测试进度：79/100 (79.0%)
+数据集位置：第 447 个
+cleanText(answer) 44864
+cleanText(modelAnswer) 49891424847
+问题: what is the difference between the population of sekgosese and the population of dendron?
+预期答案: 44864
+模型答案: 4989 - 142 = 4847
+是否正确: false
+
+==================================================
+
+测试进度：80/100 (80.0%)
+数据集位置：第 2030 个
+cleanText(answer) 2
+cleanText(modelAnswer) 2
+问题: how many times did the time place in 1st?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：81/100 (81.0%)
+数据集位置：第 276 个
+cleanText(answer) allafricagames
+cleanText(modelAnswer) 2011allafricagamesmaputomozambique12th800m20672
+问题: what is the last competition?
+预期答案: All-Africa Games
+模型答案: 2011,all-africa games,maputo, mozambique,12th (h),800 m,2:06.72
+是否正确: false
+
+==================================================
+
+测试进度：82/100 (82.0%)
+数据集位置：第 3298 个
+cleanText(answer) 3
+cleanText(modelAnswer) 3
+问题: how many candidates across the seven districts were women?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：83/100 (83.0%)
+数据集位置：第 2143 个
+cleanText(answer) 1
+cleanText(modelAnswer) 2
+问题: how many countries have more than 1 athlete?
+预期答案: 1
+模型答案: 2
+是否正确: false
+
+==================================================
+
+测试进度：84/100 (84.0%)
+数据集位置：第 1953 个
+cleanText(answer) 13
+cleanText(modelAnswer) 10
+问题: how many locations are listed?
+预期答案: 13
+模型答案: 10
+(including "bocas del toro", "chiriquí", "chiriquí occidente", "coclé", "colón", "darién", "comarcas", "herrera", "los santos", "panamá centro", "panamá este", "panamá oeste", "veraguas")
+是否正确: false
+
+==================================================
+
+测试进度：85/100 (85.0%)
+数据集位置：第 2271 个
+cleanText(answer) giza
+cleanText(modelAnswer) cairo
+问题: which area is the largest in square km?
+预期答案: Giza
+模型答案: cairo (3,435 km²)
+是否正确: false
+
+==================================================
+
+测试进度：86/100 (86.0%)
+数据集位置：第 4227 个
+cleanText(answer) sternengebotderheidenkonig
+cleanText(modelAnswer) sternengebotderheidenkonig
+问题: which operas have a prologue and 3 acts?
+预期答案: Sternengebot,Der Heidenkönig
+模型答案: sternengebot, der heidenkönig
+是否正确: true
+
+==================================================
+
+测试进度：87/100 (87.0%)
+数据集位置：第 3059 个
+cleanText(answer) annemarisandell
+cleanText(modelAnswer) zaliaaliou
+问题: what is the name of the athlete that finished last?
+预期答案: Annemari Sandell
+模型答案: zalia aliou (tog)
+是否正确: false
+
+==================================================
+
+测试进度：88/100 (88.0%)
+数据集位置：第 3437 个
+cleanText(answer) 4
+cleanText(modelAnswer) 4
+问题: what was the total difference in medal counts between united states and canada?
+预期答案: 4
+模型答案: 4
+是否正确: true
+
+==================================================
+
+测试进度：89/100 (89.0%)
+数据集位置：第 747 个
+cleanText(answer) allianzriviera
+cleanText(modelAnswer) stadedelaroutedelorientstadeduhainautstadedelaubestademarcelpicotstadedesalpesstadeaugustebonalareallopenedearlierthanotherstadiumsstademicheldornanowasopenedin1993andstadeaugustedelaunewasopenedin1935amongtheremainingstadiumsstadedelamossonwasopenedin1972andisthelasttobeopenedamongthegivenstadiums
+问题: which stadium was the last to be opened?
+预期答案: Allianz Riviera
+模型答案: stade de la route de lorient (1912), stade du hainaut (2011), stade de l'aube (1956), stade marcel picot (1926), stade des alpes (2008), stade auguste bonal (2000) are all opened earlier than other stadiums. Stade michel d'ornano was opened in 1993 and stade auguste-delaune was opened in 1935. Among the remaining stadiums, stade de la mosson was opened in 1972 and is the last to be opened among the given stadiums.
+是否正确: false
+
+==================================================
+
+测试进度：90/100 (90.0%)
+数据集位置：第 713 个
+cleanText(answer) cahillcolosimoculinaelrichgriffithsskokozdrilic
+cleanText(modelAnswer) chipperfieldelrichculinagriffithsskokozdriliccolosimo
+问题: players who scored at most 1 total goal
+预期答案: Cahill,Colosimo,Culina,Elrich,Griffiths,Skoko,Zdrilic
+模型答案: chipperfield, elrich, culina, griffiths, skoko, zdrilic, colosimo
+是否正确: false
+
+==================================================
+
+测试进度：91/100 (91.0%)
+数据集位置：第 1542 个
+cleanText(answer) thegentleartoflisteningisntitromantic
+cleanText(modelAnswer) oneononeandisntitromantic
+问题: which two consecutive episodes were written by charles rosin?
+预期答案: "The Gentle Art of Listening","Isn't it Romantic?"
+模型答案: "one on one" and "isn't it romantic?"
+是否正确: false
+
+==================================================
+
+测试进度：92/100 (92.0%)
+数据集位置：第 3635 个
+cleanText(answer) anderstheil
+cleanText(modelAnswer) anderstheilservedlongerthanebbeskovdahl
+问题: who serverd longer, anders theil or ebbe skovdahl?
+预期答案: Anders Theil
+模型答案: anders theil (originally had contract until summer 2011) served longer than ebbe skovdahl (originally had contract until summer 2007).
+是否正确: false
+
+==================================================
+
+测试进度：93/100 (93.0%)
+数据集位置：第 1802 个
+cleanText(answer) jeffking
+cleanText(modelAnswer) jeffking
+问题: what jockey's name is next to rondetto?
+预期答案: Jeff King
+模型答案: jeff king
+是否正确: true
+
+==================================================
+
+测试进度：94/100 (94.0%)
+数据集位置：第 2554 个
+cleanText(answer) 4
+cleanText(modelAnswer) 3
+问题: how many vessels were not lost on lake huron?
+预期答案: 4
+模型答案: 3
+是否正确: false
+
+==================================================
+
+测试进度：95/100 (95.0%)
+数据集位置：第 3091 个
+cleanText(answer) chickenwithchicks
+cleanText(modelAnswer) chickenwithchicks
+问题: what was the obverse image on the 5 seniti coin before 1981?
+预期答案: Chicken with chicks
+模型答案: chicken with chicks
+是否正确: true
+
+==================================================
+
+测试进度：96/100 (96.0%)
+数据集位置：第 3079 个
+cleanText(answer) bronzewranglertheatricalmotionpicture
+cleanText(modelAnswer) almaawardoutstandingactorinatelevisionseriesforspincityin2001andonlinefilmcriticssocietyawardforbestcastforbeingjohnmalkovichin1999andsagawardoutstandingperformancebyamaleactorinacomedyseriesfortwoandahalfmenin2005andgoldenglobeawardforbestactortelevisionseriesmusicalorcomedyfortwoandahalfmenin2005andpeopleschoiceawardfavoritemaletvstarin2007andteenchoiceawardchoicetvactorcomedyfortwoandahalfmenin2007andoutstandingleadactorcomedyseriesfortwoandahalfmenin2008
+问题: what was the first nomination for?
+预期答案: Bronze Wrangler Theatrical Motion Picture
+模型答案: alma award outstanding actor in a television series for spin city in 2001
+and online film critics society award for best cast for being john malkovich in 1999
+and sag award outstanding performance by a male actor in a comedy series for two and a half men in 2005
+and golden globe award for best actor – television series musical or comedy for two and a half men in 2005
+and people's choice award favorite male tv star in 2007 (but no specific year mentioned for this one)
+and teen choice award choice tv actor: comedy for two and a half men in 2007
+and outstanding lead actor - comedy series for two and a half men in 2008 (but no specific year mentioned for this one)
+是否正确: false
+
+==================================================
+
+测试进度：97/100 (97.0%)
+数据集位置：第 1843 个
+cleanText(answer) 3
+cleanText(modelAnswer) 1
+问题: how many single charted on the dutch top 40 after "hands in my pocket"?
+预期答案: 3
+模型答案: 1 (assuming "dutch top 40" is related to "nl" and only "ironic" charted after "hand in my pocket" with a chart position of 6 in nl)
+是否正确: false
+
+==================================================
+
+测试进度：98/100 (98.0%)
+数据集位置：第 3797 个
+cleanText(answer) 4
+cleanText(modelAnswer) 6
+问题: how many seasons did they win at least 10 games?
+预期答案: 4
+模型答案: 6
+是否正确: false
+
+==================================================
+
+测试进度：99/100 (99.0%)
+数据集位置：第 2240 个
+cleanText(answer) askabiologist
+cleanText(modelAnswer) archimedeslaborg
+问题: what website is the only one related to biology?
+预期答案: Ask A Biologist
+模型答案: archimedes-lab.org
+是否正确: false
+
+==================================================
+
+测试进度：100/100 (100.0%)
+数据集位置：第 3688 个
+cleanText(answer) 10
+cleanText(modelAnswer) 9
+问题: how many medals have bahrain, kuwait, thailand, and iran earned combined?
+预期答案: 10
+模型答案: 9
+是否正确: false
+
+测试统计信息如下
+总样本数: 100
+正确数量: 40
+ACC: 40.00%
+总耗时: 193.27秒

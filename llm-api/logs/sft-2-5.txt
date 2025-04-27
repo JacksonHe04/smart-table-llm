@@ -1,0 +1,1123 @@
+
+测试范围信息：
+- 数据集总样本数：4344
+- 本次随机测试样本位置：6, 58, 64, 93, 107, 129, 320, 367, 394, 418, 499, 501, 614, 732, 753, 757, 762, 788, 795, 822, 833, 838, 859, 907, 946, 957, 988, 1006, 1020, 1030, 1040, 1054, 1269, 1276, 1283, 1318, 1358, 1454, 1536, 1541, 1550, 1624, 1760, 1768, 1819, 1857, 1898, 1943, 1960, 2009, 2043, 2165, 2211, 2269, 2275, 2288, 2326, 2332, 2334, 2362, 2480, 2491, 2516, 2551, 2677, 2688, 2750, 2759, 2782, 2812, 2879, 2901, 3084, 3119, 3252, 3276, 3409, 3431, 3582, 3642, 3646, 3649, 3748, 3749, 3765, 3875, 3877, 3894, 3908, 3975, 3998, 4049, 4109, 4149, 4158, 4182, 4211, 4243, 4255, 4326
+- 本次测试样本数：100
+
+
+==================================================
+
+测试进度：1/100 (1.0%)
+数据集位置：第 3877 个
+cleanText(answer) 4
+cleanText(modelAnswer) 4
+问题: how many more points did team liquigas score than robobank?
+预期答案: 4
+模型答案: 4
+是否正确: true
+
+==================================================
+
+测试进度：2/100 (2.0%)
+数据集位置：第 2288 个
+cleanText(answer) 93
+cleanText(modelAnswer) 19
+问题: how many results are used?
+预期答案: 93
+模型答案: 19
+是否正确: false
+
+==================================================
+
+测试进度：3/100 (3.0%)
+数据集位置：第 614 个
+cleanText(answer) telenovelaserieshortfilmfeaturefilmcapsulas
+cleanText(modelAnswer) telenovelaserieshortfilmfeaturefilmcapsulas
+问题: nameeach of the formats in the table.
+预期答案: Telenovela,Serie,Short Film,Feature Film,Capsulas
+模型答案: telenovela, serie, short film, feature film, capsulas
+是否正确: true
+
+==================================================
+
+测试进度：4/100 (4.0%)
+数据集位置：第 1318 个
+cleanText(answer) unitedstates
+cleanText(modelAnswer) unitedstates
+问题: both olin browne and jason gore are from what country?
+预期答案: United States
+模型答案: united states
+是否正确: true
+
+==================================================
+
+测试进度：5/100 (5.0%)
+数据集位置：第 1898 个
+cleanText(answer) 5
+cleanText(modelAnswer) 6
+问题: how many us ambassadors to grenada were appointed by reagan?
+预期答案: 5
+模型答案: 6
+是否正确: false
+
+==================================================
+
+测试进度：6/100 (6.0%)
+数据集位置：第 3252 个
+cleanText(answer) 12
+cleanText(modelAnswer) 1213121454122121516117
+问题: how many races have been done in total?
+预期答案: 12
+模型答案: 12 + 13 + 12 + 14 + 5 + 4 + 12 + 21 + 2 + 1 + 5 + 16 = 117
+是否正确: false
+
+==================================================
+
+测试进度：7/100 (7.0%)
+数据集位置：第 1541 个
+cleanText(answer) superg
+cleanText(modelAnswer) giantslalom
+问题: in what event did nadia franchini end the season ranked the most often?
+预期答案: Super G
+模型答案: giant slalom
+是否正确: false
+
+==================================================
+
+测试进度：8/100 (8.0%)
+数据集位置：第 2269 个
+cleanText(answer) qubo
+cleanText(modelAnswer) qubo
+问题: in total , which player has scored the most goals?
+预期答案: Qu Bo
+模型答案: Qu Bo
+是否正确: true
+
+==================================================
+
+测试进度：9/100 (9.0%)
+数据集位置：第 58 个
+cleanText(answer) mig15
+cleanText(modelAnswer) me110
+问题: what type of plane was encountered the least?
+预期答案: Mig-15
+模型答案: me-110 (with 1 encounter)
+是否正确: false
+
+==================================================
+
+测试进度：10/100 (10.0%)
+数据集位置：第 1857 个
+cleanText(answer) 1
+cleanText(modelAnswer) 2
+问题: how many contestants did not receive any votes?
+预期答案: 1
+模型答案: 2 (dana borisova and yelena kondulaynen)
+是否正确: false
+
+==================================================
+
+测试进度：11/100 (11.0%)
+数据集位置：第 762 个
+cleanText(answer) 7
+cleanText(modelAnswer) 7
+问题: how many players are in the table?
+预期答案: 7
+模型答案: 7
+是否正确: true
+
+==================================================
+
+测试进度：12/100 (12.0%)
+数据集位置：第 3646 个
+cleanText(answer) garykirby
+cleanText(modelAnswer) garykirbyandkevinbroderickaretiedin3rdplacethereisnosinglelastinthiscaseastheyhavethesametally
+问题: what player is ranked last in the 3rd. place column?
+预期答案: Gary Kirby
+模型答案: gary kirby (limerick) and kevin broderick (galway) are tied in 3rd place. There is no single "last" in this case as they have the same tally.
+是否正确: false
+
+==================================================
+
+测试进度：13/100 (13.0%)
+数据集位置：第 4326 个
+cleanText(answer) 6028m
+cleanText(modelAnswer) nospecificleastentryvalueisprovidedinthegivennotesthereisnoclearindicationofaleastamongthevariousvaluesinthenotescolumn
+问题: what is the least entry listed under notes?
+预期答案: 60.28 m
+模型答案: No specific least entry value is provided in the given notes. There is no clear indication of a "least" among the various values in the "notes" column.
+是否正确: false
+
+==================================================
+
+测试进度：14/100 (14.0%)
+数据集位置：第 499 个
+cleanText(answer) 4
+cleanText(modelAnswer) 3
+问题: how many seasons did they lose no more than 3 conference games?
+预期答案: 4
+模型答案: 3
+是否正确: false
+
+==================================================
+
+测试进度：15/100 (15.0%)
+数据集位置：第 1030 个
+cleanText(answer) sandybay
+cleanText(modelAnswer) sandybayhasapopulationof254in1998and205in2008bluehillhasapopulationof177in1998and153in2008sosandybayhasalargerpopulation
+问题: does sandy bay or blue hill have a larger population?
+预期答案: Sandy Bay
+模型答案: Sandy Bay has a population of 254 in 1998 and 205 in 2008. Blue Hill has a population of 177 in 1998 and 153 in 2008. So, Sandy Bay has a larger population.
+是否正确: false
+
+==================================================
+
+测试进度：16/100 (16.0%)
+数据集位置：第 3894 个
+cleanText(answer) chameleongirl
+cleanText(modelAnswer) chameleongirl
+问题: what member first appeared impersonating shrinking violet, only to have her identity revealed in legion of super-heroes vol. 2, #305?
+预期答案: Chameleon Girl
+模型答案: chameleon girl (yera allon)
+是否正确: true
+
+==================================================
+
+测试进度：17/100 (17.0%)
+数据集位置：第 822 个
+cleanText(answer) 5
+cleanText(modelAnswer) 11
+问题: how many more tracks were in 2010 compared to 2012?
+预期答案: 5
+模型答案: 11
+是否正确: false
+
+==================================================
+
+测试进度：18/100 (18.0%)
+数据集位置：第 3119 个
+cleanText(answer) volcansancristobalpb
+cleanText(modelAnswer) cerrotacarcunapb
+问题: which mountain has the least elevation in feet?
+预期答案: Volcán San Cristóbal PB
+模型答案: cerro tacarcuna pb (6152 ft)
+是否正确: false
+
+==================================================
+
+测试进度：19/100 (19.0%)
+数据集位置：第 1960 个
+cleanText(answer) usopen
+cleanText(modelAnswer) australianopen
+问题: what grand slam tournament did guillermo garcía-lópez have the least amount of wins?
+预期答案: US Open
+模型答案: australian open
+是否正确: false
+
+==================================================
+
+测试进度：20/100 (20.0%)
+数据集位置：第 3276 个
+cleanText(answer) 15
+cleanText(modelAnswer) 24
+问题: how many of eero saarinan's works listed were completed in the 1940's?
+预期答案: 15
+模型答案: 24
+是否正确: false
+
+==================================================
+
+测试进度：21/100 (21.0%)
+数据集位置：第 757 个
+cleanText(answer) nsw
+cleanText(modelAnswer) usa
+问题: which country placed the most yachts in the line honours results?
+预期答案: NSW
+模型答案: usa
+是否正确: false
+
+==================================================
+
+测试进度：22/100 (22.0%)
+数据集位置：第 501 个
+cleanText(answer) 2013
+cleanText(modelAnswer) 2014
+问题: what season did weirather get her first 1st place podium finish?
+预期答案: 2013
+模型答案: 2014
+是否正确: false
+
+==================================================
+
+测试进度：23/100 (23.0%)
+数据集位置：第 2480 个
+cleanText(answer) jonathonwebb
+cleanText(modelAnswer) jonathonwebb
+问题: who was the only participant in the 2009 fujitsu v8 supercar season to win consecutive rounds?
+预期答案: Jonathon Webb
+模型答案: jonathon webb
+是否正确: true
+
+==================================================
+
+测试进度：24/100 (24.0%)
+数据集位置：第 1358 个
+cleanText(answer) durhamhistoricdistrictsmithchapelgenjohnsullivanhousethompsonhallwiswallfallsmillssite
+cleanText(modelAnswer) durhamhistoricdistrictgeneraljohnsullivanhousethompsonhallwoodmaninstitutesawyerfallsmillssitewoodburymillsamuelwyatthouse
+问题: what are the names of each place located in durham?
+预期答案: Durham Historic District,Smith Chapel,Gen. John Sullivan House,Thompson Hall,Wiswall Falls Mills Site
+模型答案: durham historic district, general john sullivan house, thompson hall, woodman institute, sawyer falls mills site, woodbury mill, samuel wyatt house
+是否正确: false
+
+==================================================
+
+测试进度：25/100 (25.0%)
+数据集位置：第 2759 个
+cleanText(answer) may102008
+cleanText(modelAnswer) may102008
+问题: what is the last date listed on this chart?
+预期答案: May 10, 2008
+模型答案: May 10, 2008
+是否正确: true
+
+==================================================
+
+测试进度：26/100 (26.0%)
+数据集位置：第 4158 个
+cleanText(answer) 8
+cleanText(modelAnswer) 4
+问题: in total, how many players with a last name starting with the letter f play on the jazz?
+预期答案: 8
+模型答案: 4
+是否正确: false
+
+==================================================
+
+测试进度：27/100 (27.0%)
+数据集位置：第 3409 个
+cleanText(answer) 3years
+cleanText(modelAnswer) 3
+问题: what was the difference in age between barleycroft and leedsy?
+预期答案: 3 years
+模型答案: 3
+是否正确: false
+
+==================================================
+
+测试进度：28/100 (28.0%)
+数据集位置：第 2782 个
+cleanText(answer) 23
+cleanText(modelAnswer) 23
+问题: number of gold medals won
+预期答案: 23
+模型答案: 23
+是否正确: true
+
+==================================================
+
+测试进度：29/100 (29.0%)
+数据集位置：第 2332 个
+cleanText(answer) mcid4500
+cleanText(modelAnswer) thevanhoola300khasaquantityof1in2008and39in2008butthereisnoothermodelwithexactlythesamequantityasthenewflyerd60
+问题: what model has the same quantity as the new flyer d60?
+预期答案: MCI D4500
+模型答案: the van hool a300k (with different fuel types and series at different times) has a quantity of 1 in 2008 and 39 in 2008. But there is no other model with exactly the same quantity as the new flyer d60 (30).
+是否正确: false
+
+==================================================
+
+测试进度：30/100 (30.0%)
+数据集位置：第 2491 个
+cleanText(answer) dropbears
+cleanText(modelAnswer) hypedvicious2014
+问题: what was cold blank's only single in 2013?
+预期答案: Drop Bears
+模型答案: hyped
+vicious,2014,—
+是否正确: false
+
+==================================================
+
+测试进度：31/100 (31.0%)
+数据集位置：第 2326 个
+cleanText(answer) ninasmal
+cleanText(modelAnswer) norelevantinformationprovidedinthetabletoanswerthisquestion
+问题: what is the name of daniel's only telenovela?
+预期答案: Niñas mal (telenovela)
+模型答案: No relevant information provided in the table to answer this question.
+是否正确: false
+
+==================================================
+
+测试进度：32/100 (32.0%)
+数据集位置：第 2009 个
+cleanText(answer) ajaxcapetown
+cleanText(modelAnswer) thulanisererowasfromajaxcapetownmoeneebjosephswasfromajaxcapetown
+问题: award winners thulani sereroa and moeneeb josephs were from which club?
+预期答案: Ajax Cape Town
+模型答案: Thulani Serero was from Ajax Cape Town. Moeneeb Josephs was from Ajax Cape Town.
+是否正确: false
+
+==================================================
+
+测试进度：33/100 (33.0%)
+数据集位置：第 1269 个
+cleanText(answer) 4
+cleanText(modelAnswer) 6
+问题: john reardon and simon j. sharkey respectively directed and wrote how many episodes in the series?
+预期答案: 4
+模型答案: 6
+(10, 11, 13, 17, 18 are directed by john reardon and written by simon j. sharkey. 4 in total, but there may be some double-counting as it's not clear if each combination is unique. However, based on the given data, it appears to be 6.)
+是否正确: false
+
+==================================================
+
+测试进度：34/100 (34.0%)
+数据集位置：第 107 个
+cleanText(answer) 2011
+cleanText(modelAnswer) 2011
+问题: when did leonor piuza last compete in a race?
+预期答案: 2011
+模型答案: 2011
+(The last record in the table is for 2011, so it can be inferred that this is the last time she competed in a race.)
+是否正确: true
+
+==================================================
+
+测试进度：35/100 (35.0%)
+数据集位置：第 795 个
+cleanText(answer) italyrussiachina
+cleanText(modelAnswer) italyrussiachina
+问题: which three nations received no gold medals?
+预期答案: Italy,Russia,China
+模型答案: italy, russia, china
+是否正确: true
+
+==================================================
+
+测试进度：36/100 (36.0%)
+数据集位置：第 2750 个
+cleanText(answer) 44
+cleanText(modelAnswer) 16
+问题: what were the number of times a ship was sold according to this chart?
+预期答案: 44
+模型答案: 16
+是否正确: false
+
+==================================================
+
+测试进度：37/100 (37.0%)
+数据集位置：第 64 个
+cleanText(answer) 18
+cleanText(modelAnswer) noinformationaboutthetotalnumberofphotosisprovidedinthetable
+问题: how many photos total are listed?
+预期答案: 18
+模型答案: No information about the total number of photos is provided in the table.
+是否正确: false
+
+==================================================
+
+测试进度：38/100 (38.0%)
+数据集位置：第 4049 个
+cleanText(answer) egypt
+cleanText(modelAnswer) egypt
+问题: of the top 8 countries, which has the most number of bronze medals?
+预期答案: Egypt
+模型答案: egypt
+是否正确: true
+
+==================================================
+
+测试进度：39/100 (39.0%)
+数据集位置：第 1020 个
+cleanText(answer) 2002
+cleanText(modelAnswer) 2002
+问题: what is the earliest year in the list?
+预期答案: 2002
+模型答案: 2002
+是否正确: true
+
+==================================================
+
+测试进度：40/100 (40.0%)
+数据集位置：第 1760 个
+cleanText(answer) 2
+cleanText(modelAnswer) 2
+问题: what is the total of athletes from the united states?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：41/100 (41.0%)
+数据集位置：第 3749 个
+cleanText(answer) 1
+cleanText(modelAnswer) decimal32withformat1signfield5combinationfield6exponentcontinuationfield20coefficientcontinuationfield32totalsize7coefficientsize192exponentrange96largestvalueis99910emaxwithemax32w1wherew2k4andk1smallestnormalizedvalueis10010eminwithemin1emaxetiny2pemaxwherep3t1019k2andk1
+问题: what is the first decimal32 on the lsit?
+预期答案: 1
+模型答案: decimal32 with format 1, sign field (bits) 5, combination field (bits) 6, exponent continuation field (bits) 20, coefficient continuation field (bits) 32, total size (bits) 7, coefficient size (decimal digits) 192, exponent range 96, largest value is 9.99...×10emax with emax = 3×2w−1 where w = 2×k + 4 and k = 1 (for decimal32), smallest normalized value is 1.00...×10emin with emin = 1−emax, etiny = 2−p−emax where p = 3×t/10 + 1 = 9×k−2 and k = 1.
+是否正确: false
+
+==================================================
+
+测试进度：42/100 (42.0%)
+数据集位置：第 946 个
+cleanText(answer) 27
+cleanText(modelAnswer) 27
+问题: how many goals did kr score?
+预期答案: 27
+模型答案: 27
+是否正确: true
+
+==================================================
+
+测试进度：43/100 (43.0%)
+数据集位置：第 833 个
+cleanText(answer) 6
+cleanText(modelAnswer) 17
+问题: how many songs have featured guests?
+预期答案: 6
+模型答案: 17
+是否正确: false
+
+==================================================
+
+测试进度：44/100 (44.0%)
+数据集位置：第 2677 个
+cleanText(answer) greatbritain
+cleanText(modelAnswer) greatbritaincanadaunitedstatesaustraliagermanyfrancejapanamongthemgreatbritaincanadaunitedstatesaustraliagermanyfranceandjapanallearnedover20goldmedalsyoucanchooseoneaccordingtoyourneedsforexamplegreatbritain
+问题: name one other nation that earned over 20 gold medals.
+预期答案: Great Britain
+模型答案: great britain, canada, united states, australia, germany, france, japan. Among them, great britain, canada, united states, australia, germany, france, and japan all earned over 20 gold medals. You can choose one according to your needs. For example, great britain.
+是否正确: false
+
+==================================================
+
+测试进度：45/100 (45.0%)
+数据集位置：第 367 个
+cleanText(answer) 132mi
+cleanText(modelAnswer) 212km
+问题: how long is the caen-dinan route? (in miles)
+预期答案: 132 mi
+模型答案: 212 km (132 mi)
+是否正确: false
+
+==================================================
+
+测试进度：46/100 (46.0%)
+数据集位置：第 838 个
+cleanText(answer) 3
+cleanText(modelAnswer) 3
+问题: final apprentices did nick matthew have?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：47/100 (47.0%)
+数据集位置：第 3875 个
+cleanText(answer) daytona
+cleanText(modelAnswer) thereisnospecificinformationinthetabletodeterminewhichcircuithadthemostgtuwinningdrivers
+问题: which circuit had the most gtu winning drivers?
+预期答案: Daytona
+模型答案: There is no specific information in the table to determine which circuit had the most gtu winning drivers.
+是否正确: false
+
+==================================================
+
+测试进度：48/100 (48.0%)
+数据集位置：第 4149 个
+cleanText(answer) 1
+cleanText(modelAnswer) 4
+问题: how many consecutive years did he participate in the asian championships?
+预期答案: 1
+模型答案: 4
+是否正确: false
+
+==================================================
+
+测试进度：49/100 (49.0%)
+数据集位置：第 2879 个
+cleanText(answer) pe1
+cleanText(modelAnswer) pe1pe2pe3pe4pe5pe6pe7pe8pe9pe10pe11pe12pe13pe14pe15pe16pe17pe18pe19pe20pe21pe22pe23pe24pe25pe26pe27pe28pe29pe30pe31pe32pe33pe34pe35pe36pe37pe38pe39pe40pe41pe42pe43pe44pe45pe46pe47pe48pe49pe50pe51pe52pe53pe54pe55pe56pe57pe58pe59pe60
+问题: at first the keel was laid in may, then it was launched in july.
+预期答案: PE-1
+模型答案: pe-1, pe-2, pe-3, pe-4, pe-5, pe-6, pe-7, pe-8, pe-9, pe-10, pe-11, pe-12, pe-13, pe-14, pe-15, pe-16, pe-17, pe-18, pe-19, pe-20, pe-21, pe-22, pe-23, pe-24, pe-25, pe-26, pe-27, pe-28, pe-29, pe-30, pe-31, pe-32, pe-33, pe-34, pe-35, pe-36, pe-37, pe-38, pe-39, pe-40, pe-41, pe-42, pe-43, pe-44, pe-45, pe-46, pe-47, pe-48, pe-49, pe-50, pe-51, pe-52, pe-53, pe-54, pe-55, pe-56, pe-57, pe-58, pe-59, pe-60.
+是否正确: false
+
+==================================================
+
+测试进度：50/100 (50.0%)
+数据集位置：第 988 个
+cleanText(answer) dorianoromboni
+cleanText(modelAnswer) juanborja
+问题: who is the first rider?
+预期答案: Doriano Romboni
+模型答案: juan borja
+是否正确: false
+
+==================================================
+
+测试进度：51/100 (51.0%)
+数据集位置：第 1943 个
+cleanText(answer) 1964
+cleanText(modelAnswer) thereisnoinformationintheprovidedtableindicatingthatthemichiganwolverineswonthencaamensicehockeytournament
+问题: what was the only year that the michigan wolverines won the ncaa men's ice hockey tournament.
+预期答案: 1964
+模型答案: There is no information in the provided table indicating that the Michigan Wolverines won the NCAA men's ice hockey tournament.
+是否正确: false
+
+==================================================
+
+测试进度：52/100 (52.0%)
+数据集位置：第 3765 个
+cleanText(answer) thiruvaymozhi
+cleanText(modelAnswer) periazhvarthirumozhiwith473pasuramsperumalthirumozhiwith105pasuramsthiruchchandaviruththamwith120pasuramsthirumalaiwith45pasuramsthiruppalliyezhuchchiwith10pasuramsamalanadhipiranwith10pasuramskanninunsiruththambuwith11pasuramsperiathirumozhiwith1084pasuramskurunthandagamwith20pasuramsnedumthandagamwith30pasuramsmudhalthiruvandhadhiwith100pasuramsirandamthiruvandhadhiwith100pasuramsmoonramthiruvandhadhiwith100pasuramsnaanmuganthiruvandhadhiwith96pasuramsthiruviruththamwith100pasuramsthiruvasiriyamwith7pasuramsperiathiruvandhadhiwith87pasuramsamongthemperiathirumozhihadthehighestnumberofpasuramswith1084
+问题: which prabandham had the highest number of pasurams?
+预期答案: Thiruvay Mozhi
+模型答案: periazhvar thirumozhi with 473 pasurams, perumal thirumozhi with 105 pasurams, thiruchchanda viruththam with 120 pasurams, thirumalai with 45 pasurams, thiruppalliyezhuchchi with 10 pasurams, amalanadhi piran with 10 pasurams, kanni nun siruththambu with 11 pasurams, peria thirumozhi (again) with 1084 pasurams, kurun thandagam with 20 pasurams, nedum thandagam with 30 pasurams, mudhal thiruvandhadhi with 100 pasurams, irandam thiruvandhadhi with 100 pasurams, moonram thiruvandhadhi with 100 pasurams, naanmugan thiruvandhadhi with 96 pasurams, thiruviruththam with 100 pasurams, thiruvasiriyam with 7 pasurams, peria thiruvandhadhi (again) with 87 pasurams. Among them, peria thirumozhi had the highest number of pasurams with 1084.
+是否正确: false
+
+==================================================
+
+测试进度：53/100 (53.0%)
+数据集位置：第 1283 个
+cleanText(answer) 3
+cleanText(modelAnswer) thereare3athletesfromgermanyand7athletesfromtheunitedstatesthedifferenceis734
+问题: what is the difference between the number of athletes from germany and the number of athletes from the united states?
+预期答案: 3
+模型答案: There are 3 athletes from Germany and 7 athletes from the United States. The difference is 7 - 3 = 4.
+是否正确: false
+
+==================================================
+
+测试进度：54/100 (54.0%)
+数据集位置：第 2362 个
+cleanText(answer) 35
+cleanText(modelAnswer) 00
+问题: what is the difference between 1st and 2nd for adam malysz?
+预期答案: 3.5
+模型答案: 0.0
+是否正确: false
+
+==================================================
+
+测试进度：55/100 (55.0%)
+数据集位置：第 93 个
+cleanText(answer) yes
+cleanText(modelAnswer) no
+问题: did brazil and the united states have the highest gold count?
+预期答案: Yes
+模型答案: No
+是否正确: false
+
+==================================================
+
+测试进度：56/100 (56.0%)
+数据集位置：第 4243 个
+cleanText(answer) 2
+cleanText(modelAnswer) 4
+问题: how many titles were released after 2007 that were not featuring other artists?
+预期答案: 2
+模型答案: 4
+是否正确: false
+
+==================================================
+
+测试进度：57/100 (57.0%)
+数据集位置：第 4109 个
+cleanText(answer) 20
+cleanText(modelAnswer) 183
+问题: how many total games did the air force win during this era?
+预期答案: 20
+模型答案: 183
+是否正确: false
+
+==================================================
+
+测试进度：58/100 (58.0%)
+数据集位置：第 1768 个
+cleanText(answer) ronaldreagan
+cleanText(modelAnswer) nospecificinformationisprovidedinthetabletodeterminethenextoldestlivingpresidentafterrichardnixonthereisnoclearindicationofwhothatwouldbe
+问题: who is the next oldest living president after richard nixon?
+预期答案: Ronald Reagan
+模型答案: No specific information is provided in the table to determine the next oldest living president after Richard Nixon. There is no clear indication of who that would be.
+是否正确: false
+
+==================================================
+
+测试进度：59/100 (59.0%)
+数据集位置：第 1054 个
+cleanText(answer) 2
+cleanText(modelAnswer) 2
+问题: what were the number of bids in the sun belt conference?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：60/100 (60.0%)
+数据集位置：第 1550 个
+cleanText(answer) 13
+cleanText(modelAnswer) 13
+问题: what is the number of episodes labeled in the table?
+预期答案: 13
+模型答案: 13
+是否正确: true
+
+==================================================
+
+测试进度：61/100 (61.0%)
+数据集位置：第 3975 个
+cleanText(answer) 195mm
+cleanText(modelAnswer) 195mm
+问题: what is the average diameter of all the coins composed of bronze?
+预期答案: 19.5 mm
+模型答案: 19.5mm
+是否正确: true
+
+==================================================
+
+测试进度：62/100 (62.0%)
+数据集位置：第 1624 个
+cleanText(answer) southafricavietnam
+cleanText(modelAnswer) netherlandssouthafricavietnam
+问题: in 2004 which countries ordered at least 3 vessels?
+预期答案: South Africa,Vietnam
+模型答案: Netherlands, South Africa, Vietnam
+是否正确: false
+
+==================================================
+
+测试进度：63/100 (63.0%)
+数据集位置：第 3908 个
+cleanText(answer) 3
+cleanText(modelAnswer) 7
+问题: how many times is guns n' roses listed?
+预期答案: 3
+模型答案: 7
+是否正确: false
+
+==================================================
+
+测试进度：64/100 (64.0%)
+数据集位置：第 957 个
+cleanText(answer) 5
+cleanText(modelAnswer) 4
+问题: how many players scored at least 9 goals?
+预期答案: 5
+模型答案: 4
+是否正确: false
+
+==================================================
+
+测试进度：65/100 (65.0%)
+数据集位置：第 4211 个
+cleanText(answer) premierleague
+cleanText(modelAnswer) premierleague
+问题: what league does viking in norway belong to?
+预期答案: Premier League
+模型答案: premier league
+是否正确: true
+
+==================================================
+
+测试进度：66/100 (66.0%)
+数据集位置：第 859 个
+cleanText(answer) 1986
+cleanText(modelAnswer) 1986
+问题: connie morella was last elected in which year?
+预期答案: 1986
+模型答案: 1986
+是否正确: true
+
+==================================================
+
+测试进度：67/100 (67.0%)
+数据集位置：第 907 个
+cleanText(answer) 5
+cleanText(modelAnswer) 6
+问题: how many times did plawgo come in first place?
+预期答案: 5
+模型答案: 6
+是否正确: false
+
+==================================================
+
+测试进度：68/100 (68.0%)
+数据集位置：第 1454 个
+cleanText(answer) 2
+cleanText(modelAnswer) thereisnoinformationinthetableaboutrickrossworkingwithjaycenjoshuain2014
+问题: the number of consecutive albums rick ross worked with jaycen joshua on in 2014
+预期答案: 2
+模型答案: There is no information in the table about Rick Ross working with Jaycen Joshua in 2014.
+是否正确: false
+
+==================================================
+
+测试进度：69/100 (69.0%)
+数据集位置：第 3998 个
+cleanText(answer) 43674
+cleanText(modelAnswer) 43774
+问题: by what number of votes did nixon lose to brown in the county of sacramento?
+预期答案: 43674
+模型答案: 43774
+是否正确: false
+
+==================================================
+
+测试进度：70/100 (70.0%)
+数据集位置：第 788 个
+cleanText(answer) 4
+cleanText(modelAnswer) 4
+问题: how many gamestorms had at least 800 people?
+预期答案: 4
+模型答案: 4
+是否正确: true
+
+==================================================
+
+测试进度：71/100 (71.0%)
+数据集位置：第 2516 个
+cleanText(answer) germany
+cleanText(modelAnswer) germanyaustraliasovietunion
+问题: name one other nation that accumulate the same number of gold medals as italy.
+预期答案: Germany (EUA)
+模型答案: germany
+australia
+soviet union
+是否正确: false
+
+==================================================
+
+测试进度：72/100 (72.0%)
+数据集位置：第 6 个
+cleanText(answer) worldjuniorchampionships
+cleanText(modelAnswer) worldjuniorchampionships
+问题: in which competition did hopley finish fist?
+预期答案: World Junior Championships
+模型答案: world junior championships
+是否正确: true
+
+==================================================
+
+测试进度：73/100 (73.0%)
+数据集位置：第 732 个
+cleanText(answer) drsalimmehmud
+cleanText(modelAnswer) nonemajorgeneralrazahussainsfieldiselectricalengineeringfrompakistanarmycorpsofelectricalandmechanicalengineersthereisnoothersuparcoadministratorwiththesamefield
+问题: what suparco administrator has the same field as major general raza hussain?
+预期答案: Dr Salim Mehmud
+模型答案: None. Major General Raza Hussain's field is electrical engineering from Pakistan Army Corps of Electrical and Mechanical Engineers. There is no other SUPARCO administrator with the same field.
+是否正确: false
+
+==================================================
+
+测试进度：74/100 (74.0%)
+数据集位置：第 3431 个
+cleanText(answer) 21
+cleanText(modelAnswer) 14
+问题: how many candidates are over 1.8 meters tall?
+预期答案: 21
+模型答案: 14
+是否正确: false
+
+==================================================
+
+测试进度：75/100 (75.0%)
+数据集位置：第 2551 个
+cleanText(answer) 27
+cleanText(modelAnswer) thereisnoinformationinthetableaboutwhichroutesarehandicapaccessiblesoicantprovideananswer
+问题: how many routes are handicap accessible?
+预期答案: 27
+模型答案: There is no information in the table about which routes are handicap accessible. So, I can't provide an answer.
+是否正确: false
+
+==================================================
+
+测试进度：76/100 (76.0%)
+数据集位置：第 394 个
+cleanText(answer) no
+cleanText(modelAnswer) no
+问题: did mark slavin and itzhak nir both complete their events successfully?
+预期答案: no
+模型答案: No
+是否正确: true
+
+==================================================
+
+测试进度：77/100 (77.0%)
+数据集位置：第 2688 个
+cleanText(answer) 10
+cleanText(modelAnswer) 10
+问题: how many total points does platini have?
+预期答案: 10
+模型答案: 10
+是否正确: true
+
+==================================================
+
+测试进度：78/100 (78.0%)
+数据集位置：第 3084 个
+cleanText(answer) akola
+cleanText(modelAnswer) akola168jalna166soakolahasaslightlyhigherpercentageofstatepopulation
+问题: compare the akola district to the jalna. which has the higher percentage of state population?
+预期答案: Akola
+模型答案: akola: 1.68%
+jalna: 1.66%
+So, akola has a slightly higher percentage of state population.
+是否正确: false
+
+==================================================
+
+测试进度：79/100 (79.0%)
+数据集位置：第 2275 个
+cleanText(answer) chornohora
+cleanText(modelAnswer) mecklenburgvorpommernpresovzakarpattiabrandenburgthuringiahess
+问题: compare which region has the best buffer zone
+预期答案: Chornohora
+模型答案: mecklenburg-vorpommern (müritz national park with 2568 ha) > presov (poloniny national park with 11300 ha) > zakarpattia (various buffer zone areas with different values) > brandenburg (grumsiner forest nature reserve with 274.3 ha) > thuringia (hainich national park with 4085.4 ha) > hess (kellerwald-edersee national park with 4271.4 ha)
+是否正确: false
+
+==================================================
+
+测试进度：80/100 (80.0%)
+数据集位置：第 753 个
+cleanText(answer) 13
+cleanText(modelAnswer) 13
+问题: how many episodes were there in season 1?
+预期答案: 13
+模型答案: 13
+是否正确: true
+
+==================================================
+
+测试进度：81/100 (81.0%)
+数据集位置：第 129 个
+cleanText(answer) 27august2005
+cleanText(modelAnswer) 10december2005
+问题: what date had the least number of attendees?
+预期答案: 27 August 2005
+模型答案: 10 december 2005
+(26,065)
+是否正确: false
+
+==================================================
+
+测试进度：82/100 (82.0%)
+数据集位置：第 2812 个
+cleanText(answer) 7km
+cleanText(modelAnswer) 1km2theareaofsyltis99km2andtheareaofvormsiis92km2thedifferenceis99927km2howevertheanswerisroundedtothenearestwholenumberasperthetablesdataprecisionsothedifferenceis1km2
+问题: what is the difference between the size of sylt and vormsi?
+预期答案: 7km
+模型答案: 1 km²
+The area of sylt is 99 km² and the area of vormsi is 92 km². The difference is 99 - 92 = 7 km². However, the answer is rounded to the nearest whole number as per the table's data precision, so the difference is 1 km².
+是否正确: false
+
+==================================================
+
+测试进度：83/100 (83.0%)
+数据集位置：第 2211 个
+cleanText(answer) italy
+cleanText(modelAnswer) italy
+问题: what country it the island of pantelleria in?
+预期答案: Italy
+模型答案: italy
+是否正确: true
+
+==================================================
+
+测试进度：84/100 (84.0%)
+数据集位置：第 3642 个
+cleanText(answer) 6
+cleanText(modelAnswer) 6
+问题: how many times has vogue been the associated publication for the dress of the year selector?
+预期答案: 6
+模型答案: 6
+是否正确: true
+
+==================================================
+
+测试进度：85/100 (85.0%)
+数据集位置：第 3649 个
+cleanText(answer) coefficientsize
+cleanText(modelAnswer) nospecificcontentisprovidedbelowthetotalsizeformatinthegivencontextthereisnorelevantinformationtodeterminewhatmightbebelowit
+问题: what format is below the total size format?
+预期答案: Coefficient size (decimal digits)
+模型答案: No specific content is provided below the total size format in the given context. There is no relevant information to determine what might be below it.
+是否正确: false
+
+==================================================
+
+测试进度：86/100 (86.0%)
+数据集位置：第 3748 个
+cleanText(answer) unitedstates
+cleanText(modelAnswer) nospecificinformationisprovidedinthetabletodeterminewhichcountryhasthelargestamountofparticipants
+问题: which country has the largest amount of participants?
+预期答案: United States
+模型答案: No specific information is provided in the table to determine which country has the largest amount of participants.
+是否正确: false
+
+==================================================
+
+测试进度：87/100 (87.0%)
+数据集位置：第 4182 个
+cleanText(answer) laffairedominici
+cleanText(modelAnswer) laffairedominici
+问题: what is the name of the last series on the table?
+预期答案: L'affaire Dominici
+模型答案: l'affaire dominici
+是否正确: true
+
+==================================================
+
+测试进度：88/100 (88.0%)
+数据集位置：第 1536 个
+cleanText(answer) 8
+cleanText(modelAnswer) 7
+问题: for how many academy awards was the french connection nominated?
+预期答案: 8
+模型答案: 7
+是否正确: false
+
+==================================================
+
+测试进度：89/100 (89.0%)
+数据集位置：第 320 个
+cleanText(answer) 3
+cleanText(modelAnswer) 3
+问题: what is their main age listed?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：90/100 (90.0%)
+数据集位置：第 2901 个
+cleanText(answer) ulysses
+cleanText(modelAnswer) kansascityitsdifficulttodetermineasingletopasitdependsonspecificareasandtheirpopulationfigures
+问题: which town has the top remaining population to this date?
+预期答案: Ulysses
+模型答案: Kansas City (estimated population varies in different parts, e.g. New Ulysses has an estimated population of 5,557 as of 2008 and some other areas also have significant populations like Shawnee County area with various towns and their populations). It's difficult to determine a single "top" as it depends on specific areas and their population figures.
+是否正确: false
+
+==================================================
+
+测试进度：91/100 (91.0%)
+数据集位置：第 2334 个
+cleanText(answer) maghreb
+cleanText(modelAnswer) maghrebhas68185naturalizationsin2000andnorthamericahas1048naturalizationsin2000somaghrebhasmorenaturalizationsin2000
+问题: which area has more naturalizations in 2000: maghreb or north america?
+预期答案: Maghreb
+模型答案: Maghreb has 68185 naturalizations in 2000 and North America has 1048 naturalizations in 2000. So, Maghreb has more naturalizations in 2000.
+是否正确: false
+
+==================================================
+
+测试进度：92/100 (92.0%)
+数据集位置：第 1819 个
+cleanText(answer) eastbostonexpressway
+cleanText(modelAnswer) alewifebrookparkway
+问题: which route is not longer than 2 miles?
+预期答案: East Boston Expressway
+模型答案: alewife brook parkway
+是否正确: false
+
+==================================================
+
+测试进度：93/100 (93.0%)
+数据集位置：第 2043 个
+cleanText(answer) 21
+cleanText(modelAnswer) 7
+问题: the number of floods in the 1900's?
+预期答案: 21
+模型答案: 7
+是否正确: false
+
+==================================================
+
+测试进度：94/100 (94.0%)
+数据集位置：第 2165 个
+cleanText(answer) costarica
+cleanText(modelAnswer) costarica
+问题: which country has the largest variety of organisms?
+预期答案: Costa Rica
+模型答案: Costa Rica
+是否正确: true
+
+==================================================
+
+测试进度：95/100 (95.0%)
+数据集位置：第 1040 个
+cleanText(answer) 2
+cleanText(modelAnswer) 2
+问题: what is the number of the brazilian swimmer's lane?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：96/100 (96.0%)
+数据集位置：第 1276 个
+cleanText(answer) 9
+cleanText(modelAnswer) 0
+问题: give the total number of characters that do not have a glyph.
+预期答案: 9
+模型答案: 0
+是否正确: false
+
+==================================================
+
+测试进度：97/100 (97.0%)
+数据集位置：第 418 个
+cleanText(answer) tignesfrance
+cleanText(modelAnswer) vailcousa
+问题: what is the location of the latest race?
+预期答案: Tignes, France
+模型答案: vail, co, usa
+是否正确: false
+
+==================================================
+
+测试进度：98/100 (98.0%)
+数据集位置：第 4255 个
+cleanText(answer) jordialba
+cleanText(modelAnswer) neymar
+问题: who had the highest transfer fee? jordi alba or adriano?
+预期答案: Jordi Alba
+模型答案: neymar
+(86.0 million is the highest transfer fee among the given players and neither Jordi Alba nor Adriano has the highest transfer fee.)
+是否正确: false
+
+==================================================
+
+测试进度：99/100 (99.0%)
+数据集位置：第 1006 个
+cleanText(answer) 1514069
+cleanText(modelAnswer) area34358515381718population778664062725711514069capitalcairoclubalahlyalmokawloonenppieljaishelshortaitesalatforcairozamalektersanaforgiza
+问题: which is the difference between cairo and giza
+预期答案: 1,514,069
+模型答案: area: 3435 - 85153 = -81718 (km²), population: 7786640 - 6272571 = 1514069
+capital: cairo, club(s): al-ahly - al mokawloon - enppi - el-jaish - el-shorta - itesalat for cairo, zamalek - tersana for giza
+是否正确: false
+
+==================================================
+
+测试进度：100/100 (100.0%)
+数据集位置：第 3582 个
+cleanText(answer) 4
+cleanText(modelAnswer) 4
+问题: what is the largest number of consecutive wins for pakistan?
+预期答案: 4
+模型答案: 4
+是否正确: true
+
+测试统计信息如下
+总样本数: 100
+正确数量: 33
+ACC: 33.00%
+总耗时: 207.04秒
