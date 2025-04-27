@@ -4,6 +4,7 @@ const prompt = {
     "The answer must be in exactly the same format as required by the question",
     "If it is a country name, use the full country name instead of the abbreviation",
     "If the quantity is asked, the count must be accurate",
+    "If the answer is a number, output the number without any units",
     "If there are multiple possible answers, only output the one that best meets the requirements of the question",
     "The answer must be based on the data in the table and do not use external knowledge",
     "If calculations are involved, they must be accurately calculated without estimation",

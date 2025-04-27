@@ -1,0 +1,1112 @@
+
+测试范围信息：
+- 数据集总样本数：4344
+- 本次随机测试样本位置：69, 105, 162, 201, 214, 231, 278, 289, 298, 324, 325, 342, 349, 363, 436, 476, 716, 786, 845, 930, 937, 953, 984, 997, 1069, 1086, 1143, 1196, 1203, 1205, 1257, 1322, 1397, 1399, 1514, 1613, 1656, 1657, 1713, 1725, 1750, 1753, 1767, 1786, 1823, 1827, 1892, 1929, 1957, 1989, 2108, 2137, 2167, 2264, 2276, 2295, 2299, 2317, 2354, 2358, 2517, 2639, 2660, 2673, 2687, 2713, 2776, 2804, 2810, 2820, 2853, 2861, 2866, 2927, 2941, 3005, 3039, 3071, 3113, 3115, 3186, 3211, 3270, 3291, 3420, 3507, 3511, 3529, 3552, 3648, 3734, 3790, 3850, 3907, 3927, 4016, 4126, 4210, 4291, 4333
+- 本次测试样本数：100
+
+
+==================================================
+
+测试进度：1/100 (1.0%)
+数据集位置：第 2660 个
+cleanText(answer) samuelsanchezhaimarzubeldia
+cleanText(modelAnswer) samuelsanchezhaimarzubeldia
+问题: which other cyclists in the top 10 hailed from the same country as the winner?
+预期答案: Samuel Sánchez (ESP),Haimar Zubeldia (ESP)
+模型答案: Samuel Sánchez, Haimar Zubeldia
+是否正确: true
+
+==================================================
+
+测试进度：2/100 (2.0%)
+数据集位置：第 1725 个
+cleanText(answer) 4
+cleanText(modelAnswer) 3
+问题: what is the number of stadiums that opened before 1920?
+预期答案: 4
+模型答案: 3
+是否正确: false
+
+==================================================
+
+测试进度：3/100 (3.0%)
+数据集位置：第 1750 个
+cleanText(answer) igorlivanov
+cleanText(modelAnswer) igorlivanov
+问题: which contestant did not recieve any votes?
+预期答案: Igor' Livanov
+模型答案: Igor' Livanov
+是否正确: true
+
+==================================================
+
+测试进度：4/100 (4.0%)
+数据集位置：第 2927 个
+cleanText(answer) 14811023
+cleanText(modelAnswer) 14811023
+问题: how long did it take for patrick carpentier to finish the 2003 grand prix of montery?
+预期答案: 1:48:11.023
+模型答案: 1:48:11.023
+是否正确: true
+
+==================================================
+
+测试进度：5/100 (5.0%)
+数据集位置：第 937 个
+cleanText(answer) frankmkarsten
+cleanText(modelAnswer) frankmkarsten
+问题: name someone from the same state and party as karst.
+预期答案: Frank M. Karsten
+模型答案: Frank M. Karsten
+是否正确: true
+
+==================================================
+
+测试进度：6/100 (6.0%)
+数据集位置：第 1657 个
+cleanText(answer) andystanfield
+cleanText(modelAnswer) nooneinthetablehadaworldrecordbeforejune11951
+问题: who had a world record before june 1, 1951?
+预期答案: Andy Stanfield
+模型答案: No one in the table had a world record before June 1, 1951.
+是否正确: false
+
+==================================================
+
+测试进度：7/100 (7.0%)
+数据集位置：第 3071 个
+cleanText(answer) 1
+cleanText(modelAnswer) 2
+问题: what is the total amount of canadian ta2 winning drivers?
+预期答案: 1
+模型答案: 2 (Monte Sheldon, Hal Shaw, jr.)
+是否正确: false
+
+==================================================
+
+测试进度：8/100 (8.0%)
+数据集位置：第 298 个
+cleanText(answer) norway
+cleanText(modelAnswer) norway
+问题: who was faster, norway or south korea?
+预期答案: Norway
+模型答案: Norway
+是否正确: true
+
+==================================================
+
+测试进度：9/100 (9.0%)
+数据集位置：第 2108 个
+cleanText(answer) fifaconfederationscup
+cleanText(modelAnswer) friendliesfifaconfederationscupfifaworldcupqual
+问题: what game did culina not score a goal?
+预期答案: FIFA Confederations Cup
+模型答案: Friendlies, FIFA Confederations Cup, FIFA World Cup qual.
+是否正确: false
+
+==================================================
+
+测试进度：10/100 (10.0%)
+数据集位置：第 2853 个
+cleanText(answer) deathsinprisonscamps
+cleanText(modelAnswer) deathsinprisonscamps
+问题: are more losses because of death ins in prisons & camps or deaths outside of prisons & camps?
+预期答案: Deaths In Prisons & Camps
+模型答案: deaths in prisons & camps
+是否正确: true
+
+==================================================
+
+测试进度：11/100 (11.0%)
+数据集位置：第 3907 个
+cleanText(answer) 10
+cleanText(modelAnswer) 9
+问题: how many positions are there if gk positions are taken away?
+预期答案: 10
+模型答案: 9
+是否正确: false
+
+==================================================
+
+测试进度：12/100 (12.0%)
+数据集位置：第 2687 个
+cleanText(answer) 6
+cleanText(modelAnswer) 6
+问题: how many steam rail vehicles listed can exceed 180 km/h?
+预期答案: 6
+模型答案: 6
+是否正确: true
+
+==================================================
+
+测试进度：13/100 (13.0%)
+数据集位置：第 1205 个
+cleanText(answer) teamplayers
+cleanText(modelAnswer) teamplayers
+问题: what was the only team to finish with 22 points?
+预期答案: Team Player's
+模型答案: Team Player's
+是否正确: true
+
+==================================================
+
+测试进度：14/100 (14.0%)
+数据集位置：第 1827 个
+cleanText(answer) 7
+cleanText(modelAnswer) 7
+问题: how many of the educational websites have used at least limited advertising?
+预期答案: 7
+模型答案: 7
+是否正确: true
+
+==================================================
+
+测试进度：15/100 (15.0%)
+数据集位置：第 2317 个
+cleanText(answer) alainprost
+cleanText(modelAnswer) alainprost
+问题: which driver had the most points?
+预期答案: Alain Prost
+模型答案: Alain Prost
+是否正确: true
+
+==================================================
+
+测试进度：16/100 (16.0%)
+数据集位置：第 2517 个
+cleanText(answer) 12
+cleanText(modelAnswer) 12
+问题: what is the total number of games played on hard surfaces for this player?
+预期答案: 12
+模型答案: 12
+是否正确: true
+
+==================================================
+
+测试进度：17/100 (17.0%)
+数据集位置：第 2713 个
+cleanText(answer) bestsupportingactress
+cleanText(modelAnswer) 2010nikkansportsgrandprixbestsupportingactressforveterinariandolittle
+问题: what is the next award listed after 2008?
+预期答案: Best Supporting Actress
+模型答案: 2010 nikkan sports grand prix (fall) best supporting actress for veterinarian dolittle
+是否正确: false
+
+==================================================
+
+测试进度：18/100 (18.0%)
+数据集位置：第 1892 个
+cleanText(answer) 16
+cleanText(modelAnswer) 16
+问题: how many gold medals did italy and spain have combined?
+预期答案: 16
+模型答案: 16
+是否正确: true
+
+==================================================
+
+测试进度：19/100 (19.0%)
+数据集位置：第 1656 个
+cleanText(answer) october111981
+cleanText(modelAnswer) october111981
+问题: on which date did they score the most points?
+预期答案: October 11, 1981
+模型答案: October 11, 1981
+是否正确: true
+
+==================================================
+
+测试进度：20/100 (20.0%)
+数据集位置：第 2941 个
+cleanText(answer) 10
+cleanText(modelAnswer) 8
+问题: what are the number of robots that are after located after the year 1800?
+预期答案: 10
+模型答案: 8
+是否正确: false
+
+==================================================
+
+测试进度：21/100 (21.0%)
+数据集位置：第 476 个
+cleanText(answer) lawrenceelliott
+cleanText(modelAnswer) lawrenceelliott
+问题: who scored on 23 october 2005?
+预期答案: Lawrence, Elliott
+模型答案: Lawrence, Elliott
+是否正确: true
+
+==================================================
+
+测试进度：22/100 (22.0%)
+数据集位置：第 1786 个
+cleanText(answer) universityofcambridge
+cleanText(modelAnswer) universityofcambridge
+问题: which publisher published the least titles?
+预期答案: University of Cambridge
+模型答案: University of Cambridge
+是否正确: true
+
+==================================================
+
+测试进度：23/100 (23.0%)
+数据集位置：第 2167 个
+cleanText(answer) 13
+cleanText(modelAnswer) 14
+问题: what is the number of years tony gulotta race?
+预期答案: 13
+模型答案: 14 (assuming the table represents Tony Gulotta's races as no information about Tony Gulotta is given otherwise in the question but if it's not about him, the question can't be answered based on provided data)
+是否正确: false
+
+==================================================
+
+测试进度：24/100 (24.0%)
+数据集位置：第 997 个
+cleanText(answer) 3
+cleanText(modelAnswer) 9
+问题: how many of these sites do not have images?
+预期答案: 3
+模型答案: 9
+是否正确: false
+
+==================================================
+
+测试进度：25/100 (25.0%)
+数据集位置：第 845 个
+cleanText(answer) danicapatrick
+cleanText(modelAnswer) danicapatrick
+问题: which driver has the same amount of laps as richard antinucci?
+预期答案: Danica Patrick
+模型答案: Danica Patrick
+是否正确: true
+
+==================================================
+
+测试进度：26/100 (26.0%)
+数据集位置：第 162 个
+cleanText(answer) malaysia
+cleanText(modelAnswer) malaysia
+问题: what nation has won more gold medals than korea?
+预期答案: Malaysia
+模型答案: Malaysia
+是否正确: true
+
+==================================================
+
+测试进度：27/100 (27.0%)
+数据集位置：第 4126 个
+cleanText(answer) solid
+cleanText(modelAnswer) solid
+问题: which state are the most elements found in?
+预期答案: Solid
+模型答案: solid
+是否正确: true
+
+==================================================
+
+测试进度：28/100 (28.0%)
+数据集位置：第 953 个
+cleanText(answer) 2
+cleanText(modelAnswer) 2
+问题: how many seasons did this coach lead the team to postseason championships?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：29/100 (29.0%)
+数据集位置：第 3648 个
+cleanText(answer) fin
+cleanText(modelAnswer) nca
+问题: which was the last country to have a runner place? (use abbreviation)
+预期答案: FIN
+模型答案: NCA
+是否正确: false
+
+==================================================
+
+测试进度：30/100 (30.0%)
+数据集位置：第 2276 个
+cleanText(answer) 9
+cleanText(modelAnswer) 12
+问题: what is the total number of awards won in which the recipient was herself?
+预期答案: 9
+模型答案: 12
+是否正确: false
+
+==================================================
+
+测试进度：31/100 (31.0%)
+数据集位置：第 3511 个
+cleanText(answer) elsalvador
+cleanText(modelAnswer) elsalvador
+问题: argentine footballer hugo perez's scored the lone goal in his team's 1989 world cup qualifying win against what central american side?
+预期答案: El Salvador
+模型答案: El Salvador
+是否正确: true
+
+==================================================
+
+测试进度：32/100 (32.0%)
+数据集位置：第 4333 个
+cleanText(answer) 5
+cleanText(modelAnswer) 5
+问题: how many athletes have the same score as rybakov?
+预期答案: 5
+模型答案: 5
+是否正确: true
+
+==================================================
+
+测试进度：33/100 (33.0%)
+数据集位置：第 3529 个
+cleanText(answer) creationofuniverse11
+cleanText(modelAnswer) creationofuniverse11
+问题: what was the first genealogy?
+预期答案: Creation of Universe 1:1
+模型答案: creation of universe 1:1
+是否正确: true
+
+==================================================
+
+测试进度：34/100 (34.0%)
+数据集位置：第 2354 个
+cleanText(answer) 25
+cleanText(modelAnswer) 25
+问题: what are the total number of hospital beds in alexander hospital?
+预期答案: 25
+模型答案: 25
+是否正确: true
+
+==================================================
+
+测试进度：35/100 (35.0%)
+数据集位置：第 3113 个
+cleanText(answer) 83008302
+cleanText(modelAnswer) 83008302
+问题: burlington northern ordered 3 emd sd60s. what is their number range?
+预期答案: 8300-8302
+模型答案: 8300-8302
+是否正确: true
+
+==================================================
+
+测试进度：36/100 (36.0%)
+数据集位置：第 3039 个
+cleanText(answer) 1
+cleanText(modelAnswer) 2
+问题: how many players from orlando city scored above 8 goals?
+预期答案: 1
+模型答案: 2
+是否正确: false
+
+==================================================
+
+测试进度：37/100 (37.0%)
+数据集位置：第 3291 个
+cleanText(answer) 17
+cleanText(modelAnswer) 1
+问题: how many terminals have at least four major streets listed?
+预期答案: 17
+模型答案: 1
+是否正确: false
+
+==================================================
+
+测试进度：38/100 (38.0%)
+数据集位置：第 289 个
+cleanText(answer) bambergchurch
+cleanText(modelAnswer) bambergchurch
+问题: which church name does not have the name of the parish in its name?
+预期答案: Bamberg Church
+模型答案: Bamberg Church
+是否正确: true
+
+==================================================
+
+测试进度：39/100 (39.0%)
+数据集位置：第 2639 个
+cleanText(answer) 3
+cleanText(modelAnswer) 4
+问题: how many finished in at least 5 hours?
+预期答案: 3
+模型答案: 4
+是否正确: false
+
+==================================================
+
+测试进度：40/100 (40.0%)
+数据集位置：第 349 个
+cleanText(answer) blue
+cleanText(modelAnswer) blue
+问题: what was the first pod color in the list of leroy & stitch episode?
+预期答案: Blue
+模型答案: blue
+是否正确: true
+
+==================================================
+
+测试进度：41/100 (41.0%)
+数据集位置：第 1257 个
+cleanText(answer) 1st
+cleanText(modelAnswer) 1st
+问题: what was the top position on the list?
+预期答案: 1st
+模型答案: 1st
+是否正确: true
+
+==================================================
+
+测试进度：42/100 (42.0%)
+数据集位置：第 4016 个
+cleanText(answer) garyking
+cleanText(modelAnswer) garyking
+问题: who is the attorney general of new mexico currently?
+预期答案: Gary King
+模型答案: Gary King
+是否正确: true
+
+==================================================
+
+测试进度：43/100 (43.0%)
+数据集位置：第 3270 个
+cleanText(answer) 2006
+cleanText(modelAnswer) 2006
+问题: 2002 and what other year did she rank 26th?
+预期答案: 2006
+模型答案: 2006
+是否正确: true
+
+==================================================
+
+测试进度：44/100 (44.0%)
+数据集位置：第 4210 个
+cleanText(answer) 4
+cleanText(modelAnswer) 5
+问题: what was the number of finishers canada had?
+预期答案: 4
+模型答案: 5
+是否正确: false
+
+==================================================
+
+测试进度：45/100 (45.0%)
+数据集位置：第 3927 个
+cleanText(answer) 21
+cleanText(modelAnswer) 26
+问题: what is the number of times the venue is "h"?
+预期答案: 21
+模型答案: 26
+是否正确: false
+
+==================================================
+
+测试进度：46/100 (46.0%)
+数据集位置：第 1322 个
+cleanText(answer) invaderi
+cleanText(modelAnswer) invaderi
+问题: who won the title after grizzly boone first won it?
+预期答案: Invader I
+模型答案: Invader I
+是否正确: true
+
+==================================================
+
+测试进度：47/100 (47.0%)
+数据集位置：第 3186 个
+cleanText(answer) chernobyl1
+cleanText(modelAnswer) chernobyl1with740mwe
+问题: which reactor has the least amount of net capacity?
+预期答案: Chernobyl-1
+模型答案: Chernobyl - 1 with 740 MWe
+是否正确: false
+
+==================================================
+
+测试进度：48/100 (48.0%)
+数据集位置：第 1397 个
+cleanText(answer) paultracy
+cleanText(modelAnswer) paultracy
+问题: which driver did not finish the race?
+预期答案: Paul Tracy
+模型答案: Paul Tracy
+是否正确: true
+
+==================================================
+
+测试进度：49/100 (49.0%)
+数据集位置：第 1196 个
+cleanText(answer) 3
+cleanText(modelAnswer) 2nd
+问题: russia did not finish first but what other podium place?
+预期答案: 3
+模型答案: 2nd
+是否正确: false
+
+==================================================
+
+测试进度：50/100 (50.0%)
+数据集位置：第 2776 个
+cleanText(answer) 7
+cleanText(modelAnswer) 6
+问题: how many wins were there in total?
+预期答案: 7
+模型答案: 6
+是否正确: false
+
+==================================================
+
+测试进度：51/100 (51.0%)
+数据集位置：第 3850 个
+cleanText(answer) 1
+cleanText(modelAnswer) 0
+问题: how many years was the winnings more than $200,000?
+预期答案: 1
+模型答案: 0
+是否正确: false
+
+==================================================
+
+测试进度：52/100 (52.0%)
+数据集位置：第 930 个
+cleanText(answer) 6
+cleanText(modelAnswer) 6
+问题: how many massifs are in the zakarpattia region?
+预期答案: 6
+模型答案: 6
+是否正确: true
+
+==================================================
+
+测试进度：53/100 (53.0%)
+数据集位置：第 1929 个
+cleanText(answer) 2
+cleanText(modelAnswer) 2years
+问题: what is the difference in years of creation between the john ericsson and leroy grumman?
+预期答案: 2
+模型答案: 2 years
+是否正确: false
+
+==================================================
+
+测试进度：54/100 (54.0%)
+数据集位置：第 716 个
+cleanText(answer) arielbehar
+cleanText(modelAnswer) arielbehar
+问题: who is the next partnering listed after renzo olivo?
+预期答案: Ariel Behar
+模型答案: Ariel Behar
+是否正确: true
+
+==================================================
+
+测试进度：55/100 (55.0%)
+数据集位置：第 1613 个
+cleanText(answer) anastasiapozdniakova
+cleanText(modelAnswer) hsushihan
+问题: which diver has the least points in the final?
+预期答案: Anastasia Pozdniakova
+模型答案: Hsu Shi-han
+是否正确: false
+
+==================================================
+
+测试进度：56/100 (56.0%)
+数据集位置：第 1767 个
+cleanText(answer) rfkstadium
+cleanText(modelAnswer) rfkstadium
+问题: which stadium has roughly the same attendance as jack murphy stadium?
+预期答案: RFK Stadium
+模型答案: RFK Stadium
+是否正确: true
+
+==================================================
+
+测试进度：57/100 (57.0%)
+数据集位置：第 3420 个
+cleanText(answer) diams
+cleanText(modelAnswer) diams
+问题: what is the name of the last character in the table?
+预期答案: diams
+模型答案: diams
+是否正确: true
+
+==================================================
+
+测试进度：58/100 (58.0%)
+数据集位置：第 2673 个
+cleanText(answer) ascountryasapplepie
+cleanText(modelAnswer) ascountryasapplepie
+问题: what was the next episode after "do-si-do?"
+预期答案: "As Country as Apple Pie"
+模型答案: as country as apple pie
+是否正确: true
+
+==================================================
+
+测试进度：59/100 (59.0%)
+数据集位置：第 984 个
+cleanText(answer) 204
+cleanText(modelAnswer) 1508314879204seconds
+问题: what is the time difference between take charge indy and vicar?
+预期答案: 2.04
+模型答案: 1:50.83 - 1:48.79 = 2.04 seconds
+是否正确: false
+
+==================================================
+
+测试进度：60/100 (60.0%)
+数据集位置：第 1143 个
+cleanText(answer) 35
+cleanText(modelAnswer) 35points
+问题: what was the rams' largest margin of victory during the season?
+预期答案: 35
+模型答案: 35 points (in the game against the Detroit Lions with a score of 35 - 0)
+是否正确: false
+
+==================================================
+
+测试进度：61/100 (61.0%)
+数据集位置：第 2264 个
+cleanText(answer) loriscapirossi
+cleanText(modelAnswer) loriscapirossi
+问题: which of the riders had the most points?
+预期答案: Loris Capirossi
+模型答案: Loris Capirossi
+是否正确: true
+
+==================================================
+
+测试进度：62/100 (62.0%)
+数据集位置：第 3115 个
+cleanText(answer) ironic
+cleanText(modelAnswer) handinmypocket
+问题: which single had a 1 position on their ca chart position and a 4 on the hot 100 for the us?
+预期答案: Ironic
+模型答案: hand in my pocket
+是否正确: false
+
+==================================================
+
+测试进度：63/100 (63.0%)
+数据集位置：第 324 个
+cleanText(answer) 15
+cleanText(modelAnswer) 14
+问题: what is the total number of films he has made?
+预期答案: 15
+模型答案: 14
+是否正确: false
+
+==================================================
+
+测试进度：64/100 (64.0%)
+数据集位置：第 342 个
+cleanText(answer) klausjurgenschneider
+cleanText(modelAnswer) thaddeusbell
+问题: who is older, thaddeus bell or klaus jürgen schneider?
+预期答案: Klaus Jürgen Schneider
+模型答案: Thaddeus Bell
+是否正确: false
+
+==================================================
+
+测试进度：65/100 (65.0%)
+数据集位置：第 1514 个
+cleanText(answer) 3
+cleanText(modelAnswer) 3
+问题: how many countries have at least 5 silver medals?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：66/100 (66.0%)
+数据集位置：第 201 个
+cleanText(answer) georgeshenriheon
+cleanText(modelAnswer) georgeshenriheon
+问题: who was the first lieutenant to take office?
+预期答案: Georges-Henri Héon
+模型答案: Georges-Henri Héon
+是否正确: true
+
+==================================================
+
+测试进度：67/100 (67.0%)
+数据集位置：第 3790 个
+cleanText(answer) guam
+cleanText(modelAnswer) guam
+问题: which nation is the only one to earn no gold medals?
+预期答案: Guam
+模型答案: Guam (GUM)
+是否正确: true
+
+==================================================
+
+测试进度：68/100 (68.0%)
+数据集位置：第 325 个
+cleanText(answer) justinrodriguez
+cleanText(modelAnswer) justinrodriguez
+问题: who is the last representative on the table?
+预期答案: Justin Rodriguez
+模型答案: Justin Rodriguez
+是否正确: true
+
+==================================================
+
+测试进度：69/100 (69.0%)
+数据集位置：第 1399 个
+cleanText(answer) southkorea
+cleanText(modelAnswer) southkorea
+问题: which nation did not win a gold medal?
+预期答案: South Korea
+模型答案: South Korea
+是否正确: true
+
+==================================================
+
+测试进度：70/100 (70.0%)
+数据集位置：第 3552 个
+cleanText(answer) 3
+cleanText(modelAnswer) 3
+问题: what is the number of players picked from notre dame?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：71/100 (71.0%)
+数据集位置：第 2295 个
+cleanText(answer) 2
+cleanText(modelAnswer) 2
+问题: how many losses did the cowboys have before november 27th?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：72/100 (72.0%)
+数据集位置：第 3005 个
+cleanText(answer) 6
+cleanText(modelAnswer) 5
+问题: how many times did they get at least 20 points?
+预期答案: 6
+模型答案: 5
+是否正确: false
+
+==================================================
+
+测试进度：73/100 (73.0%)
+数据集位置：第 2137 个
+cleanText(answer) 20040227
+cleanText(modelAnswer) 20040227
+问题: when was the first departure?
+预期答案: 2004-02-27
+模型答案: 2004-02-27
+是否正确: true
+
+==================================================
+
+测试进度：74/100 (74.0%)
+数据集位置：第 436 个
+cleanText(answer) 12
+cleanText(modelAnswer) 14
+问题: what is the total number of awards (nominations and wins) for two and a half men?
+预期答案: 12
+模型答案: 14
+是否正确: false
+
+==================================================
+
+测试进度：75/100 (75.0%)
+数据集位置：第 4291 个
+cleanText(answer) 7
+cleanText(modelAnswer) 7
+问题: total number of games played in florida.
+预期答案: 7
+模型答案: 7
+是否正确: true
+
+==================================================
+
+测试进度：76/100 (76.0%)
+数据集位置：第 69 个
+cleanText(answer) 18
+cleanText(modelAnswer) 19
+问题: how many drivers have no laps led?
+预期答案: 18
+模型答案: 19
+是否正确: false
+
+==================================================
+
+测试进度：77/100 (77.0%)
+数据集位置：第 1989 个
+cleanText(answer) rai
+cleanText(modelAnswer) rai
+问题: which company owns the most radio stations?
+预期答案: RAI
+模型答案: Rai
+是否正确: true
+
+==================================================
+
+测试进度：78/100 (78.0%)
+数据集位置：第 3507 个
+cleanText(answer) 19
+cleanText(modelAnswer) 27
+问题: give the number of trains that run at least 4 days a week
+预期答案: 19
+模型答案: 27
+是否正确: false
+
+==================================================
+
+测试进度：79/100 (79.0%)
+数据集位置：第 231 个
+cleanText(answer) damarcusbeasley
+cleanText(modelAnswer) beasley
+问题: who had more caps, dempsey or beasley?
+预期答案: DaMarcus Beasley
+模型答案: Beasley
+是否正确: false
+
+==================================================
+
+测试进度：80/100 (80.0%)
+数据集位置：第 1753 个
+cleanText(answer) venezuela
+cleanText(modelAnswer) venezuela
+问题: this country has a count of 13 total medals.
+预期答案: Venezuela
+模型答案: Venezuela
+是否正确: true
+
+==================================================
+
+测试进度：81/100 (81.0%)
+数据集位置：第 3211 个
+cleanText(answer) yelenaproklova49thetvpresenter
+cleanText(modelAnswer) yelenaproklova
+问题: who was voted out after ivan demidov?
+预期答案: Yelena Proklova 49.the TV presenter
+模型答案: Yelena Proklova
+是否正确: false
+
+==================================================
+
+测试进度：82/100 (82.0%)
+数据集位置：第 1203 个
+cleanText(answer) 2months
+cleanText(modelAnswer) 13april20138june2013
+问题: how long was the 7th series?
+预期答案: 2 months
+模型答案: 13 April 2013 - 8 June 2013
+是否正确: false
+
+==================================================
+
+测试进度：83/100 (83.0%)
+数据集位置：第 2861 个
+cleanText(answer) english
+cleanText(modelAnswer) english
+问题: what language is spoken the most during the olympic oath through out history?
+预期答案: English
+模型答案: English
+是否正确: true
+
+==================================================
+
+测试进度：84/100 (84.0%)
+数据集位置：第 1069 个
+cleanText(answer) vocedecide
+cleanText(modelAnswer) suaveveneno
+问题: what film came before terra nostra?
+预期答案: Você Decide
+模型答案: Suave Veneno
+是否正确: false
+
+==================================================
+
+测试进度：85/100 (85.0%)
+数据集位置：第 278 个
+cleanText(answer) 1993
+cleanText(modelAnswer) 1992
+问题: in what year did hugo perez score the most international goals?
+预期答案: 1993
+模型答案: 1992
+是否正确: false
+
+==================================================
+
+测试进度：86/100 (86.0%)
+数据集位置：第 3734 个
+cleanText(answer) 204
+cleanText(modelAnswer) 204
+问题: at least how many more people attended gamestorm 15 than gamestrom 13?
+预期答案: 204
+模型答案: 204
+是否正确: true
+
+==================================================
+
+测试进度：87/100 (87.0%)
+数据集位置：第 2358 个
+cleanText(answer) jamaicaelsalvador
+cleanText(modelAnswer) jamaicaelsalvador
+问题: hugo perez played against what two teams in his 1990 world cup qualifying games?
+预期答案: Jamaica,El Salvador
+模型答案: Jamaica, El Salvador
+是否正确: true
+
+==================================================
+
+测试进度：88/100 (88.0%)
+数据集位置：第 2866 个
+cleanText(answer) yugoslavia
+cleanText(modelAnswer) yugoslavia
+问题: what country in the top ten had the least number of bronze medals?
+预期答案: Yugoslavia
+模型答案: Yugoslavia
+是否正确: true
+
+==================================================
+
+测试进度：89/100 (89.0%)
+数据集位置：第 2804 个
+cleanText(answer) 8
+cleanText(modelAnswer) 1
+问题: how many standard gauge locomotives made for use at the arsenal were built before 1900?
+预期答案: 8
+模型答案: 1
+是否正确: false
+
+==================================================
+
+测试进度：90/100 (90.0%)
+数据集位置：第 363 个
+cleanText(answer) 2003
+cleanText(modelAnswer) 2003
+问题: what is the first year?
+预期答案: 2003
+模型答案: 2003
+是否正确: true
+
+==================================================
+
+测试进度：91/100 (91.0%)
+数据集位置：第 1957 个
+cleanText(answer) 2004
+cleanText(modelAnswer) 2004
+问题: which was the first year in which ernie els won a championship?
+预期答案: 2004
+模型答案: 2004
+是否正确: true
+
+==================================================
+
+测试进度：92/100 (92.0%)
+数据集位置：第 1823 个
+cleanText(answer) 100m
+cleanText(modelAnswer) 100m
+问题: what is the first event on the chart?
+预期答案: 100 m
+模型答案: 100 m
+是否正确: true
+
+==================================================
+
+测试进度：93/100 (93.0%)
+数据集位置：第 1713 个
+cleanText(answer) lordhavemercy
+cleanText(modelAnswer) volume1elloree
+问题: what was the first album produced after 1970?
+预期答案: "Lord Have Mercy"
+模型答案: volume 1-elloree
+是否正确: false
+
+==================================================
+
+测试进度：94/100 (94.0%)
+数据集位置：第 786 个
+cleanText(answer) 8
+cleanText(modelAnswer) 8
+问题: how many different models were available for sale?
+预期答案: 8
+模型答案: 8
+是否正确: true
+
+==================================================
+
+测试进度：95/100 (95.0%)
+数据集位置：第 2820 个
+cleanText(answer) carolineoshea
+cleanText(modelAnswer) carolineoshea
+问题: andrew davidson is next after whom?
+预期答案: Caroline O'Shea
+模型答案: Caroline O'Shea
+是否正确: true
+
+==================================================
+
+测试进度：96/100 (96.0%)
+数据集位置：第 105 个
+cleanText(answer) 6days
+cleanText(modelAnswer) 7days
+问题: how long does the swiss open series run for?
+预期答案: 6 days
+模型答案: 7 days
+是否正确: false
+
+==================================================
+
+测试进度：97/100 (97.0%)
+数据集位置：第 2299 个
+cleanText(answer) july112013
+cleanText(modelAnswer) july112013
+问题: can you find the first date on the top of the list?
+预期答案: July 11, 2013
+模型答案: July 11, 2013
+是否正确: true
+
+==================================================
+
+测试进度：98/100 (98.0%)
+数据集位置：第 2810 个
+cleanText(answer) krisztinafazekaszur
+cleanText(modelAnswer) krisztinafazekaszur
+问题: who at least got a medal for the usa?
+预期答案: Krisztina Fazekas Zur (USA)
+模型答案: Krisztina Fazekas Zur
+是否正确: true
+
+==================================================
+
+测试进度：99/100 (99.0%)
+数据集位置：第 214 个
+cleanText(answer) ajaxthegreat
+cleanText(modelAnswer) thereisnoinformationindicatingapreviousnameforajaxinthegiventable
+问题: what is the previous name of ajax?
+预期答案: Ajax the Great
+模型答案: There is no information indicating a previous name for Ajax in the given table.
+是否正确: false
+
+==================================================
+
+测试进度：100/100 (100.0%)
+数据集位置：第 1086 个
+cleanText(answer) 5
+cleanText(modelAnswer) 4
+问题: how many song come after "rollin hard"?
+预期答案: 5
+模型答案: 4
+是否正确: false
+
+测试统计信息如下
+总样本数: 100
+正确数量: 59
+ACC: 59.00%
+总耗时: 66.21秒

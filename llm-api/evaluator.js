@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { isCorrect } from './utils/isCorrect.js';
 
 export class Evaluator {
   constructor(openai, prompt) {
@@ -80,9 +81,9 @@ export class Evaluator {
         { role: 'system', content: systemPrompt },
         { role: 'user', content: userPrompt },
       ],
-      // model: 'doubao-1.5-pro-32k-250115',
-      model: 'doubao-1-5-pro-256k-250115',
-      // model: 'doubao-1-5-thinking-pro-250415',
+      // model: 'doubao-1-5-pro-256k-250115',
+      // model: 'deepseek-r1-250120',
+      model: 'doubao-1-5-vision-pro-32k-250115',
       stream: true,
     });
 
@@ -91,16 +92,15 @@ export class Evaluator {
       modelAnswer += part.choices[0]?.delta?.content || '';
     }
 
-    const expectedAnswer = Array.isArray(item.answer) ? item.answer[0] : item.answer;
-    const isCorrect = modelAnswer.trim().toLowerCase() === expectedAnswer.toLowerCase();
+    const isAnswerCorrect = isCorrect(modelAnswer, item.answer);
     
     console.log(`问题: ${item.statement}`);
-    // console.log(`表格: ${item.table_text}`);
-    console.log(`预期答案: ${expectedAnswer}`);
+    // console.log(`表格内容: ${item.table_text}`);
+    console.log(`预期答案: ${item.answer}`);
     console.log(`模型答案: ${modelAnswer.trim()}`);
-    console.log(`是否正确: ${isCorrect}`);
+    console.log(`是否正确: ${isAnswerCorrect}`);
 
-    return { modelAnswer, expectedAnswer, isCorrect };
+    return { modelAnswer, expectedAnswer: item.answer, isCorrect: isAnswerCorrect };
   }
 
   printFinalStats(startTime, correctCount, totalSamples) {
