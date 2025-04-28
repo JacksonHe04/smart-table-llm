@@ -4,7 +4,7 @@ from datetime import datetime
 
 def main():
     """
-    主函数：演示如何使用CaseSelector选择few-shot案例
+    主函数：从错误答案数据集中自动选择具有代表性的few-shot案例
     """
     # 初始化案例选择器
     selector = CaseSelector()
@@ -12,14 +12,8 @@ def main():
     # 读取wrong_answers.jsonl文件
     data_path = "../wrong_answers.jsonl"
     
-    # 假设我们要为新的查询问题选择案例
-    query = {
-        "question": "your new question here",
-        "table": [["column1", "value1"], ["column2", "value2"]]
-    }
-    
-    # 选择最合适的案例并获取统计信息
-    selected_cases, stats = selector.select_cases(data_path, query, top_k=5)
+    # 直接从数据集中选择具有代表性的案例
+    selected_cases, stats = selector.select_representative_cases(data_path, top_k=5)
     
     # 将统计信息保存到单独的文件
     stats_output_path = "selection_stats.json"
@@ -29,17 +23,8 @@ def main():
             "timestamp": datetime.now().isoformat(),
             "statistics": {
                 "总处理数据量": stats["total_processed"],
-                "长度过滤后数据量": stats["length_filtered"],
-                "筛选比例": f"{(stats['length_filtered']/stats['total_processed']*100):.2f}%",
-                "相似度排名": [
-                    {
-                        "问题": item["question"],
-                        "相似度得分": item["similarity_score"]
-                    } for item in stats["top_similarities"]
-                ],
-                "查询问题本体分布": {
-                    k: round(v, 4) for k, v in stats["ontology_distribution"].items()
-                }
+                "案例分布特征": stats["case_distribution"],
+                "特征统计": stats["feature_statistics"]
             }
         }
         json.dump(stats_output, f, ensure_ascii=False, indent=2)

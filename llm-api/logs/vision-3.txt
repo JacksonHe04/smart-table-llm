@@ -1,0 +1,1112 @@
+
+测试范围信息：
+- 数据集总样本数：4344
+- 本次随机测试样本位置：119, 192, 205, 221, 245, 305, 313, 322, 335, 421, 479, 495, 496, 510, 588, 674, 695, 752, 765, 793, 839, 922, 1014, 1021, 1140, 1170, 1214, 1257, 1307, 1310, 1373, 1417, 1461, 1487, 1516, 1541, 1583, 1645, 1662, 1674, 1834, 1835, 1863, 1935, 1982, 2004, 2014, 2097, 2133, 2141, 2327, 2328, 2338, 2528, 2570, 2621, 2627, 2748, 2779, 2850, 2880, 2903, 2982, 2996, 3095, 3105, 3157, 3208, 3289, 3357, 3361, 3392, 3446, 3499, 3525, 3596, 3678, 3712, 3724, 3728, 3738, 3759, 3786, 3826, 3872, 3885, 3887, 3912, 3940, 3945, 3947, 3952, 3982, 4049, 4059, 4097, 4196, 4269, 4282, 4334
+- 本次测试样本数：100
+
+
+==================================================
+
+测试进度：1/100 (1.0%)
+数据集位置：第 192 个
+cleanText(answer) volcantajumulcopb
+cleanText(modelAnswer) volcantajumulcopb
+问题: which mountain peak has the most elevation in feet?
+预期答案: Volcán Tajumulco PB
+模型答案: volcán tajumulco pb
+是否正确: true
+
+==================================================
+
+测试进度：2/100 (2.0%)
+数据集位置：第 3952 个
+cleanText(answer) september29
+cleanText(modelAnswer) september29
+问题: other than october 6, name a game that was aired on abc.
+预期答案: September 29
+模型答案: september 29
+是否正确: true
+
+==================================================
+
+测试进度：3/100 (3.0%)
+数据集位置：第 421 个
+cleanText(answer) 3
+cleanText(modelAnswer) 3
+问题: how many games did canada win?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：4/100 (4.0%)
+数据集位置：第 3912 个
+cleanText(answer) 6
+cleanText(modelAnswer) 4
+问题: what is the number of danish cups won by brondby if?
+预期答案: 6
+模型答案: 4
+是否正确: false
+
+==================================================
+
+测试进度：5/100 (5.0%)
+数据集位置：第 2528 个
+cleanText(answer) legionmembershipfirstmentionedbystarmaninjusticesocietyofamericavol36andconfirmedinactioncomics860
+cleanText(modelAnswer) starmaninjusticesocietyofamericavol36
+问题: what is the first mention of legion membership for night girl?
+预期答案: Legion membership first mentioned by Starman in Justice Society of America vol. 3, #6 (July 2007) and confirmed in Action Comics #860 (February 2008).
+模型答案: Starman in Justice Society of America Vol. 3, #6 (July 2007)
+是否正确: false
+
+==================================================
+
+测试进度：6/100 (6.0%)
+数据集位置：第 2627 个
+cleanText(answer) september271987
+cleanText(modelAnswer) 3
+问题: what is the game of the season to be canceled?
+预期答案: September 27, 1987
+模型答案: 3
+是否正确: false
+
+==================================================
+
+测试进度：7/100 (7.0%)
+数据集位置：第 1516 个
+cleanText(answer) 2
+cleanText(modelAnswer) 17
+问题: how many matches were played in the 1990's?
+预期答案: 2
+模型答案: 17
+是否正确: false
+
+==================================================
+
+测试进度：8/100 (8.0%)
+数据集位置：第 3095 个
+cleanText(answer) bluetrain
+cleanText(modelAnswer) bluetrain
+问题: the only song to hit the us and us country charts.
+预期答案: "Blue Train (Of the Heartbreak Line)"
+模型答案: blue train (of the heartbreak line)
+是否正确: true
+
+==================================================
+
+测试进度：9/100 (9.0%)
+数据集位置：第 1307 个
+cleanText(answer) 2008
+cleanText(modelAnswer) 2008
+问题: other than 2002, what is the only other year that someone joined?
+预期答案: 2008
+模型答案: 2008
+是否正确: true
+
+==================================================
+
+测试进度：10/100 (10.0%)
+数据集位置：第 3982 个
+cleanText(answer) aliciafernandezdelacruz
+cleanText(modelAnswer) aliciafernandezdelacruz
+问题: who was the only contestant at reina nacional de belleza miss república dominicana 2007 less than 1.7 meters tall?
+预期答案: Alicia Fernández de la Cruz
+模型答案: alicia fernández de la cruz
+是否正确: true
+
+==================================================
+
+测试进度：11/100 (11.0%)
+数据集位置：第 205 个
+cleanText(answer) 13
+cleanText(modelAnswer) 15
+问题: what is the difference in number of petrol models and the number of diesel?
+预期答案: 13
+模型答案: 15
+是否正确: false
+
+==================================================
+
+测试进度：12/100 (12.0%)
+数据集位置：第 2133 个
+cleanText(answer) 1
+cleanText(modelAnswer) 1
+问题: how many times did the kansas city brass qualify for the playoffs?
+预期答案: 1
+模型答案: 1
+是否正确: true
+
+==================================================
+
+测试进度：13/100 (13.0%)
+数据集位置：第 335 个
+cleanText(answer) waynegilchrestbencardinalbertwynnstenyhoyerroscoebartlettelijahcummings
+cleanText(modelAnswer) waynegilchrestbencardinalbertwynnstenyhoyerroscoebartlettelijahcummings
+问题: congressmen re-elected with at least 60% of the vote
+预期答案: Wayne Gilchrest,Ben Cardin,Albert Wynn,Steny Hoyer,Roscoe Bartlett,Elijah Cummings
+模型答案: wayne gilchrest,ben cardin,albert wynn,steny hoyer,roscoe bartlett,elijah cummings
+是否正确: true
+
+==================================================
+
+测试进度：14/100 (14.0%)
+数据集位置：第 2982 个
+cleanText(answer) 2007
+cleanText(modelAnswer) 2007
+问题: what is the only year she ranked 13th?
+预期答案: 2007
+模型答案: 2007
+是否正确: true
+
+==================================================
+
+测试进度：15/100 (15.0%)
+数据集位置：第 245 个
+cleanText(answer) no
+cleanText(modelAnswer) no
+问题: is the unicode name for alert the same as the unicode name for backspace?
+预期答案: no
+模型答案: no
+是否正确: true
+
+==================================================
+
+测试进度：16/100 (16.0%)
+数据集位置：第 1834 个
+cleanText(answer) stateterritorywomensdivision
+cleanText(modelAnswer) stateterritorywomensdivision
+问题: what column comes before the major centres division?
+预期答案: State/Territory Women's Division
+模型答案: state/territory women's division
+是否正确: true
+
+==================================================
+
+测试进度：17/100 (17.0%)
+数据集位置：第 3885 个
+cleanText(answer) 4
+cleanText(modelAnswer) 4
+问题: how many locomotives entered in nov 05?
+预期答案: 4
+模型答案: 4
+是否正确: true
+
+==================================================
+
+测试进度：18/100 (18.0%)
+数据集位置：第 3712 个
+cleanText(answer) 83years
+cleanText(modelAnswer) 19222005
+问题: how long did joseph karth live?
+预期答案: 83 years
+模型答案: 1922–2005
+是否正确: false
+
+==================================================
+
+测试进度：19/100 (19.0%)
+数据集位置：第 588 个
+cleanText(answer) needyou
+cleanText(modelAnswer) needyou
+问题: what single did he get the same chart position in the us country as he did in the can country?
+预期答案: "Need You"
+模型答案: need you
+是否正确: true
+
+==================================================
+
+测试进度：20/100 (20.0%)
+数据集位置：第 3525 个
+cleanText(answer) atlantaolympics100thanniversaryofmodernolympiad
+cleanText(modelAnswer) atlantaolympics100thanniversaryofmodernolympiad
+问题: what was the only model made in 1996?
+预期答案: Atlanta Olympics, 100th anniversary of Modern Olympiad
+模型答案: atlanta olympics, 100th anniversary of modern olympiad
+是否正确: true
+
+==================================================
+
+测试进度：21/100 (21.0%)
+数据集位置：第 3786 个
+cleanText(answer) 13june1982
+cleanText(modelAnswer) 13june1982
+问题: anne hobbes first win was on which date?
+预期答案: 13 June 1982
+模型答案: 13 june 1982
+是否正确: true
+
+==================================================
+
+测试进度：22/100 (22.0%)
+数据集位置：第 2141 个
+cleanText(answer) 1
+cleanText(modelAnswer) 1
+问题: what is the total number of soccer leagues that the new york americans played in?
+预期答案: 1
+模型答案: 1
+是否正确: true
+
+==================================================
+
+测试进度：23/100 (23.0%)
+数据集位置：第 3738 个
+cleanText(answer) 0
+cleanText(modelAnswer) 0
+问题: what is the difference in length between new flyer xcelsior d60 and van hool ag300?
+预期答案: 0
+模型答案: 0
+是否正确: true
+
+==================================================
+
+测试进度：24/100 (24.0%)
+数据集位置：第 1674 个
+cleanText(answer) 11
+cleanText(modelAnswer) 11
+问题: tell me the number of trains that arrive before 9:00.
+预期答案: 11
+模型答案: 11
+是否正确: true
+
+==================================================
+
+测试进度：25/100 (25.0%)
+数据集位置：第 3872 个
+cleanText(answer) levanger
+cleanText(modelAnswer) levanger
+问题: which parish had the most churches built.
+预期答案: Levanger
+模型答案: levanger
+是否正确: true
+
+==================================================
+
+测试进度：26/100 (26.0%)
+数据集位置：第 839 个
+cleanText(answer) 22
+cleanText(modelAnswer) 27
+问题: after 1900 how many entries are there?
+预期答案: 22
+模型答案: 27
+是否正确: false
+
+==================================================
+
+测试进度：27/100 (27.0%)
+数据集位置：第 1487 个
+cleanText(answer) 10
+cleanText(modelAnswer) 10
+问题: how many episodes aired before 1998?
+预期答案: 10
+模型答案: 10
+是否正确: true
+
+==================================================
+
+测试进度：28/100 (28.0%)
+数据集位置：第 922 个
+cleanText(answer) 4
+cleanText(modelAnswer) 4
+问题: how many swimmers qualified?
+预期答案: 4
+模型答案: 4
+是否正确: true
+
+==================================================
+
+测试进度：29/100 (29.0%)
+数据集位置：第 1645 个
+cleanText(answer) 2
+cleanText(modelAnswer) 2
+问题: what was the difference in years between the greatest store never told and the greatest story never told 3?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：30/100 (30.0%)
+数据集位置：第 1140 个
+cleanText(answer) 5
+cleanText(modelAnswer) 5
+问题: how many doubles tournaments did kristyna pliskova participate in before 2012?
+预期答案: 5
+模型答案: 5
+是否正确: true
+
+==================================================
+
+测试进度：31/100 (31.0%)
+数据集位置：第 4334 个
+cleanText(answer) 16
+cleanText(modelAnswer) 16
+问题: how many more reptiles are there in costa rica then there are in panama?
+预期答案: 16
+模型答案: 16
+是否正确: true
+
+==================================================
+
+测试进度：32/100 (32.0%)
+数据集位置：第 3289 个
+cleanText(answer) 5
+cleanText(modelAnswer) 4
+问题: how many songs are in the cold blank album "the agenda"?
+预期答案: 5
+模型答案: 4
+是否正确: false
+
+==================================================
+
+测试进度：33/100 (33.0%)
+数据集位置：第 322 个
+cleanText(answer) 200
+cleanText(modelAnswer) 184
+问题: what was the most laps run before being retired?
+预期答案: 200
+模型答案: 184
+是否正确: false
+
+==================================================
+
+测试进度：34/100 (34.0%)
+数据集位置：第 1214 个
+cleanText(answer) 7
+cleanText(modelAnswer) 5
+问题: number of singles featuring another artist.
+预期答案: 7
+模型答案: 5
+是否正确: false
+
+==================================================
+
+测试进度：35/100 (35.0%)
+数据集位置：第 4282 个
+cleanText(answer) 62
+cleanText(modelAnswer) 740
+问题: what was the average toll rate for class 3 vehicles before january 2009?
+预期答案: 6.2
+模型答案: £7.40
+是否正确: false
+
+==================================================
+
+测试进度：36/100 (36.0%)
+数据集位置：第 2748 个
+cleanText(answer) bubblebot
+cleanText(modelAnswer) bubblebot
+问题: list each of the robots from mexico.
+预期答案: Bubble-Bot
+模型答案: bubble - bot
+是否正确: true
+
+==================================================
+
+测试进度：37/100 (37.0%)
+数据集位置：第 2996 个
+cleanText(answer) addisababa
+cleanText(modelAnswer) addisababa
+问题: which region has the best physician to patient ratio?
+预期答案: Addis Ababa
+模型答案: addis ababa
+是否正确: true
+
+==================================================
+
+测试进度：38/100 (38.0%)
+数据集位置：第 3940 个
+cleanText(answer) thiruvaymozhi
+cleanText(modelAnswer) periathirumozhi
+问题: name the prabandham with the most number of pasurams
+预期答案: Thiruvay Mozhi
+模型答案: peria thirumozhi
+是否正确: false
+
+==================================================
+
+测试进度：39/100 (39.0%)
+数据集位置：第 1257 个
+cleanText(answer) 1st
+cleanText(modelAnswer) 1st
+问题: what was the top position on the list?
+预期答案: 1st
+模型答案: 1st
+是否正确: true
+
+==================================================
+
+测试进度：40/100 (40.0%)
+数据集位置：第 765 个
+cleanText(answer) panarabgames
+cleanText(modelAnswer) panarabgames
+问题: what is the only competition with a 100m event?
+预期答案: Pan Arab Games
+模型答案: pan arab games
+是否正确: true
+
+==================================================
+
+测试进度：41/100 (41.0%)
+数据集位置：第 2327 个
+cleanText(answer) indonesia
+cleanText(modelAnswer) indonesia
+问题: which country has won the most total medals?
+预期答案: Indonesia
+模型答案: indonesia
+是否正确: true
+
+==================================================
+
+测试进度：42/100 (42.0%)
+数据集位置：第 752 个
+cleanText(answer) 684
+cleanText(modelAnswer) 684
+问题: what was the total number of recorded balls during the india vs. australia match in 1979
+预期答案: 684
+模型答案: 684
+是否正确: true
+
+==================================================
+
+测试进度：43/100 (43.0%)
+数据集位置：第 2328 个
+cleanText(answer) losangelesca
+cleanText(modelAnswer) losangelesca
+问题: which airport has the most passengers?
+预期答案: Los Angeles, CA
+模型答案: los angeles, ca
+是否正确: true
+
+==================================================
+
+测试进度：44/100 (44.0%)
+数据集位置：第 1982 个
+cleanText(answer) domenicbeninca
+cleanText(modelAnswer) domenicbeninca
+问题: which driver earned the same total points as gary rowe?
+预期答案: Domenic Beninca
+模型答案: domenic beninca
+是否正确: true
+
+==================================================
+
+测试进度：45/100 (45.0%)
+数据集位置：第 793 个
+cleanText(answer) 2008
+cleanText(modelAnswer) 2008
+问题: what was the first game to score more than 10 apps?
+预期答案: 2008
+模型答案: 2008
+是否正确: true
+
+==================================================
+
+测试进度：46/100 (46.0%)
+数据集位置：第 2880 个
+cleanText(answer) 10
+cleanText(modelAnswer) 14
+问题: how many singles were on the canadian country chart?
+预期答案: 10
+模型答案: 14
+是否正确: false
+
+==================================================
+
+测试进度：47/100 (47.0%)
+数据集位置：第 674 个
+cleanText(answer) kateanderson
+cleanText(modelAnswer) kateanderson
+问题: who got 15th place?
+预期答案: Kate Anderson
+模型答案: kate anderson (aus)
+是否正确: true
+
+==================================================
+
+测试进度：48/100 (48.0%)
+数据集位置：第 4196 个
+cleanText(answer) aeromexicoconnectinterjetvolaris
+cleanText(modelAnswer) quintanaroocancun
+问题: which interjet airline has the highest number of passenders?
+预期答案: Aeroméxico Connect, Interjet, Volaris
+模型答案: quintana roo, cancún
+是否正确: false
+
+==================================================
+
+测试进度：49/100 (49.0%)
+数据集位置：第 3887 个
+cleanText(answer) halfback
+cleanText(modelAnswer) halfback
+问题: which position had the most picks?
+预期答案: halfback
+模型答案: halfback
+是否正确: true
+
+==================================================
+
+测试进度：50/100 (50.0%)
+数据集位置：第 1541 个
+cleanText(answer) superg
+cleanText(modelAnswer) giantslalom
+问题: in what event did nadia franchini end the season ranked the most often?
+预期答案: Super G
+模型答案: giant slalom
+是否正确: false
+
+==================================================
+
+测试进度：51/100 (51.0%)
+数据集位置：第 3208 个
+cleanText(answer) 5years
+cleanText(modelAnswer) 19881993
+问题: how long was brian mulroney a party leader?
+预期答案: 5 years
+模型答案: 1988 - 1993 (5 years)
+是否正确: false
+
+==================================================
+
+测试进度：52/100 (52.0%)
+数据集位置：第 3157 个
+cleanText(answer) norway
+cleanText(modelAnswer) norway
+问题: other than the netherlands which country won more than one silver medal?
+预期答案: Norway
+模型答案: norway (nor)
+是否正确: true
+
+==================================================
+
+测试进度：53/100 (53.0%)
+数据集位置：第 3724 个
+cleanText(answer) 3
+cleanText(modelAnswer) 3
+问题: how many gold medals did malaysia earn?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：54/100 (54.0%)
+数据集位置：第 3596 个
+cleanText(answer) 34143
+cleanText(modelAnswer) 34143
+问题: how long did it take the netherlands to finish?
+预期答案: 3:41.43
+模型答案: 3:41.43
+是否正确: true
+
+==================================================
+
+测试进度：55/100 (55.0%)
+数据集位置：第 496 个
+cleanText(answer) 3
+cleanText(modelAnswer) 3
+问题: how many players played for the jazz for at least 3 years?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+==================================================
+
+测试进度：56/100 (56.0%)
+数据集位置：第 4269 个
+cleanText(answer) coralspringsflorida
+cleanText(modelAnswer) coralspringsflorida
+问题: which was earlier, syndney, australia or coral springs, florida?
+预期答案: Coral Springs, Florida
+模型答案: coral springs, florida
+是否正确: true
+
+==================================================
+
+测试进度：57/100 (57.0%)
+数据集位置：第 305 个
+cleanText(answer) switcheroo
+cleanText(modelAnswer) switcheroo
+问题: what is the name of the next title after hurricane jules?
+预期答案: Switcheroo
+模型答案: switcheroo
+是否正确: true
+
+==================================================
+
+测试进度：58/100 (58.0%)
+数据集位置：第 1417 个
+cleanText(answer) jakubjanda
+cleanText(modelAnswer) jakubjanda
+问题: which skier had the least points overall?
+预期答案: Jakub Janda
+模型答案: jakub janda
+是否正确: true
+
+==================================================
+
+测试进度：59/100 (59.0%)
+数据集位置：第 3392 个
+cleanText(answer) panarabgames
+cleanText(modelAnswer) panarabgames
+问题: competition with more than 200 m?
+预期答案: Pan Arab Games
+模型答案: pan arab games (4x100 m)
+是否正确: true
+
+==================================================
+
+测试进度：60/100 (60.0%)
+数据集位置：第 2850 个
+cleanText(answer) asia
+cleanText(modelAnswer) asia
+问题: which continent has the greatest population growth between 1975 and 1985?
+预期答案: Asia
+模型答案: Asia
+是否正确: true
+
+==================================================
+
+测试进度：61/100 (61.0%)
+数据集位置：第 3826 个
+cleanText(answer) 1163million
+cleanText(modelAnswer) 1163
+问题: how many viewers watched the last season of csi: crime scene investigation?
+预期答案: 11.63 million
+模型答案: 11.63
+是否正确: false
+
+==================================================
+
+测试进度：62/100 (62.0%)
+数据集位置：第 2621 个
+cleanText(answer) 36
+cleanText(modelAnswer) 36
+问题: what were the total number of medals north korea had?
+预期答案: 36
+模型答案: 36
+是否正确: true
+
+==================================================
+
+测试进度：63/100 (63.0%)
+数据集位置：第 221 个
+cleanText(answer) 4
+cleanText(modelAnswer) 4
+问题: how many of these games were part of the champions league competition?
+预期答案: 4
+模型答案: 4
+是否正确: true
+
+==================================================
+
+测试进度：64/100 (64.0%)
+数据集位置：第 3728 个
+cleanText(answer) dlawrencegunnels
+cleanText(modelAnswer) dlawrencegunnels
+问题: who started after 1960?
+预期答案: D. Lawrence Gunnels
+模型答案: d. lawrence gunnels
+是否正确: true
+
+==================================================
+
+测试进度：65/100 (65.0%)
+数据集位置：第 1170 个
+cleanText(answer) alexissanchez
+cleanText(modelAnswer) alexissanchez
+问题: who is listed before javier mascherano?
+预期答案: Alexis Sánchez
+模型答案: alexis sánchez
+是否正确: true
+
+==================================================
+
+测试进度：66/100 (66.0%)
+数据集位置：第 695 个
+cleanText(answer) 2009
+cleanText(modelAnswer) 2009
+问题: when was the last year team penske finished first?
+预期答案: 2009
+模型答案: 2009
+是否正确: true
+
+==================================================
+
+测试进度：67/100 (67.0%)
+数据集位置：第 1835 个
+cleanText(answer) 8
+cleanText(modelAnswer) 14
+问题: how many seasons after the 1999/2000 season did the team play at level 4?
+预期答案: 8
+模型答案: 14
+是否正确: false
+
+==================================================
+
+测试进度：68/100 (68.0%)
+数据集位置：第 1662 个
+cleanText(answer) coreypavin
+cleanText(modelAnswer) coreypavin
+问题: what player placed before greg norman?
+预期答案: Corey Pavin
+模型答案: corey pavin
+是否正确: true
+
+==================================================
+
+测试进度：69/100 (69.0%)
+数据集位置：第 2338 个
+cleanText(answer) 20kmwalk
+cleanText(modelAnswer) 20kmwalk
+问题: what other event besides the men's 50 km walk did shaul ladani enter?
+预期答案: 20 km walk
+模型答案: 20 km walk
+是否正确: true
+
+==================================================
+
+测试进度：70/100 (70.0%)
+数据集位置：第 3678 个
+cleanText(answer) 22
+cleanText(modelAnswer) 22
+问题: how many rebounds did brad miller have against golden state during game 40?
+预期答案: 22
+模型答案: 22
+是否正确: true
+
+==================================================
+
+测试进度：71/100 (71.0%)
+数据集位置：第 2779 个
+cleanText(answer) 7
+cleanText(modelAnswer) 7
+问题: how many epiodes have ar least 2.00 viewers?
+预期答案: 7
+模型答案: 7
+是否正确: true
+
+==================================================
+
+测试进度：72/100 (72.0%)
+数据集位置：第 3361 个
+cleanText(answer) 225
+cleanText(modelAnswer) 225
+问题: what number of teams participated in the madanda hockey fest of 2013?
+预期答案: 225
+模型答案: 225
+是否正确: true
+
+==================================================
+
+测试进度：73/100 (73.0%)
+数据集位置：第 3446 个
+cleanText(answer) 4
+cleanText(modelAnswer) 4
+问题: how many more games have the newcastle falcons lost than the london irish?
+预期答案: 4
+模型答案: 4
+是否正确: true
+
+==================================================
+
+测试进度：74/100 (74.0%)
+数据集位置：第 510 个
+cleanText(answer) no
+cleanText(modelAnswer) yes
+问题: does the chennai open tournament and the swiss open tournament have the same surface listed?
+预期答案: No
+模型答案: yes
+是否正确: false
+
+==================================================
+
+测试进度：75/100 (75.0%)
+数据集位置：第 3947 个
+cleanText(answer) 7
+cleanText(modelAnswer) 7
+问题: how many times was gamestorm in vancouver, wa?
+预期答案: 7
+模型答案: 7
+是否正确: true
+
+==================================================
+
+测试进度：76/100 (76.0%)
+数据集位置：第 1461 个
+cleanText(answer) landondonovan
+cleanText(modelAnswer) landondonovan
+问题: who has the most goals scored?
+预期答案: Landon Donovan
+模型答案: landon donovan
+是否正确: true
+
+==================================================
+
+测试进度：77/100 (77.0%)
+数据集位置：第 4049 个
+cleanText(answer) egypt
+cleanText(modelAnswer) egypt
+问题: of the top 8 countries, which has the most number of bronze medals?
+预期答案: Egypt
+模型答案: egypt
+是否正确: true
+
+==================================================
+
+测试进度：78/100 (78.0%)
+数据集位置：第 2903 个
+cleanText(answer) 14
+cleanText(modelAnswer) 12
+问题: how many countries won a gold medal?
+预期答案: 14
+模型答案: 12
+是否正确: false
+
+==================================================
+
+测试进度：79/100 (79.0%)
+数据集位置：第 495 个
+cleanText(answer) digmeout
+cleanText(modelAnswer) digmeout
+问题: which was an earlier episode, "dig me out" or "basket case"?
+预期答案: "Dig Me Out"
+模型答案: dig me out
+是否正确: true
+
+==================================================
+
+测试进度：80/100 (80.0%)
+数据集位置：第 313 个
+cleanText(answer) dec21
+cleanText(modelAnswer) dec21
+问题: what is the last date?
+预期答案: Dec 21
+模型答案: dec 21
+是否正确: true
+
+==================================================
+
+测试进度：81/100 (81.0%)
+数据集位置：第 3759 个
+cleanText(answer) michaelphelps
+cleanText(modelAnswer) kletekeller
+问题: if ordering the swimmers of the united states and australia from fastest to slowest times, whose name would be previous to grant hackett?
+预期答案: Michael Phelps
+模型答案: Klete Keller
+是否正确: false
+
+==================================================
+
+测试进度：82/100 (82.0%)
+数据集位置：第 4059 个
+cleanText(answer) 64
+cleanText(modelAnswer) 64
+问题: how many processor chips can the datacenter specification support?
+预期答案: 64
+模型答案: 64
+是否正确: true
+
+==================================================
+
+测试进度：83/100 (83.0%)
+数据集位置：第 479 个
+cleanText(answer) 2010
+cleanText(modelAnswer) 2009
+问题: the last year to have less than 3 million total passengers.
+预期答案: 2010
+模型答案: 2009
+是否正确: false
+
+==================================================
+
+测试进度：84/100 (84.0%)
+数据集位置：第 119 个
+cleanText(answer) october17
+cleanText(modelAnswer) october17
+问题: which date had the most attendance?
+预期答案: October 17
+模型答案: october 17
+是否正确: true
+
+==================================================
+
+测试进度：85/100 (85.0%)
+数据集位置：第 3357 个
+cleanText(answer) 1
+cleanText(modelAnswer) 1
+问题: at least how many writers are there for any given series?
+预期答案: 1
+模型答案: 1
+是否正确: true
+
+==================================================
+
+测试进度：86/100 (86.0%)
+数据集位置：第 1935 个
+cleanText(answer) 9
+cleanText(modelAnswer) 8
+问题: how many teams played only one season?
+预期答案: 9
+模型答案: 8
+是否正确: false
+
+==================================================
+
+测试进度：87/100 (87.0%)
+数据集位置：第 1310 个
+cleanText(answer) 8
+cleanText(modelAnswer) 67
+问题: what are the most points by a country with a rank less than 10?
+预期答案: 8
+模型答案: 67
+是否正确: false
+
+==================================================
+
+测试进度：88/100 (88.0%)
+数据集位置：第 1583 个
+cleanText(answer) gabrielaszabo
+cleanText(modelAnswer) gabrielaszabo
+问题: what is the name of the first athlete on this list?
+预期答案: Gabriela Szabo
+模型答案: gabriela szabo (rou)
+是否正确: true
+
+==================================================
+
+测试进度：89/100 (89.0%)
+数据集位置：第 1863 个
+cleanText(answer) berniefryer
+cleanText(modelAnswer) berniefryer
+问题: who was the first player with a last name starting with f for the jazz?
+预期答案: Bernie Fryer
+模型答案: bernie fryer
+是否正确: true
+
+==================================================
+
+测试进度：90/100 (90.0%)
+数据集位置：第 3105 个
+cleanText(answer) sheldonleonard
+cleanText(modelAnswer) richardbenedictjohnrichrobertbutlersheldonleonard
+问题: who directed the least amount of "i spy" episodes?
+预期答案: Sheldon Leonard
+模型答案: Richard Benedict, John Rich, Robert Butler, Sheldon Leonard
+是否正确: false
+
+==================================================
+
+测试进度：91/100 (91.0%)
+数据集位置：第 3945 个
+cleanText(answer) 16141
+cleanText(modelAnswer) 16141
+问题: how long did it take loten 1 to go 30.30 km?
+预期答案: 16:14.1
+模型答案: 16:14.1
+是否正确: true
+
+==================================================
+
+测试进度：92/100 (92.0%)
+数据集位置：第 2097 个
+cleanText(answer) 2
+cleanText(modelAnswer) 2
+问题: how many elements are in the first period?
+预期答案: 2
+模型答案: 2
+是否正确: true
+
+==================================================
+
+测试进度：93/100 (93.0%)
+数据集位置：第 2014 个
+cleanText(answer) kk35
+cleanText(modelAnswer) ic342
+问题: which member of ic 342 subgroup has the highest apparent magnitude?
+预期答案: KK 35
+模型答案: ic 342
+是否正确: false
+
+==================================================
+
+测试进度：94/100 (94.0%)
+数据集位置：第 3499 个
+cleanText(answer) johnoflynn
+cleanText(modelAnswer) johnoflynn
+问题: who is the next highest scorer after jamie cureton for this season?
+预期答案: John O'Flynn
+模型答案: john o'flynn
+是否正确: true
+
+==================================================
+
+测试进度：95/100 (95.0%)
+数据集位置：第 1373 个
+cleanText(answer) 10
+cleanText(modelAnswer) 11
+问题: what are the number of singles that made the peak chart positions in can country?
+预期答案: 10
+模型答案: 11
+是否正确: false
+
+==================================================
+
+测试进度：96/100 (96.0%)
+数据集位置：第 2570 个
+cleanText(answer) 18
+cleanText(modelAnswer) 18
+问题: how many elements have an atomic number of more than 100?
+预期答案: 18
+模型答案: 18
+是否正确: true
+
+==================================================
+
+测试进度：97/100 (97.0%)
+数据集位置：第 1014 个
+cleanText(answer) theodoreroosevelt
+cleanText(modelAnswer) theodoreroosevelt
+问题: who was the youngest living president?
+预期答案: Theodore Roosevelt
+模型答案: theodore roosevelt
+是否正确: true
+
+==================================================
+
+测试进度：98/100 (98.0%)
+数据集位置：第 1021 个
+cleanText(answer) strongmedicine
+cleanText(modelAnswer) strongmedicine
+问题: besides sister, sister, what other show did she star more than 30 times on?
+预期答案: Strong Medicine
+模型答案: strong medicine
+是否正确: true
+
+==================================================
+
+测试进度：99/100 (99.0%)
+数据集位置：第 2004 个
+cleanText(answer) rab
+cleanText(modelAnswer) rab
+问题: which is larger in area, rab or vis?
+预期答案: Rab
+模型答案: rab
+是否正确: true
+
+==================================================
+
+测试进度：100/100 (100.0%)
+数据集位置：第 4097 个
+cleanText(answer) 3
+cleanText(modelAnswer) 3
+问题: how many drivers scored at leasst 4 points?
+预期答案: 3
+模型答案: 3
+是否正确: true
+
+测试统计信息如下
+总样本数: 100
+正确数量: 73
+ACC: 73.00%
+总耗时: 99.86秒

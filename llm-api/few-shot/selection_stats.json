@@ -1,32 +1,25 @@
 {
   "type": "statistics",
-  "timestamp": "2025-04-28T04:02:38.067159",
+  "timestamp": "2025-04-28T17:08:10.377852",
   "statistics": {
     "总处理数据量": 99,
-    "长度过滤后数据量": 17,
-    "筛选比例": "17.17%",
-    "相似度排名": [
-      {
-        "问题": "what show was he in before running man",
-        "相似度得分": 0.2913
+    "案例分布特征": {
+      "问题类型分布": {
+        "查找类": 2,
+        "其他": 2,
+        "人物类": 1
       },
-      {
-        "问题": "how many athletes finished race 1?",
-        "相似度得分": 0.2898
-      },
-      {
-        "问题": "what was the finishing place after the 2002-2003 season?",
-        "相似度得分": 0.2842
-      },
-      {
-        "问题": "how many times did imma clopes compete?",
-        "相似度得分": 0.277
-      },
-      {
-        "问题": "what was natalia's top single on the polish charts?",
-        "相似度得分": 0.2756
+      "本体类型分布": {
+        "what is the different in the number of total wins the galaxy has compared to the number chivas has in the derby?": {},
+        "number of nations that earned no bronze medals": {},
+        "which state placed first in the 1989 miss teen usa competition?": {},
+        "who was sunk the most?": {},
+        "what show was he in before running man": {}
       }
-    ],
-    "查询问题本体分布": {}
+    },
+    "特征统计": {
+      "平均问题长度": 56.2,
+      "平均表格行数": 10.4
+    }
   }
 }

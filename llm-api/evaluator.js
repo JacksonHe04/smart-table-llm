@@ -84,8 +84,8 @@ export class Evaluator {
       // model: 'doubao-1-5-pro-32k-250115',
       // model: 'doubao-1-5-pro-256k-250115',
       // model: 'ep-20250428013510-j85tz', // train 100
-      model: 'ep-20250428022426-wnttk', // train 200
-      // model: 'doubao-1-5-vision-pro-32k-250115',
+      // model: 'ep-20250428022426-wnttk', // train 200
+      model: 'doubao-1-5-vision-pro-32k-250115',
       stream: true,
     });
 

@@ -179,3 +179,139 @@ class CaseSelector:
         }
         
         return [case for case, _ in selected_cases], stats
+    
+    def select_representative_cases(self, data_path: str, top_k: int = 5, max_length: int = 500) -> Tuple[List[Dict], Dict]:
+        """
+        直接从数据集中选择具有代表性的案例
+        
+        Args:
+            data_path (str): 数据集文件路径
+            top_k (int): 要选择的案例数量
+            max_length (int): 每个案例的最大长度限制
+            
+        Returns:
+            Tuple[List[Dict], Dict]: 选中的案例列表和统计信息
+        """
+        cases = []
+        total_cases = 0
+        filtered_cases = 0
+        
+        # 读取所有案例
+        with open(data_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                total_cases += 1
+                case = json.loads(line.strip())
+                # 只添加长度在限制范围内的案例
+                if self._calculate_case_length(case) <= max_length:
+                    cases.append(case)
+                    filtered_cases += 1
+        
+        if not cases:
+            raise ValueError(f"没有找到长度在 {max_length} 字符以内的案例")
+        
+        # 提取表格头部并建立本体映射
+        headers = [col[0] for col in cases[0]["table"]]
+        ontology_map = self._extract_ontologies(headers)
+        
+        # 计算每个案例的特征向量
+        case_features = []
+        for case in cases:
+            # 获取问题的语义嵌入
+            question_embedding = self._get_contextual_embedding(case["question"])
+            # 获取本体分布
+            ontology_dist = self._calculate_ontology_distribution(case["table"], ontology_map)
+            case_features.append({
+                "case": case,
+                "embedding": question_embedding,
+                "ontology_dist": ontology_dist
+            })
+        
+        # 使用聚类选择代表性案例
+        selected_indices = []
+        remaining_indices = list(range(len(cases)))
+        
+        # 选择第一个案例（最长的问题）
+        first_case_idx = max(remaining_indices, 
+                            key=lambda i: len(cases[i]["question"]))
+        selected_indices.append(first_case_idx)
+        remaining_indices.remove(first_case_idx)
+        
+        # 贪心选择剩余案例
+        while len(selected_indices) < top_k and remaining_indices:
+            max_min_dist = -1
+            next_idx = -1
+            
+            for i in remaining_indices:
+                min_dist = float('inf')
+                curr_embedding = case_features[i]["embedding"]
+                curr_dist = case_features[i]["ontology_dist"]
+                
+                # 计算与已选案例的最小距离
+                for j in selected_indices:
+                    selected_embedding = case_features[j]["embedding"]
+                    selected_dist = case_features[j]["ontology_dist"]
+                    
+                    # 综合距离（语义 + 本体）
+                    semantic_dist = 1 - torch.cosine_similarity(
+                        curr_embedding, selected_embedding, dim=0).item()
+                    ontology_dist = sum(abs(curr_dist[k] - selected_dist[k]) 
+                                  for k in set(curr_dist) | set(selected_dist))
+                    
+                    dist = 0.5 * semantic_dist + 0.5 * ontology_dist
+                    min_dist = min(min_dist, dist)
+                if min_dist > max_min_dist:
+                    max_min_dist = min_dist
+                    next_idx = i
+            
+            selected_indices.append(next_idx)
+            remaining_indices.remove(next_idx)
+        
+        selected_cases = [cases[i] for i in selected_indices]
+        
+        # 生成统计信息
+        stats = {
+            "total_processed": total_cases,
+            "length_filtered": filtered_cases,
+            "case_distribution": {
+                "问题类型分布": self._analyze_question_types(selected_cases),
+                "本体类型分布": {
+                    case["question"]: case_features[i]["ontology_dist"]
+                    for i, case in zip(selected_indices, selected_cases)
+                }
+            },
+            "feature_statistics": {
+                "平均问题长度": sum(len(case["question"]) 
+                          for case in selected_cases) / len(selected_cases),
+                "平均表格行数": sum(len(case["table"]) 
+                          for case in selected_cases) / len(selected_cases)
+            }
+        }
+        
+        return selected_cases, stats
+    
+    def _analyze_question_types(self, cases: List[Dict]) -> Dict[str, int]:
+        """
+        分析问题类型分布
+        
+        Args:
+            cases: 案例列表
+            
+        Returns:
+            Dict[str, int]: 问题类型及其数量
+        """
+        type_count = defaultdict(int)
+        for case in cases:
+            question = case["question"].lower()
+            if "how many" in question:
+                type_count["计数类"] += 1
+            elif "what" in question:
+                type_count["查找类"] += 1
+            elif "when" in question:
+                type_count["时间类"] += 1
+            elif "where" in question:
+                type_count["地点类"] += 1
+            elif "who" in question:
+                type_count["人物类"] += 1
+            else:
+                type_count["其他"] += 1
+        return dict(type_count)
