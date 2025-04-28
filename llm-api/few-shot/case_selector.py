@@ -124,7 +124,7 @@ class CaseSelector:
         
         return question_length + table_length
     
-    def select_cases(self, data_path: str, query: Dict, top_k: int = 3, max_length: int = 500) -> List[Dict]:
+    def select_cases(self, data_path: str, query: Dict, top_k: int = 3, max_length: int = 500) -> Tuple[List[Dict], Dict]:
         """
         选择最合适的few-shot案例
         Args:
@@ -133,15 +133,20 @@ class CaseSelector:
             top_k: 选择的案例数量
             max_length: 每个案例的最大长度限制
         Returns:
-            选中的案例列表
+            选中的案例列表和统计信息字典
         """
         cases = []
+        total_cases = 0
+        filtered_cases = 0
+        
         with open(data_path, 'r', encoding='utf-8') as f:
             for line in f:
+                total_cases += 1
                 case = json.loads(line.strip())
                 # 只添加长度在限制范围内的案例
                 if self._calculate_case_length(case) <= max_length:
                     cases.append(case)
+                    filtered_cases += 1
         
         if not cases:
             raise ValueError(f"没有找到长度在 {max_length} 字符以内的案例")
@@ -156,6 +161,21 @@ class CaseSelector:
             sim = self._calculate_similarity(case, query, ontology_map)
             similarities.append((case, sim))
         
-        # 选择相似度最高的k个案例
-        selected_cases = sorted(similarities, key=lambda x: x[1], reverse=True)[:top_k]
-        return [case for case, _ in selected_cases]
+        # 按相似度排序
+        sorted_similarities = sorted(similarities, key=lambda x: x[1], reverse=True)
+        selected_cases = sorted_similarities[:top_k]
+        
+        # 生成统计信息
+        stats = {
+            "total_processed": total_cases,
+            "length_filtered": filtered_cases,
+            "top_similarities": [
+                {
+                    "question": case["question"],
+                    "similarity_score": round(score, 4)
+                } for case, score in sorted_similarities[:top_k]
+            ],
+            "ontology_distribution": self._calculate_ontology_distribution(query["table"], ontology_map)
+        }
+        
+        return [case for case, _ in selected_cases], stats
