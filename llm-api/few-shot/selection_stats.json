@@ -1,0 +1,32 @@
+{
+  "type": "statistics",
+  "timestamp": "2025-04-28T04:02:38.067159",
+  "statistics": {
+    "总处理数据量": 99,
+    "长度过滤后数据量": 17,
+    "筛选比例": "17.17%",
+    "相似度排名": [
+      {
+        "问题": "what show was he in before running man",
+        "相似度得分": 0.2913
+      },
+      {
+        "问题": "how many athletes finished race 1?",
+        "相似度得分": 0.2898
+      },
+      {
+        "问题": "what was the finishing place after the 2002-2003 season?",
+        "相似度得分": 0.2842
+      },
+      {
+        "问题": "how many times did imma clopes compete?",
+        "相似度得分": 0.277
+      },
+      {
+        "问题": "what was natalia's top single on the polish charts?",
+        "相似度得分": 0.2756
+      }
+    ],
+    "查询问题本体分布": {}
+  }
+}
