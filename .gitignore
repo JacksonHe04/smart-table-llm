@@ -38,3 +38,20 @@ yarn-error.log*
 # Project specific
 *.log
 tmp.jsonl
+# 二进制文档与媒体：2026-11-20 从版本管理移除，文件保留在本地
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.zip
+*.rar
+*.7z
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.m4a
+*.flac
